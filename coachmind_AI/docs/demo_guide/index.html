@@ -1,0 +1,725 @@
+<!DOCTYPE html><!--GIy_kfIQjQYYeaw_pechl--><html lang="zh-CN" class="scroll-smooth"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/coachmind_AI/_next/static/chunks/f3b14a93dc8138fe.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/coachmind_AI/_next/static/chunks/b5c2f59cb958c900.js"/><script src="/coachmind_AI/_next/static/chunks/82abf2d65f5428ae.js" async=""></script><script src="/coachmind_AI/_next/static/chunks/7de9141b1af425c3.js" async=""></script><script src="/coachmind_AI/_next/static/chunks/41fe41eea818a8a7.js" async=""></script><script src="/coachmind_AI/_next/static/chunks/turbopack-cfe1fe5546c3e657.js" async=""></script><script src="/coachmind_AI/_next/static/chunks/3197a8dc9cf0c9ff.js" async=""></script><script src="/coachmind_AI/_next/static/chunks/ff1a16fafef87110.js" async=""></script><script src="/coachmind_AI/_next/static/chunks/0bd6498bda341889.js" async=""></script><script src="/coachmind_AI/_next/static/chunks/07ab011d31ef744d.js" async=""></script><title>CoachMind AI — 足球教练智能辅助系统</title><meta name="description" content="面向中国足球改革、青少年足球训练和校园足球普及的中文教练 Copilot，以比赛状态重建、知识图谱和数据飞轮提升训练质量与复盘效率。"/><script src="/coachmind_AI/_next/static/chunks/a6dad97d9634a72d.js" noModule=""></script></head><body class="antialiased min-h-screen"><div hidden=""><!--$--><!--/$--></div><header class="fixed top-0 left-0 right-0 z-50 glass-card border-b border-border"><div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between"><a class="flex items-center gap-3 group" href="/coachmind_AI/"><div class="w-9 h-9 rounded-xl bg-gradient-to-br from-primary-500 to-primary-700 flex items-center justify-center font-bold text-white text-sm shadow-lg group-hover:shadow-primary-500/30 transition-shadow">CM</div><div><div class="text-sm font-bold text-white leading-tight">CoachMind AI</div><div class="text-[10px] text-gray-400 leading-tight">足球教练智能辅助系统</div></div></a><nav class="hidden md:flex items-center gap-1"><a class="px-3 py-1.5 rounded-lg text-sm font-medium transition-all text-gray-300 hover:text-white hover:bg-white/5" href="/coachmind_AI/">项目概览</a><a class="px-3 py-1.5 rounded-lg text-sm font-medium transition-all text-gray-300 hover:text-white hover:bg-white/5" href="/coachmind_AI/plan/">实施计划</a><a class="px-3 py-1.5 rounded-lg text-sm font-medium transition-all text-gray-300 hover:text-white hover:bg-white/5" href="/coachmind_AI/theory/">理论研究</a><a class="px-3 py-1.5 rounded-lg text-sm font-medium transition-all text-gray-300 hover:text-white hover:bg-white/5" href="/coachmind_AI/technology/">技术架构</a><a class="px-3 py-1.5 rounded-lg text-sm font-medium transition-all text-gray-300 hover:text-white hover:bg-white/5" href="/coachmind_AI/competitive/">竞品分析</a><a class="px-3 py-1.5 rounded-lg text-sm font-medium transition-all text-gray-300 hover:text-white hover:bg-white/5" href="/coachmind_AI/progress/">进度追踪</a><a class="px-3 py-1.5 rounded-lg text-sm font-medium transition-all text-gray-300 hover:text-white hover:bg-white/5" href="/coachmind_AI/resources/">资料库</a></nav><div class="hidden md:flex items-center gap-2 text-xs text-gray-400"><span class="w-2 h-2 rounded-full bg-primary-500 animate-pulse-slow inline-block"></span>三个月双阶段路线</div><button class="md:hidden p-2 text-gray-300 hover:text-white"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg></button></div></header><main class="pt-16"><div class="max-w-5xl mx-auto px-6 py-10"><div class="flex items-center gap-2 text-sm text-gray-500 mb-6"><a class="hover:text-primary-400 transition-colors" href="/coachmind_AI/theory/">← 返回报告列表</a></div><div class="glass-card rounded-2xl border border-border p-6 mb-8 flex items-start justify-between gap-4"><div><h1 class="text-2xl font-black text-white mb-2">Demo 开发手册</h1><div class="flex items-center gap-4 text-sm text-gray-500"><span>CoachMind AI 技术团队</span><span>·</span><span>2025–03</span><span>·</span><span class="text-yellow-400">🔒 项目内部文档</span></div></div><button class="shrink-0 flex items-center gap-2 px-4 py-2 rounded-xl bg-primary-500/20 hover:bg-primary-500/30 text-primary-300 text-sm font-semibold transition-colors">📥 下载 Word</button></div><article class="prose prose-invert prose-sm max-w-none prose-headings:font-bold prose-headings:text-white prose-h1:text-3xl prose-h2:text-xl prose-h2:text-primary-400 prose-h2:border-b prose-h2:border-border prose-h2:pb-2 prose-h3:text-base prose-h3:text-gray-200 prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-primary-400 prose-a:no-underline hover:prose-a:underline prose-strong:text-white prose-code:text-primary-300 prose-code:bg-white/10 prose-code:rounded prose-code:px-1 prose-code:py-0.5 prose-code:text-xs prose-code:before:content-none prose-code:after:content-none prose-pre:bg-white/5 prose-pre:border prose-pre:border-border prose-pre:rounded-xl prose-blockquote:border-l-primary-500 prose-blockquote:text-gray-400 prose-blockquote:not-italic prose-table:text-sm prose-th:text-gray-300 prose-th:bg-white/5 prose-th:font-semibold prose-th:border-border prose-td:text-gray-400 prose-td:border-border prose-li:text-gray-300 prose-hr:border-border"><h1>Demo 开发手册</h1>
+<h2>Phase 0：一个月冲刺，从零到可演示原型</h2>
+<blockquote>
+<p>目标：第4周在北体大足球场完成第一次真实用户验证
+前提：GPU服务器（阿里云A10实例）已就绪，Python 3.11+环境已配置</p>
+</blockquote>
+<hr/>
+<h2>一、环境准备（Day 1）</h2>
+<h3>1.1 阿里云GPU实例配置</h3>
+<p>推荐：<code>ecs.gn7i-c16g1.4xlarge</code>（NVIDIA A10 × 1，16 vCPU，60GB内存）</p>
+<ul>
+<li>系统：Ubuntu 22.04 LTS</li>
+<li>价格：约 ¥24/小时（按量），Demo阶段预算¥2,000</li>
+</ul>
+<pre><code class="language-bash"># 基础环境
+sudo apt-get update &amp;&amp; sudo apt-get install -y git curl wget ffmpeg
+
+# Python 环境（用 miniconda）
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+conda create -n coachminddemo python=3.11
+conda activate coachminddemo
+
+# CUDA 验证
+nvidia-smi  # 应显示 CUDA 12.x
+
+# PyTorch（CUDA 12.1版本）
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+</code></pre>
+<h3>1.2 依赖安装</h3>
+<pre><code class="language-bash">pip install ultralytics&gt;=8.3.0    # YOLO11
+pip install supervision&gt;=0.24.0   # ByteTrack封装
+pip install fastapi uvicorn[standard] python-multipart
+pip install anthropic&gt;=0.40.0     # Claude API
+pip install openai-whisper         # Whisper v3
+pip install qdrant-client langchain langchain-anthropic
+pip install redis celery
+pip install opencv-python-headless numpy scipy
+pip install pillow reportlab       # PDF报告生成
+pip install python-dotenv
+</code></pre>
+<h3>1.3 项目目录结构</h3>
+<pre><code>demo/
+├── main.py               # FastAPI主服务
+├── video_pipeline.py     # 视频分析Pipeline
+├── tracker.py            # ByteTrack封装
+├── tactical_map.py       # 战术地图生成
+├── llm_coach.py          # Claude API + RAG
+├── whisper_stt.py        # 语音转文字
+├── report_generator.py   # 赛后报告生成
+├── models/               # 下载的YOLO权重
+├── knowledge/            # 战术知识库文档
+├── uploads/              # 上传的视频临时存储
+└── frontend/             # React Demo界面
+</code></pre>
+<hr/>
+<h2>二、YOLO11 + ByteTrack Pipeline（Day 2-3）</h2>
+<h3>2.1 YOLO11 初始化</h3>
+<pre><code class="language-python"># video_pipeline.py
+from ultralytics import YOLO
+import supervision as sv
+import numpy as np
+import cv2
+
+class FootballDetector:
+    &quot;&quot;&quot;
+    封装YOLO11目标检测，针对足球场景优化
+
+    为什么用supervision封装：
+    - 提供ByteTrack的简洁接口
+    - 内置足球场景常用的可视化工具
+    - 减少重复代码
+    &quot;&quot;&quot;
+
+    def __init__(self, model_path: str = &quot;yolo11m.pt&quot;):
+        # YOLO11m：中等规模，在A10上约80fps，精度足够Demo
+        # 如需更高精度用yolo11l，更高速度用yolo11s
+        self.model = YOLO(model_path)
+
+        # ByteTrack追踪器配置
+        self.tracker = sv.ByteTrack(
+            track_activation_threshold=0.25,  # 低置信度追踪激活阈值
+            lost_track_buffer=30,              # 丢失30帧（1s）后删除轨迹
+            minimum_matching_threshold=0.8,   # 匹配阈值
+            frame_rate=30                      # 帧率
+        )
+
+        # 球场单应矩阵（初始化时标定）
+        self.homography_matrix = None
+
+    def detect_and_track(self, frame: np.ndarray) -&gt; dict:
+        &quot;&quot;&quot;
+        单帧检测与追踪
+
+        返回格式：
+        {
+            &quot;players&quot;: [{&quot;track_id&quot;: 1, &quot;bbox&quot;: [x1,y1,x2,y2], &quot;team&quot;: &quot;home/away&quot;, &quot;position&quot;: [x, y]}, ...]
+            &quot;ball&quot;: {&quot;position&quot;: [x, y]} or None
+        }
+        &quot;&quot;&quot;
+        # 运行YOLO检测
+        results = self.model(frame, verbose=False)[0]
+
+        # 转换为supervision格式
+        detections = sv.Detections.from_ultralytics(results)
+
+        # 过滤：只保留person(0)和sports_ball(32)
+        # COCO数据集类别ID
+        person_mask = detections.class_id == 0
+        ball_mask = detections.class_id == 32
+
+        # 球员追踪
+        player_detections = detections[person_mask]
+        tracked_players = self.tracker.update_with_detections(player_detections)
+
+        # 获取球的位置
+        ball_detections = detections[ball_mask]
+        ball_pos = None
+        if len(ball_detections) &gt; 0:
+            # 取置信度最高的球检测结果
+            best_ball_idx = np.argmax(ball_detections.confidence)
+            ball_bbox = ball_detections.xyxy[best_ball_idx]
+            ball_pos = [
+                (ball_bbox[0] + ball_bbox[2]) / 2,
+                (ball_bbox[1] + ball_bbox[3]) / 2
+            ]
+
+        # 转换到球场坐标系
+        players = []
+        for i, track_id in enumerate(tracked_players.tracker_id):
+            bbox = tracked_players.xyxy[i]
+            pixel_pos = [
+                (bbox[0] + bbox[2]) / 2,  # 中心x
+                bbox[3]                    # 脚底y（更准确反映位置）
+            ]
+
+            field_pos = self._pixel_to_field(pixel_pos) if self.homography_matrix is not None else pixel_pos
+
+            players.append({
+                &quot;track_id&quot;: int(track_id),
+                &quot;bbox&quot;: bbox.tolist(),
+                &quot;position&quot;: field_pos,   # 球场坐标（0-105, 0-68）
+                &quot;team&quot;: &quot;unknown&quot;        # Phase 1再做球队分类
+            })
+
+        return {&quot;players&quot;: players, &quot;ball&quot;: {&quot;position&quot;: ball_pos} if ball_pos else None}
+
+    def _pixel_to_field(self, pixel_pos: list) -&gt; list:
+        &quot;&quot;&quot;
+        使用单应矩阵将像素坐标转换为球场标准坐标
+
+        球场标准坐标系：左下角(0,0)，右上角(105,68)，单位：米
+        与StatsBomb、Opta等数据标准一致
+        &quot;&quot;&quot;
+        pt = np.array([[pixel_pos[0], pixel_pos[1]]], dtype=np.float32).reshape(-1, 1, 2)
+        transformed = cv2.perspectiveTransform(pt, self.homography_matrix)
+        return transformed[0][0].tolist()
+
+    def calibrate_homography(self, src_points: list, dst_points: list):
+        &quot;&quot;&quot;
+        标定单应矩阵
+
+        src_points：图像中的像素坐标（4个角点，如球场角点）
+        dst_points：对应的球场实际坐标（已知）
+
+        使用方法：
+        - 在第一次使用前，手动点击摄像机画面中的4个球场角点
+        - 输入这4个点的实际球场坐标（来自球场图纸）
+        &quot;&quot;&quot;
+        src = np.array(src_points, dtype=np.float32)
+        dst = np.array(dst_points, dtype=np.float32)
+        self.homography_matrix, _ = cv2.findHomography(src, dst)
+</code></pre>
+<h3>2.2 视频处理主Loop</h3>
+<pre><code class="language-python"># video_pipeline.py (续)
+
+import asyncio
+from pathlib import Path
+import json
+
+async def analyze_video(video_path: str, job_id: str) -&gt; dict:
+    &quot;&quot;&quot;
+    异步分析视频文件，返回结构化分析结果
+
+    使用asyncio而非threading，因为I/O密集的操作（文件读写、API调用）
+    可以通过asyncio高效并发，GPU推理部分虽然是CPU密集但放在executor中
+    &quot;&quot;&quot;
+    detector = FootballDetector(&quot;models/yolo11m.pt&quot;)
+
+    cap = cv2.VideoCapture(video_path)
+    fps = cap.get(cv2.CAP_PROP_FPS)
+    total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+
+    # 分析结果存储
+    timeline = []       # 时间线数据：每秒一个快照
+    all_positions = []  # 所有帧的球员位置
+
+    frame_count = 0
+    sample_interval = max(1, int(fps / 5))  # 每秒采样5帧（降低计算量）
+
+    while cap.isOpened():
+        ret, frame = cap.read()
+        if not ret:
+            break
+
+        frame_count += 1
+        if frame_count % sample_interval != 0:
+            continue
+
+        # 检测与追踪（放入executor避免阻塞事件循环）
+        loop = asyncio.get_event_loop()
+        result = await loop.run_in_executor(
+            None,  # 使用默认ThreadPoolExecutor
+            detector.detect_and_track,
+            frame
+        )
+
+        timestamp = frame_count / fps
+        snapshot = {
+            &quot;time&quot;: timestamp,
+            &quot;players&quot;: result[&quot;players&quot;],
+            &quot;ball&quot;: result[&quot;ball&quot;]
+        }
+        all_positions.append(snapshot)
+
+        # 每秒生成一个战术快照
+        if int(timestamp) &gt; (len(timeline)):
+            formation = detect_formation([p[&quot;position&quot;] for p in result[&quot;players&quot;][:10]])
+            timeline.append({
+                &quot;time&quot;: int(timestamp),
+                &quot;formation&quot;: formation,
+                &quot;possession_zone&quot;: estimate_possession_zone(result)
+            })
+
+        # 报告进度（通过Redis）
+        if frame_count % (sample_interval * 30) == 0:
+            progress = frame_count / total_frames * 100
+            # redis_client.set(f&quot;job:{job_id}:progress&quot;, progress)
+            print(f&quot;Job {job_id}: {progress:.1f}%&quot;)
+
+    cap.release()
+
+    # 聚合分析结果
+    return {
+        &quot;job_id&quot;: job_id,
+        &quot;duration&quot;: total_frames / fps,
+        &quot;timeline&quot;: timeline,
+        &quot;heatmap_data&quot;: compute_heatmap(all_positions),
+        &quot;player_stats&quot;: compute_player_stats(all_positions),
+        &quot;formation_summary&quot;: summarize_formations(timeline)
+    }
+
+
+def detect_formation(positions: list) -&gt; str:
+    &quot;&quot;&quot;
+    基于K-Means聚类识别阵型
+
+    算法：
+    1. 按y坐标排序（从守门员到前锋）
+    2. 去除守门员（y最小的1人）
+    3. 对剩余10人做K-Means（K=3或K=4）
+    4. 统计每行的球员数，生成如&quot;4-3-3&quot;的字符串
+
+    局限性：
+    - 只对进攻阵型有效（防守时球员分布不规律）
+    - K值需要预先假设行数
+    &quot;&quot;&quot;
+    from sklearn.cluster import KMeans
+
+    if len(positions) &lt; 10:
+        return &quot;unknown&quot;
+
+    positions_arr = np.array(positions[:10])  # 只取10个外场球员
+
+    # 假设3行（后卫-中场-前锋）
+    kmeans = KMeans(n_clusters=3, random_state=42, n_init=10)
+    kmeans.fit(positions_arr)
+
+    labels = kmeans.labels_
+    centers = kmeans.cluster_centers_
+
+    # 按y坐标（从小到大=从后到前）排序
+    sorted_idx = np.argsort(centers[:, 1])
+
+    # 统计每行人数
+    row_counts = []
+    for idx in sorted_idx:
+        count = np.sum(labels == idx)
+        row_counts.append(count)
+
+    # 标准化为常见阵型
+    formation_str = &quot;-&quot;.join(map(str, row_counts))
+    return formation_str
+
+
+def compute_heatmap(all_positions: list) -&gt; dict:
+    &quot;&quot;&quot;
+    计算球员位置热图数据
+    返回格式：{&quot;home&quot;: [[x,y,intensity],...], &quot;away&quot;: [[x,y,intensity],...]}
+    &quot;&quot;&quot;
+    home_positions = []
+    away_positions = []
+
+    for snapshot in all_positions:
+        for player in snapshot[&quot;players&quot;]:
+            pos = player.get(&quot;position&quot;)
+            if pos and len(pos) == 2:
+                if player.get(&quot;team&quot;) == &quot;home&quot;:
+                    home_positions.append(pos)
+                else:
+                    away_positions.append(pos)
+
+    return {
+        &quot;home&quot;: home_positions,
+        &quot;away&quot;: away_positions,
+        &quot;all&quot;: home_positions + away_positions
+    }
+</code></pre>
+<hr/>
+<h2>三、Claude API 战术问答（Day 3-4）</h2>
+<h3>3.1 LLM Coach 服务</h3>
+<pre><code class="language-python"># llm_coach.py
+import anthropic
+from typing import Optional
+import json
+
+client = anthropic.Anthropic()  # 从环境变量读取ANTHROPIC_API_KEY
+
+# 系统提示词设计原则：
+# 1. 明确角色（专业足球战术顾问）
+# 2. 约束输出格式（简洁、可操作）
+# 3. 指定知识边界（基于数据，不要臆测）
+# 4. 中文回答
+
+SYSTEM_PROMPT = &quot;&quot;&quot;你是一位精通现代足球战术的AI教练助手，拥有丰富的足球分析经验。
+你协助场边教练做战术决策，你的建议需要：
+
+1. **简洁可操作**：教练只有30秒时间听你说，给出1-3条核心建议
+2. **基于数据**：当有比赛数据时，引用具体数字支撑判断
+3. **专业准确**：使用专业足球术语，但避免过度技术化
+4. **及时性**：优先考虑比赛当前状态，而非泛泛而谈
+
+当前比赛数据将在用户消息中提供。如果没有数据，请基于问题给出通用战术建议，并注明是一般性建议。
+
+回答格式：
+- 核心判断（1-2句）
+- 具体建议（1-3条，用&quot;→&quot;标注）
+- 风险提示（可选，用&quot;⚠️&quot;标注）
+
+禁止：推测球员受伤状态、批评球员个人、做超出战术范围的评论。&quot;&quot;&quot;
+
+
+class TacticalCoach:
+
+    def __init__(self, knowledge_base_path: Optional[str] = None):
+        self.conversation_history = []
+        # Phase 0：简单的文件知识库，Phase 1再换Qdrant
+        self.knowledge_base = self._load_knowledge_base(knowledge_base_path)
+
+    def _load_knowledge_base(self, path: Optional[str]) -&gt; str:
+        &quot;&quot;&quot;加载战术知识库（Phase 0用简单文本文件）&quot;&quot;&quot;
+        if not path:
+            # 内置基础知识
+            return &quot;&quot;&quot;
+足球基础战术知识：
+
+阵型特点：
+- 4-3-3：进攻性强，适合控球打法；三前锋创造宽度；中场需要高跑动量
+- 4-4-2：平衡，双前锋配合；中场需要传控和跑动结合；适合边路进攻
+- 3-5-2：中场人数优势；翼卫需要覆盖全边路；防守需要三中卫默契配合
+- 4-2-3-1：双后腰保护；三中场技术要求高；单前锋需要强支点能力
+
+换人原则：
+- 体能下降标志：跑动距离明显减少、反应速度变慢、防守位置错误增加
+- 战术换人时机：比分领先时加强防守（换边锋换边后卫）；落后时提高进攻（换双前锋/全面进攻）
+- 伤停球时间换人：节省体力，准备最后15分钟
+
+高位压迫要点：
+- PPDA &lt; 8 表示压迫有效（每8次对方传球才有1次我方防守行动）
+- 压迫触发信号：对方守门员持球、对方回传、对方边后卫拿球时
+- 压迫失效表现：被简单长球越过、体能不足跑不到位
+&quot;&quot;&quot;
+        try:
+            with open(path, &#x27;r&#x27;, encoding=&#x27;utf-8&#x27;) as f:
+                return f.read()
+        except:
+            return &quot;&quot;
+
+    def ask(self, question: str, match_data: Optional[dict] = None) -&gt; str:
+        &quot;&quot;&quot;
+        向AI教练提问
+
+        match_data格式：
+        {
+            &quot;score&quot;: &quot;1:0&quot;,
+            &quot;time&quot;: 67,
+            &quot;formation&quot;: &quot;4-3-3&quot;,
+            &quot;possession&quot;: 58,
+            &quot;ppda&quot;: 7.2,
+            &quot;players&quot;: [{&quot;name&quot;: &quot;X&quot;, &quot;distance_km&quot;: 8.5, &quot;sprints&quot;: 12}, ...]
+        }
+        &quot;&quot;&quot;
+        # 构建上下文消息
+        user_message = question
+
+        if match_data:
+            context = f&quot;&quot;&quot;
+当前比赛数据（第{match_data.get(&#x27;time&#x27;, &#x27;?&#x27;)}分钟）：
+- 比分：{match_data.get(&#x27;score&#x27;, &#x27;未知&#x27;)}
+- 我方阵型：{match_data.get(&#x27;formation&#x27;, &#x27;未知&#x27;)}
+- 控球率：{match_data.get(&#x27;possession&#x27;, &#x27;?&#x27;)}%
+- 压迫强度（PPDA）：{match_data.get(&#x27;ppda&#x27;, &#x27;?&#x27;)}
+
+球员状态：
+{self._format_player_stats(match_data.get(&#x27;players&#x27;, []))}
+
+---
+教练问题：{question}
+&quot;&quot;&quot;
+            user_message = context
+
+        # 加入知识库上下文（简单拼接，Phase 1改为RAG）
+        if self.knowledge_base:
+            system_with_kb = SYSTEM_PROMPT + f&quot;\n\n参考战术知识库：\n{self.knowledge_base[:2000]}&quot;
+        else:
+            system_with_kb = SYSTEM_PROMPT
+
+        # 调用Claude API
+        # 使用多轮对话保持上下文（比赛中教练可能追问）
+        self.conversation_history.append({
+            &quot;role&quot;: &quot;user&quot;,
+            &quot;content&quot;: user_message
+        })
+
+        response = client.messages.create(
+            model=&quot;claude-sonnet-4-6&quot;,
+            max_tokens=512,   # 限制长度，确保简洁
+            system=system_with_kb,
+            messages=self.conversation_history
+        )
+
+        assistant_message = response.content[0].text
+        self.conversation_history.append({
+            &quot;role&quot;: &quot;assistant&quot;,
+            &quot;content&quot;: assistant_message
+        })
+
+        # 保留最近10轮对话（避免token超限）
+        if len(self.conversation_history) &gt; 20:
+            self.conversation_history = self.conversation_history[-20:]
+
+        return assistant_message
+
+    def _format_player_stats(self, players: list) -&gt; str:
+        if not players:
+            return &quot;暂无球员数据&quot;
+        lines = []
+        for p in players[:6]:  # 只显示前6人，节省token
+            lines.append(f&quot;  - {p.get(&#x27;name&#x27;, &#x27;未知&#x27;)}: 跑动{p.get(&#x27;distance_km&#x27;, &#x27;?&#x27;)}km, 冲刺{p.get(&#x27;sprints&#x27;, &#x27;?&#x27;)}次&quot;)
+        return &quot;\n&quot;.join(lines)
+
+    def reset_conversation(self):
+        &quot;&quot;&quot;新比赛时重置对话历史&quot;&quot;&quot;
+        self.conversation_history = []
+
+
+# 示例测试
+if __name__ == &quot;__main__&quot;:
+    coach = TacticalCoach()
+
+    match_data = {
+        &quot;score&quot;: &quot;0:1&quot;,
+        &quot;time&quot;: 67,
+        &quot;formation&quot;: &quot;4-3-3&quot;,
+        &quot;possession&quot;: 42,
+        &quot;ppda&quot;: 12.5,
+        &quot;players&quot;: [
+            {&quot;name&quot;: &quot;球员A&quot;, &quot;distance_km&quot;: 9.2, &quot;sprints&quot;: 8},
+            {&quot;name&quot;: &quot;球员B&quot;, &quot;distance_km&quot;: 7.1, &quot;sprints&quot;: 5},
+        ]
+    }
+
+    answer = coach.ask(&quot;我们落后1球，左路老是被反击，怎么调整？&quot;, match_data)
+    print(answer)
+</code></pre>
+<hr/>
+<h2>四、FastAPI 主服务（Day 4-5）</h2>
+<pre><code class="language-python"># main.py
+from fastapi import FastAPI, UploadFile, File, BackgroundTasks, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
+import uuid
+import os
+import asyncio
+from pathlib import Path
+
+from video_pipeline import analyze_video
+from llm_coach import TacticalCoach
+from whisper_stt import transcribe_audio
+
+app = FastAPI(
+    title=&quot;CoachMind AI Demo&quot;,
+    description=&quot;足球教练智能辅助系统 Demo API&quot;,
+    version=&quot;0.1.0&quot;
+)
+
+# CORS：允许React前端访问
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[&quot;*&quot;],  # Demo阶段放开，Production需限制
+    allow_methods=[&quot;*&quot;],
+    allow_headers=[&quot;*&quot;],
+)
+
+# 存储分析任务状态（Demo用内存，Production用Redis）
+job_store = {}
+
+# 全局TacticalCoach实例（Demo用单实例）
+coach = TacticalCoach()
+
+
+class QuestionRequest(BaseModel):
+    question: str
+    match_data: dict | None = None
+
+class CalibrationRequest(BaseModel):
+    src_points: list  # 4个像素坐标点
+    dst_points: list  # 4个球场实际坐标点
+
+
+@app.post(&quot;/api/video/upload&quot;)
+async def upload_video(
+    file: UploadFile = File(...),
+    background_tasks: BackgroundTasks = None
+):
+    &quot;&quot;&quot;
+    上传视频并开始异步分析
+
+    返回job_id，前端通过/api/video/{job_id}/status轮询进度
+    &quot;&quot;&quot;
+    # 保存文件
+    job_id = str(uuid.uuid4())[:8]
+    upload_dir = Path(&quot;uploads&quot;)
+    upload_dir.mkdir(exist_ok=True)
+
+    file_path = upload_dir / f&quot;{job_id}_{file.filename}&quot;
+    with open(file_path, &quot;wb&quot;) as f:
+        content = await file.read()
+        f.write(content)
+
+    # 记录任务
+    job_store[job_id] = {
+        &quot;status&quot;: &quot;processing&quot;,
+        &quot;progress&quot;: 0,
+        &quot;file_path&quot;: str(file_path),
+        &quot;result&quot;: None
+    }
+
+    # 异步后台分析
+    background_tasks.add_task(run_analysis, job_id, str(file_path))
+
+    return {&quot;job_id&quot;: job_id, &quot;message&quot;: &quot;分析已开始&quot;}
+
+
+async def run_analysis(job_id: str, video_path: str):
+    &quot;&quot;&quot;后台任务：运行视频分析&quot;&quot;&quot;
+    try:
+        result = await analyze_video(video_path, job_id)
+        job_store[job_id][&quot;status&quot;] = &quot;completed&quot;
+        job_store[job_id][&quot;result&quot;] = result
+    except Exception as e:
+        job_store[job_id][&quot;status&quot;] = &quot;failed&quot;
+        job_store[job_id][&quot;error&quot;] = str(e)
+
+
+@app.get(&quot;/api/video/{job_id}/status&quot;)
+async def get_job_status(job_id: str):
+    &quot;&quot;&quot;轮询分析任务状态&quot;&quot;&quot;
+    if job_id not in job_store:
+        raise HTTPException(status_code=404, detail=&quot;任务不存在&quot;)
+
+    job = job_store[job_id]
+    return {
+        &quot;job_id&quot;: job_id,
+        &quot;status&quot;: job[&quot;status&quot;],
+        &quot;progress&quot;: job.get(&quot;progress&quot;, 0),
+        &quot;result&quot;: job[&quot;result&quot;] if job[&quot;status&quot;] == &quot;completed&quot; else None
+    }
+
+
+@app.post(&quot;/api/coach/ask&quot;)
+async def ask_coach(request: QuestionRequest):
+    &quot;&quot;&quot;
+    向AI教练提问
+
+    前端可以每隔几分钟主动请求&quot;当前比赛状态建议&quot;
+    或在特定事件（失球、换人时机）触发问答
+    &quot;&quot;&quot;
+    try:
+        answer = coach.ask(request.question, request.match_data)
+        return {&quot;answer&quot;: answer, &quot;status&quot;: &quot;success&quot;}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f&quot;AI服务暂时不可用: {str(e)}&quot;)
+
+
+@app.post(&quot;/api/voice/transcribe&quot;)
+async def transcribe_voice(file: UploadFile = File(...)):
+    &quot;&quot;&quot;语音输入转文字（Whisper）&quot;&quot;&quot;
+    audio_path = f&quot;/tmp/{uuid.uuid4()}.wav&quot;
+    with open(audio_path, &quot;wb&quot;) as f:
+        f.write(await file.read())
+
+    text = transcribe_audio(audio_path)
+    os.remove(audio_path)
+
+    return {&quot;text&quot;: text}
+
+
+@app.get(&quot;/api/health&quot;)
+async def health():
+    return {&quot;status&quot;: &quot;ok&quot;, &quot;version&quot;: &quot;demo-0.1.0&quot;}
+</code></pre>
+<hr/>
+<h2>五、Whisper 语音识别（Day 5）</h2>
+<pre><code class="language-python"># whisper_stt.py
+import whisper
+import numpy as np
+
+# 加载模型（第一次运行会自动下载）
+# large-v3是最新最准确版本，中文WER约2.7%
+# 如果GPU内存不足，用medium（效果略差但更快）
+_model = None
+
+def get_model():
+    global _model
+    if _model is None:
+        print(&quot;加载Whisper large-v3模型...&quot;)
+        _model = whisper.load_model(&quot;large-v3&quot;)
+        print(&quot;模型加载完成&quot;)
+    return _model
+
+
+def transcribe_audio(audio_path: str) -&gt; str:
+    &quot;&quot;&quot;
+    音频转文字
+
+    为什么选Whisper v3 large：
+    - 中文WER（词错误率）约2.7%，是开源最好水平
+    - 对口音和嘈杂环境（球场噪音！）有较强鲁棒性
+    - 支持中英文混合（教练常用中英混搭术语）
+    - 完全本地运行，无隐私问题
+
+    注：在A10上，large-v3处理1分钟音频约需5秒
+    如需更快速度，可用medium（约1秒）但中文精度稍低
+    &quot;&quot;&quot;
+    model = get_model()
+
+    result = model.transcribe(
+        audio_path,
+        language=&quot;zh&quot;,              # 指定中文（不指定则自动检测，稍慢）
+        task=&quot;transcribe&quot;,          # transcribe=原语言转文字；translate=翻译成英文
+        initial_prompt=&quot;这是一段足球训练场上的教练指令，&quot;,  # 给模型提示上下文，提高足球术语识别率
+        temperature=0.0,            # 确定性输出（不随机采样）
+        best_of=1
+    )
+
+    return result[&quot;text&quot;].strip()
+</code></pre>
+<hr/>
+<h2>六、Demo前端（Day 6-9）</h2>
+<h3>6.1 React前端核心组件</h3>
+<pre><code class="language-bash"># 创建React项目
+npx create-react-app demo-frontend --template typescript
+cd demo-frontend
+npm install recharts axios react-hot-toast
+</code></pre>
+<p>前端关键页面：</p>
+<ol>
+<li><strong>视频上传页</strong>：拖拽上传 → 进度条 → 跳转分析页</li>
+<li><strong>分析报告页</strong>：战术热图 + 阵型图 + 球员数据 + AI问答框</li>
+<li><strong>AI问答框</strong>：文字输入 + 语音录制按钮 → 实时展示AI回答</li>
+</ol>
+<hr/>
+<h2>七、北体大验证准备（Week 4）</h2>
+<h3>7.1 验证清单</h3>
+<pre><code>技术验证：
+□ 视频分析Pipeline完整可用
+□ AI问答回答质量符合专业标准（内部评审）
+□ 界面教练可独立操作（无培训）
+□ 系统稳定运行2小时无崩溃
+
+用户测试方案：
+□ 邀请3位教练（国家级/高级/基层各1位）
+□ 提供2段真实比赛录像（各约10分钟）
+□ 每人独立试用30分钟
+□ 收集结构化反馈（问卷+访谈）
+
+反馈问卷（10题）：
+1. AI战术建议的专业性如何？（1-10分）
+2. 视觉热图是否帮助你理解比赛？（1-10分）
+3. 你会在正式比赛中使用这个工具吗？（是/否/可能）
+4. 哪个功能最有价值？（多选）
+5. 哪个功能最需要改进？（开放填写）
+...
+</code></pre>
+<h3>7.2 预期验证结果与决策树</h3>
+<pre><code>如果教练满意度 &gt;= 7/10：
+  → 按计划推进Phase 1（硬件采购）
+
+如果 5-7/10：
+  → 重点收集反馈，2周快速迭代后再次验证
+
+如果 &lt; 5/10：
+  → 暂停Phase 1，与北体大教练深度访谈重新定义需求
+</code></pre>
+<hr/>
+<h2>附录：Demo演示脚本（给教练看）</h2>
+<ol>
+<li>&quot;教练，这是我们AI系统的试用版。让我展示一场10分钟的比赛分析。&quot;</li>
+<li>上传视频，等待分析（约3分钟）</li>
+<li>&quot;这里是球员位置热图，红色区域是球员活动最密集的地方。您可以看到中路有明显空当。&quot;</li>
+<li>&quot;您可以直接问我任何战术问题。比如：&#x27;我们右路为什么老是被突破？&#x27;&quot;</li>
+<li>展示AI回答，让教练评价专业性</li>
+<li>&quot;下周我们会把这套系统升级，支持比赛中实时分析。&quot;</li>
+</ol></article><div class="mt-12 pt-6 border-t border-border flex items-center justify-between text-sm text-gray-600"><span>北京体育大学 × 体育中外人文交流研究院</span><a class="text-primary-400 hover:text-primary-300" href="/coachmind_AI/theory/">← 返回报告列表</a></div></div><!--$--><!--/$--></main><footer class="border-t border-border py-8 mt-20 bg-white/[0.04]"><div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4"><div class="flex items-center gap-3"><div class="w-8 h-8 rounded-lg bg-primary-500 flex items-center justify-center text-sm font-bold text-white">CM</div><span class="text-sm text-gray-300">CoachMind AI · 足球教练智能辅助系统</span></div><div class="text-sm text-gray-400">合作单位：北京体育大学 · 体育中外人文交流研究院 · 2025–2026</div></div></footer><script src="/coachmind_AI/_next/static/chunks/b5c2f59cb958c900.js" id="_R_" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:I[72776,[\"/coachmind_AI/_next/static/chunks/3197a8dc9cf0c9ff.js\"],\"default\"]\n3:I[39756,[\"/coachmind_AI/_next/static/chunks/ff1a16fafef87110.js\",\"/coachmind_AI/_next/static/chunks/0bd6498bda341889.js\"],\"default\"]\n4:I[37457,[\"/coachmind_AI/_next/static/chunks/ff1a16fafef87110.js\",\"/coachmind_AI/_next/static/chunks/0bd6498bda341889.js\"],\"default\"]\n6:I[97367,[\"/coachmind_AI/_next/static/chunks/ff1a16fafef87110.js\",\"/coachmind_AI/_next/static/chunks/0bd6498bda341889.js\"],\"OutletBoundary\"]\n7:\"$Sreact.suspense\"\n9:I[97367,[\"/coachmind_AI/_next/static/chunks/ff1a16fafef87110.js\",\"/coachmind_AI/_next/static/chunks/0bd6498bda341889.js\"],\"ViewportBoundary\"]\nb:I[97367,[\"/coachmind_AI/_next/static/chunks/ff1a16fafef87110.js\",\"/coachmind_AI/_next/static/chunks/0bd6498bda341889.js\"],\"MetadataBoundary\"]\nd:I[68027,[\"/coachmind_AI/_next/static/chunks/ff1a16fafef87110.js\",\"/coachmind_AI/_next/static/chunks/0bd6498bda341889.js\"],\"default\"]\n:HL[\"/coachmind_AI/_next/static/chunks/f3b14a93dc8138fe.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"0:{\"P\":null,\"b\":\"GIy_kfIQjQYYeaw-pechl\",\"c\":[\"\",\"docs\",\"demo_guide\",\"\"],\"q\":\"\",\"i\":false,\"f\":[[[\"\",{\"children\":[\"docs\",{\"children\":[[\"id\",\"demo_guide\",\"d\"],{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],[[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/coachmind_AI/_next/static/chunks/f3b14a93dc8138fe.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-0\",{\"src\":\"/coachmind_AI/_next/static/chunks/3197a8dc9cf0c9ff.js\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"zh-CN\",\"className\":\"scroll-smooth\",\"children\":[\"$\",\"body\",null,{\"className\":\"antialiased min-h-screen\",\"children\":[[\"$\",\"$L2\",null,{}],[\"$\",\"main\",null,{\"className\":\"pt-16\",\"children\":[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}],[\"$\",\"footer\",null,{\"className\":\"border-t border-border py-8 mt-20 bg-white/[0.04]\",\"children\":[\"$\",\"div\",null,{\"className\":\"max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center gap-3\",\"children\":[[\"$\",\"div\",null,{\"className\":\"w-8 h-8 rounded-lg bg-primary-500 flex items-center justify-center text-sm font-bold text-white\",\"children\":\"CM\"}],[\"$\",\"span\",null,{\"className\":\"text-sm text-gray-300\",\"children\":\"CoachMind AI · 足球教练智能辅助系统\"}]]}],[\"$\",\"div\",null,{\"className\":\"text-sm text-gray-400\",\"children\":\"合作单位：北京体育大学 · 体育中外人文交流研究院 · 2025–2026\"}]]}]}]]}]}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[\"$L5\",[[\"$\",\"script\",\"script-0\",{\"src\":\"/coachmind_AI/_next/static/chunks/07ab011d31ef744d.js\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"$L6\",null,{\"children\":[\"$\",\"$7\",null,{\"name\":\"Next.MetadataOutlet\",\"children\":\"$@8\"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$L9\",null,{\"children\":\"$La\"}],[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$Lb\",null,{\"children\":[\"$\",\"$7\",null,{\"name\":\"Next.Metadata\",\"children\":\"$Lc\"}]}]}],null]}],false]],\"m\":\"$undefined\",\"G\":[\"$d\",[]],\"S\":true}\n"])</script><script>self.__next_f.push([1,"a:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n"])</script><script>self.__next_f.push([1,"8:null\nc:[[\"$\",\"title\",\"0\",{\"children\":\"CoachMind AI — 足球教练智能辅助系统\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"面向中国足球改革、青少年足球训练和校园足球普及的中文教练 Copilot，以比赛状态重建、知识图谱和数据飞轮提升训练质量与复盘效率。\"}]]\n"])</script><script>self.__next_f.push([1,"e:I[73069,[\"/coachmind_AI/_next/static/chunks/3197a8dc9cf0c9ff.js\",\"/coachmind_AI/_next/static/chunks/07ab011d31ef744d.js\"],\"default\"]\nf:T5e4e,"])</script><script>self.__next_f.push([1,"\n# Demo 开发手册\n## Phase 0：一个月冲刺，从零到可演示原型\n\n\u003e 目标：第4周在北体大足球场完成第一次真实用户验证\n\u003e 前提：GPU服务器（阿里云A10实例）已就绪，Python 3.11+环境已配置\n\n---\n\n## 一、环境准备（Day 1）\n\n### 1.1 阿里云GPU实例配置\n\n推荐：`ecs.gn7i-c16g1.4xlarge`（NVIDIA A10 × 1，16 vCPU，60GB内存）\n- 系统：Ubuntu 22.04 LTS\n- 价格：约 ¥24/小时（按量），Demo阶段预算¥2,000\n\n```bash\n# 基础环境\nsudo apt-get update \u0026\u0026 sudo apt-get install -y git curl wget ffmpeg\n\n# Python 环境（用 miniconda）\nwget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh\nbash Miniconda3-latest-Linux-x86_64.sh\nconda create -n coachminddemo python=3.11\nconda activate coachminddemo\n\n# CUDA 验证\nnvidia-smi  # 应显示 CUDA 12.x\n\n# PyTorch（CUDA 12.1版本）\npip install torch torchvision --index-url https://download.pytorch.org/whl/cu121\n```\n\n### 1.2 依赖安装\n\n```bash\npip install ultralytics\u003e=8.3.0    # YOLO11\npip install supervision\u003e=0.24.0   # ByteTrack封装\npip install fastapi uvicorn[standard] python-multipart\npip install anthropic\u003e=0.40.0     # Claude API\npip install openai-whisper         # Whisper v3\npip install qdrant-client langchain langchain-anthropic\npip install redis celery\npip install opencv-python-headless numpy scipy\npip install pillow reportlab       # PDF报告生成\npip install python-dotenv\n```\n\n### 1.3 项目目录结构\n\n```\ndemo/\n├── main.py               # FastAPI主服务\n├── video_pipeline.py     # 视频分析Pipeline\n├── tracker.py            # ByteTrack封装\n├── tactical_map.py       # 战术地图生成\n├── llm_coach.py          # Claude API + RAG\n├── whisper_stt.py        # 语音转文字\n├── report_generator.py   # 赛后报告生成\n├── models/               # 下载的YOLO权重\n├── knowledge/            # 战术知识库文档\n├── uploads/              # 上传的视频临时存储\n└── frontend/             # React Demo界面\n```\n\n---\n\n## 二、YOLO11 + ByteTrack Pipeline（Day 2-3）\n\n### 2.1 YOLO11 初始化\n\n```python\n# video_pipeline.py\nfrom ultralytics import YOLO\nimport supervision as sv\nimport numpy as np\nimport cv2\n\nclass FootballDetector:\n    \"\"\"\n    封装YOLO11目标检测，针对足球场景优化\n\n    为什么用supervision封装：\n    - 提供ByteTrack的简洁接口\n    - 内置足球场景常用的可视化工具\n    - 减少重复代码\n    \"\"\"\n\n    def __init__(self, model_path: str = \"yolo11m.pt\"):\n        # YOLO11m：中等规模，在A10上约80fps，精度足够Demo\n        # 如需更高精度用yolo11l，更高速度用yolo11s\n        self.model = YOLO(model_path)\n\n        # ByteTrack追踪器配置\n        self.tracker = sv.ByteTrack(\n            track_activation_threshold=0.25,  # 低置信度追踪激活阈值\n            lost_track_buffer=30,              # 丢失30帧（1s）后删除轨迹\n            minimum_matching_threshold=0.8,   # 匹配阈值\n            frame_rate=30                      # 帧率\n        )\n\n        # 球场单应矩阵（初始化时标定）\n        self.homography_matrix = None\n\n    def detect_and_track(self, frame: np.ndarray) -\u003e dict:\n        \"\"\"\n        单帧检测与追踪\n\n        返回格式：\n        {\n            \"players\": [{\"track_id\": 1, \"bbox\": [x1,y1,x2,y2], \"team\": \"home/away\", \"position\": [x, y]}, ...]\n            \"ball\": {\"position\": [x, y]} or None\n        }\n        \"\"\"\n        # 运行YOLO检测\n        results = self.model(frame, verbose=False)[0]\n\n        # 转换为supervision格式\n        detections = sv.Detections.from_ultralytics(results)\n\n        # 过滤：只保留person(0)和sports_ball(32)\n        # COCO数据集类别ID\n        person_mask = detections.class_id == 0\n        ball_mask = detections.class_id == 32\n\n        # 球员追踪\n        player_detections = detections[person_mask]\n        tracked_players = self.tracker.update_with_detections(player_detections)\n\n        # 获取球的位置\n        ball_detections = detections[ball_mask]\n        ball_pos = None\n        if len(ball_detections) \u003e 0:\n            # 取置信度最高的球检测结果\n            best_ball_idx = np.argmax(ball_detections.confidence)\n            ball_bbox = ball_detections.xyxy[best_ball_idx]\n            ball_pos = [\n                (ball_bbox[0] + ball_bbox[2]) / 2,\n                (ball_bbox[1] + ball_bbox[3]) / 2\n            ]\n\n        # 转换到球场坐标系\n        players = []\n        for i, track_id in enumerate(tracked_players.tracker_id):\n            bbox = tracked_players.xyxy[i]\n            pixel_pos = [\n                (bbox[0] + bbox[2]) / 2,  # 中心x\n                bbox[3]                    # 脚底y（更准确反映位置）\n            ]\n\n            field_pos = self._pixel_to_field(pixel_pos) if self.homography_matrix is not None else pixel_pos\n\n            players.append({\n                \"track_id\": int(track_id),\n                \"bbox\": bbox.tolist(),\n                \"position\": field_pos,   # 球场坐标（0-105, 0-68）\n                \"team\": \"unknown\"        # Phase 1再做球队分类\n            })\n\n        return {\"players\": players, \"ball\": {\"position\": ball_pos} if ball_pos else None}\n\n    def _pixel_to_field(self, pixel_pos: list) -\u003e list:\n        \"\"\"\n        使用单应矩阵将像素坐标转换为球场标准坐标\n\n        球场标准坐标系：左下角(0,0)，右上角(105,68)，单位：米\n        与StatsBomb、Opta等数据标准一致\n        \"\"\"\n        pt = np.array([[pixel_pos[0], pixel_pos[1]]], dtype=np.float32).reshape(-1, 1, 2)\n        transformed = cv2.perspectiveTransform(pt, self.homography_matrix)\n        return transformed[0][0].tolist()\n\n    def calibrate_homography(self, src_points: list, dst_points: list):\n        \"\"\"\n        标定单应矩阵\n\n        src_points：图像中的像素坐标（4个角点，如球场角点）\n        dst_points：对应的球场实际坐标（已知）\n\n        使用方法：\n        - 在第一次使用前，手动点击摄像机画面中的4个球场角点\n        - 输入这4个点的实际球场坐标（来自球场图纸）\n        \"\"\"\n        src = np.array(src_points, dtype=np.float32)\n        dst = np.array(dst_points, dtype=np.float32)\n        self.homography_matrix, _ = cv2.findHomography(src, dst)\n```\n\n### 2.2 视频处理主Loop\n\n```python\n# video_pipeline.py (续)\n\nimport asyncio\nfrom pathlib import Path\nimport json\n\nasync def analyze_video(video_path: str, job_id: str) -\u003e dict:\n    \"\"\"\n    异步分析视频文件，返回结构化分析结果\n\n    使用asyncio而非threading，因为I/O密集的操作（文件读写、API调用）\n    可以通过asyncio高效并发，GPU推理部分虽然是CPU密集但放在executor中\n    \"\"\"\n    detector = FootballDetector(\"models/yolo11m.pt\")\n\n    cap = cv2.VideoCapture(video_path)\n    fps = cap.get(cv2.CAP_PROP_FPS)\n    total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))\n\n    # 分析结果存储\n    timeline = []       # 时间线数据：每秒一个快照\n    all_positions = []  # 所有帧的球员位置\n\n    frame_count = 0\n    sample_interval = max(1, int(fps / 5))  # 每秒采样5帧（降低计算量）\n\n    while cap.isOpened():\n        ret, frame = cap.read()\n        if not ret:\n            break\n\n        frame_count += 1\n        if frame_count % sample_interval != 0:\n            continue\n\n        # 检测与追踪（放入executor避免阻塞事件循环）\n        loop = asyncio.get_event_loop()\n        result = await loop.run_in_executor(\n            None,  # 使用默认ThreadPoolExecutor\n            detector.detect_and_track,\n            frame\n        )\n\n        timestamp = frame_count / fps\n        snapshot = {\n            \"time\": timestamp,\n            \"players\": result[\"players\"],\n            \"ball\": result[\"ball\"]\n        }\n        all_positions.append(snapshot)\n\n        # 每秒生成一个战术快照\n        if int(timestamp) \u003e (len(timeline)):\n            formation = detect_formation([p[\"position\"] for p in result[\"players\"][:10]])\n            timeline.append({\n                \"time\": int(timestamp),\n                \"formation\": formation,\n                \"possession_zone\": estimate_possession_zone(result)\n            })\n\n        # 报告进度（通过Redis）\n        if frame_count % (sample_interval * 30) == 0:\n            progress = frame_count / total_frames * 100\n            # redis_client.set(f\"job:{job_id}:progress\", progress)\n            print(f\"Job {job_id}: {progress:.1f}%\")\n\n    cap.release()\n\n    # 聚合分析结果\n    return {\n        \"job_id\": job_id,\n        \"duration\": total_frames / fps,\n        \"timeline\": timeline,\n        \"heatmap_data\": compute_heatmap(all_positions),\n        \"player_stats\": compute_player_stats(all_positions),\n        \"formation_summary\": summarize_formations(timeline)\n    }\n\n\ndef detect_formation(positions: list) -\u003e str:\n    \"\"\"\n    基于K-Means聚类识别阵型\n\n    算法：\n    1. 按y坐标排序（从守门员到前锋）\n    2. 去除守门员（y最小的1人）\n    3. 对剩余10人做K-Means（K=3或K=4）\n    4. 统计每行的球员数，生成如\"4-3-3\"的字符串\n\n    局限性：\n    - 只对进攻阵型有效（防守时球员分布不规律）\n    - K值需要预先假设行数\n    \"\"\"\n    from sklearn.cluster import KMeans\n\n    if len(positions) \u003c 10:\n        return \"unknown\"\n\n    positions_arr = np.array(positions[:10])  # 只取10个外场球员\n\n    # 假设3行（后卫-中场-前锋）\n    kmeans = KMeans(n_clusters=3, random_state=42, n_init=10)\n    kmeans.fit(positions_arr)\n\n    labels = kmeans.labels_\n    centers = kmeans.cluster_centers_\n\n    # 按y坐标（从小到大=从后到前）排序\n    sorted_idx = np.argsort(centers[:, 1])\n\n    # 统计每行人数\n    row_counts = []\n    for idx in sorted_idx:\n        count = np.sum(labels == idx)\n        row_counts.append(count)\n\n    # 标准化为常见阵型\n    formation_str = \"-\".join(map(str, row_counts))\n    return formation_str\n\n\ndef compute_heatmap(all_positions: list) -\u003e dict:\n    \"\"\"\n    计算球员位置热图数据\n    返回格式：{\"home\": [[x,y,intensity],...], \"away\": [[x,y,intensity],...]}\n    \"\"\"\n    home_positions = []\n    away_positions = []\n\n    for snapshot in all_positions:\n        for player in snapshot[\"players\"]:\n            pos = player.get(\"position\")\n            if pos and len(pos) == 2:\n                if player.get(\"team\") == \"home\":\n                    home_positions.append(pos)\n                else:\n                    away_positions.append(pos)\n\n    return {\n        \"home\": home_positions,\n        \"away\": away_positions,\n        \"all\": home_positions + away_positions\n    }\n```\n\n---\n\n## 三、Claude API 战术问答（Day 3-4）\n\n### 3.1 LLM Coach 服务\n\n```python\n# llm_coach.py\nimport anthropic\nfrom typing import Optional\nimport json\n\nclient = anthropic.Anthropic()  # 从环境变量读取ANTHROPIC_API_KEY\n\n# 系统提示词设计原则：\n# 1. 明确角色（专业足球战术顾问）\n# 2. 约束输出格式（简洁、可操作）\n# 3. 指定知识边界（基于数据，不要臆测）\n# 4. 中文回答\n\nSYSTEM_PROMPT = \"\"\"你是一位精通现代足球战术的AI教练助手，拥有丰富的足球分析经验。\n你协助场边教练做战术决策，你的建议需要：\n\n1. **简洁可操作**：教练只有30秒时间听你说，给出1-3条核心建议\n2. **基于数据**：当有比赛数据时，引用具体数字支撑判断\n3. **专业准确**：使用专业足球术语，但避免过度技术化\n4. **及时性**：优先考虑比赛当前状态，而非泛泛而谈\n\n当前比赛数据将在用户消息中提供。如果没有数据，请基于问题给出通用战术建议，并注明是一般性建议。\n\n回答格式：\n- 核心判断（1-2句）\n- 具体建议（1-3条，用\"→\"标注）\n- 风险提示（可选，用\"⚠️\"标注）\n\n禁止：推测球员受伤状态、批评球员个人、做超出战术范围的评论。\"\"\"\n\n\nclass TacticalCoach:\n\n    def __init__(self, knowledge_base_path: Optional[str] = None):\n        self.conversation_history = []\n        # Phase 0：简单的文件知识库，Phase 1再换Qdrant\n        self.knowledge_base = self._load_knowledge_base(knowledge_base_path)\n\n    def _load_knowledge_base(self, path: Optional[str]) -\u003e str:\n        \"\"\"加载战术知识库（Phase 0用简单文本文件）\"\"\"\n        if not path:\n            # 内置基础知识\n            return \"\"\"\n足球基础战术知识：\n\n阵型特点：\n- 4-3-3：进攻性强，适合控球打法；三前锋创造宽度；中场需要高跑动量\n- 4-4-2：平衡，双前锋配合；中场需要传控和跑动结合；适合边路进攻\n- 3-5-2：中场人数优势；翼卫需要覆盖全边路；防守需要三中卫默契配合\n- 4-2-3-1：双后腰保护；三中场技术要求高；单前锋需要强支点能力\n\n换人原则：\n- 体能下降标志：跑动距离明显减少、反应速度变慢、防守位置错误增加\n- 战术换人时机：比分领先时加强防守（换边锋换边后卫）；落后时提高进攻（换双前锋/全面进攻）\n- 伤停球时间换人：节省体力，准备最后15分钟\n\n高位压迫要点：\n- PPDA \u003c 8 表示压迫有效（每8次对方传球才有1次我方防守行动）\n- 压迫触发信号：对方守门员持球、对方回传、对方边后卫拿球时\n- 压迫失效表现：被简单长球越过、体能不足跑不到位\n\"\"\"\n        try:\n            with open(path, 'r', encoding='utf-8') as f:\n                return f.read()\n        except:\n            return \"\"\n\n    def ask(self, question: str, match_data: Optional[dict] = None) -\u003e str:\n        \"\"\"\n        向AI教练提问\n\n        match_data格式：\n        {\n            \"score\": \"1:0\",\n            \"time\": 67,\n            \"formation\": \"4-3-3\",\n            \"possession\": 58,\n            \"ppda\": 7.2,\n            \"players\": [{\"name\": \"X\", \"distance_km\": 8.5, \"sprints\": 12}, ...]\n        }\n        \"\"\"\n        # 构建上下文消息\n        user_message = question\n\n        if match_data:\n            context = f\"\"\"\n当前比赛数据（第{match_data.get('time', '?')}分钟）：\n- 比分：{match_data.get('score', '未知')}\n- 我方阵型：{match_data.get('formation', '未知')}\n- 控球率：{match_data.get('possession', '?')}%\n- 压迫强度（PPDA）：{match_data.get('ppda', '?')}\n\n球员状态：\n{self._format_player_stats(match_data.get('players', []))}\n\n---\n教练问题：{question}\n\"\"\"\n            user_message = context\n\n        # 加入知识库上下文（简单拼接，Phase 1改为RAG）\n        if self.knowledge_base:\n            system_with_kb = SYSTEM_PROMPT + f\"\\n\\n参考战术知识库：\\n{self.knowledge_base[:2000]}\"\n        else:\n            system_with_kb = SYSTEM_PROMPT\n\n        # 调用Claude API\n        # 使用多轮对话保持上下文（比赛中教练可能追问）\n        self.conversation_history.append({\n            \"role\": \"user\",\n            \"content\": user_message\n        })\n\n        response = client.messages.create(\n            model=\"claude-sonnet-4-6\",\n            max_tokens=512,   # 限制长度，确保简洁\n            system=system_with_kb,\n            messages=self.conversation_history\n        )\n\n        assistant_message = response.content[0].text\n        self.conversation_history.append({\n            \"role\": \"assistant\",\n            \"content\": assistant_message\n        })\n\n        # 保留最近10轮对话（避免token超限）\n        if len(self.conversation_history) \u003e 20:\n            self.conversation_history = self.conversation_history[-20:]\n\n        return assistant_message\n\n    def _format_player_stats(self, players: list) -\u003e str:\n        if not players:\n            return \"暂无球员数据\"\n        lines = []\n        for p in players[:6]:  # 只显示前6人，节省token\n            lines.append(f\"  - {p.get('name', '未知')}: 跑动{p.get('distance_km', '?')}km, 冲刺{p.get('sprints', '?')}次\")\n        return \"\\n\".join(lines)\n\n    def reset_conversation(self):\n        \"\"\"新比赛时重置对话历史\"\"\"\n        self.conversation_history = []\n\n\n# 示例测试\nif __name__ == \"__main__\":\n    coach = TacticalCoach()\n\n    match_data = {\n        \"score\": \"0:1\",\n        \"time\": 67,\n        \"formation\": \"4-3-3\",\n        \"possession\": 42,\n        \"ppda\": 12.5,\n        \"players\": [\n            {\"name\": \"球员A\", \"distance_km\": 9.2, \"sprints\": 8},\n            {\"name\": \"球员B\", \"distance_km\": 7.1, \"sprints\": 5},\n        ]\n    }\n\n    answer = coach.ask(\"我们落后1球，左路老是被反击，怎么调整？\", match_data)\n    print(answer)\n```\n\n---\n\n## 四、FastAPI 主服务（Day 4-5）\n\n```python\n# main.py\nfrom fastapi import FastAPI, UploadFile, File, BackgroundTasks, HTTPException\nfrom fastapi.middleware.cors import CORSMiddleware\nfrom pydantic import BaseModel\nimport uuid\nimport os\nimport asyncio\nfrom pathlib import Path\n\nfrom video_pipeline import analyze_video\nfrom llm_coach import TacticalCoach\nfrom whisper_stt import transcribe_audio\n\napp = FastAPI(\n    title=\"CoachMind AI Demo\",\n    description=\"足球教练智能辅助系统 Demo API\",\n    version=\"0.1.0\"\n)\n\n# CORS：允许React前端访问\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],  # Demo阶段放开，Production需限制\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\n\n# 存储分析任务状态（Demo用内存，Production用Redis）\njob_store = {}\n\n# 全局TacticalCoach实例（Demo用单实例）\ncoach = TacticalCoach()\n\n\nclass QuestionRequest(BaseModel):\n    question: str\n    match_data: dict | None = None\n\nclass CalibrationRequest(BaseModel):\n    src_points: list  # 4个像素坐标点\n    dst_points: list  # 4个球场实际坐标点\n\n\n@app.post(\"/api/video/upload\")\nasync def upload_video(\n    file: UploadFile = File(...),\n    background_tasks: BackgroundTasks = None\n):\n    \"\"\"\n    上传视频并开始异步分析\n\n    返回job_id，前端通过/api/video/{job_id}/status轮询进度\n    \"\"\"\n    # 保存文件\n    job_id = str(uuid.uuid4())[:8]\n    upload_dir = Path(\"uploads\")\n    upload_dir.mkdir(exist_ok=True)\n\n    file_path = upload_dir / f\"{job_id}_{file.filename}\"\n    with open(file_path, \"wb\") as f:\n        content = await file.read()\n        f.write(content)\n\n    # 记录任务\n    job_store[job_id] = {\n        \"status\": \"processing\",\n        \"progress\": 0,\n        \"file_path\": str(file_path),\n        \"result\": None\n    }\n\n    # 异步后台分析\n    background_tasks.add_task(run_analysis, job_id, str(file_path))\n\n    return {\"job_id\": job_id, \"message\": \"分析已开始\"}\n\n\nasync def run_analysis(job_id: str, video_path: str):\n    \"\"\"后台任务：运行视频分析\"\"\"\n    try:\n        result = await analyze_video(video_path, job_id)\n        job_store[job_id][\"status\"] = \"completed\"\n        job_store[job_id][\"result\"] = result\n    except Exception as e:\n        job_store[job_id][\"status\"] = \"failed\"\n        job_store[job_id][\"error\"] = str(e)\n\n\n@app.get(\"/api/video/{job_id}/status\")\nasync def get_job_status(job_id: str):\n    \"\"\"轮询分析任务状态\"\"\"\n    if job_id not in job_store:\n        raise HTTPException(status_code=404, detail=\"任务不存在\")\n\n    job = job_store[job_id]\n    return {\n        \"job_id\": job_id,\n        \"status\": job[\"status\"],\n        \"progress\": job.get(\"progress\", 0),\n        \"result\": job[\"result\"] if job[\"status\"] == \"completed\" else None\n    }\n\n\n@app.post(\"/api/coach/ask\")\nasync def ask_coach(request: QuestionRequest):\n    \"\"\"\n    向AI教练提问\n\n    前端可以每隔几分钟主动请求\"当前比赛状态建议\"\n    或在特定事件（失球、换人时机）触发问答\n    \"\"\"\n    try:\n        answer = coach.ask(request.question, request.match_data)\n        return {\"answer\": answer, \"status\": \"success\"}\n    except Exception as e:\n        raise HTTPException(status_code=500, detail=f\"AI服务暂时不可用: {str(e)}\")\n\n\n@app.post(\"/api/voice/transcribe\")\nasync def transcribe_voice(file: UploadFile = File(...)):\n    \"\"\"语音输入转文字（Whisper）\"\"\"\n    audio_path = f\"/tmp/{uuid.uuid4()}.wav\"\n    with open(audio_path, \"wb\") as f:\n        f.write(await file.read())\n\n    text = transcribe_audio(audio_path)\n    os.remove(audio_path)\n\n    return {\"text\": text}\n\n\n@app.get(\"/api/health\")\nasync def health():\n    return {\"status\": \"ok\", \"version\": \"demo-0.1.0\"}\n```\n\n---\n\n## 五、Whisper 语音识别（Day 5）\n\n```python\n# whisper_stt.py\nimport whisper\nimport numpy as np\n\n# 加载模型（第一次运行会自动下载）\n# large-v3是最新最准确版本，中文WER约2.7%\n# 如果GPU内存不足，用medium（效果略差但更快）\n_model = None\n\ndef get_model():\n    global _model\n    if _model is None:\n        print(\"加载Whisper large-v3模型...\")\n        _model = whisper.load_model(\"large-v3\")\n        print(\"模型加载完成\")\n    return _model\n\n\ndef transcribe_audio(audio_path: str) -\u003e str:\n    \"\"\"\n    音频转文字\n\n    为什么选Whisper v3 large：\n    - 中文WER（词错误率）约2.7%，是开源最好水平\n    - 对口音和嘈杂环境（球场噪音！）有较强鲁棒性\n    - 支持中英文混合（教练常用中英混搭术语）\n    - 完全本地运行，无隐私问题\n\n    注：在A10上，large-v3处理1分钟音频约需5秒\n    如需更快速度，可用medium（约1秒）但中文精度稍低\n    \"\"\"\n    model = get_model()\n\n    result = model.transcribe(\n        audio_path,\n        language=\"zh\",              # 指定中文（不指定则自动检测，稍慢）\n        task=\"transcribe\",          # transcribe=原语言转文字；translate=翻译成英文\n        initial_prompt=\"这是一段足球训练场上的教练指令，\",  # 给模型提示上下文，提高足球术语识别率\n        temperature=0.0,            # 确定性输出（不随机采样）\n        best_of=1\n    )\n\n    return result[\"text\"].strip()\n```\n\n---\n\n## 六、Demo前端（Day 6-9）\n\n### 6.1 React前端核心组件\n\n```bash\n# 创建React项目\nnpx create-react-app demo-frontend --template typescript\ncd demo-frontend\nnpm install recharts axios react-hot-toast\n```\n\n前端关键页面：\n1. **视频上传页**：拖拽上传 → 进度条 → 跳转分析页\n2. **分析报告页**：战术热图 + 阵型图 + 球员数据 + AI问答框\n3. **AI问答框**：文字输入 + 语音录制按钮 → 实时展示AI回答\n\n---\n\n## 七、北体大验证准备（Week 4）\n\n### 7.1 验证清单\n\n```\n技术验证：\n□ 视频分析Pipeline完整可用\n□ AI问答回答质量符合专业标准（内部评审）\n□ 界面教练可独立操作（无培训）\n□ 系统稳定运行2小时无崩溃\n\n用户测试方案：\n□ 邀请3位教练（国家级/高级/基层各1位）\n□ 提供2段真实比赛录像（各约10分钟）\n□ 每人独立试用30分钟\n□ 收集结构化反馈（问卷+访谈）\n\n反馈问卷（10题）：\n1. AI战术建议的专业性如何？（1-10分）\n2. 视觉热图是否帮助你理解比赛？（1-10分）\n3. 你会在正式比赛中使用这个工具吗？（是/否/可能）\n4. 哪个功能最有价值？（多选）\n5. 哪个功能最需要改进？（开放填写）\n...\n```\n\n### 7.2 预期验证结果与决策树\n\n```\n如果教练满意度 \u003e= 7/10：\n  → 按计划推进Phase 1（硬件采购）\n\n如果 5-7/10：\n  → 重点收集反馈，2周快速迭代后再次验证\n\n如果 \u003c 5/10：\n  → 暂停Phase 1，与北体大教练深度访谈重新定义需求\n```\n\n---\n\n## 附录：Demo演示脚本（给教练看）\n\n1. \"教练，这是我们AI系统的试用版。让我展示一场10分钟的比赛分析。\"\n2. 上传视频，等待分析（约3分钟）\n3. \"这里是球员位置热图，红色区域是球员活动最密集的地方。您可以看到中路有明显空当。\"\n4. \"您可以直接问我任何战术问题。比如：'我们右路为什么老是被突破？'\"\n5. 展示AI回答，让教练评价专业性\n6. \"下周我们会把这套系统升级，支持比赛中实时分析。\"\n"])</script><script>self.__next_f.push([1,"5:[\"$\",\"$Le\",null,{\"title\":\"Demo 开发手册\",\"content\":\"$f\",\"downloadUrl\":\"/downloads/docs/CoachMind_demo_guide.docx\"}]\n"])</script></body></html>

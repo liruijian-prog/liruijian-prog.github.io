@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[97367,["/coachmind_AI/_next/static/chunks/3197a8dc9cf0c9ff.js","/coachmind_AI/_next/static/chunks/0bd6498bda341889.js"],"ViewportBoundary"]
+3:I[97367,["/coachmind_AI/_next/static/chunks/3197a8dc9cf0c9ff.js","/coachmind_AI/_next/static/chunks/0bd6498bda341889.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"GIy_kfIQjQYYeaw-pechl","rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"CoachMind AI — 足球教练智能辅助系统"}],["$","meta","1",{"name":"description","content":"面向中国足球改革、青少年足球训练和校园足球普及的中文教练 Copilot，以比赛状态重建、知识图谱和数据飞轮提升训练质量与复盘效率。"}]]}]}]}],null]}],"loading":null,"isPartial":false}
