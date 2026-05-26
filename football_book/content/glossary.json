@@ -1,0 +1,690 @@
+{
+  "version": "2026.05.22.1407",
+  "updatedAt": "2026-05-22 14:07",
+  "entries": [
+    {
+      "id": "三重口径",
+      "title": "三重口径",
+      "short": "",
+      "english": "Three-Tier Calibration",
+      "chapter": "第 1 章",
+      "definition": "衡量\"14 岁仍在系统里\"球员数量的三种统计口径（A 正式注册、B 有组织竞技、C 接触人口）",
+      "aliases": [
+        "三重口径"
+      ]
+    },
+    {
+      "id": "四次断崖式流失",
+      "title": "四次断崖式流失",
+      "short": "",
+      "english": "Four-Cliff Attrition",
+      "chapter": "第 1 章",
+      "definition": "6→10、10→14、14→16、16→18 四道筛选断崖",
+      "aliases": [
+        "四次断崖式流失"
+      ]
+    },
+    {
+      "id": "漏斗收缩效应",
+      "title": "漏斗收缩效应",
+      "short": "",
+      "english": "Funnel Contraction Effect",
+      "chapter": "第 1 章",
+      "definition": "中国青训漏斗自上而下不断收窄的形态",
+      "aliases": [
+        "漏斗收缩效应"
+      ]
+    },
+    {
+      "id": "sg①-⑤",
+      "title": "五个结构基因",
+      "short": "SG①-⑤",
+      "english": "Five Structural Genes",
+      "chapter": "第 2 章",
+      "definition": "NCD 网络覆盖密度 / HP 层级贯通 / CFD 竞赛频率 / PMM 球员流动 / RMD 再发现密度",
+      "aliases": [
+        "五个结构基因",
+        "SG①-⑤"
+      ]
+    },
+    {
+      "id": "csi",
+      "title": "综合结构指数",
+      "short": "CSI",
+      "english": "Comprehensive Structure Index",
+      "chapter": "第 2 章",
+      "definition": "五个结构基因加权综合得分",
+      "aliases": [
+        "综合结构指数",
+        "CSI"
+      ]
+    },
+    {
+      "id": "三轨断裂",
+      "title": "三轨断裂",
+      "short": "",
+      "english": "Three-Track Fracture",
+      "chapter": "第 2 章",
+      "definition": "体校系统 / 校园系统 / 俱乐部系统三条轨道在同一年龄段的并行无连接",
+      "aliases": [
+        "三轨断裂"
+      ]
+    },
+    {
+      "id": "snr",
+      "title": "选材信噪比",
+      "short": "SNR",
+      "english": "Signal-to-Noise Ratio in Talent Identification",
+      "chapter": "第 3 章",
+      "definition": "选材信号强度与噪声强度之比；中国 ≈ 0.47（劣于纯随机选择）",
+      "aliases": [
+        "选材信噪比",
+        "SNR"
+      ]
+    },
+    {
+      "id": "rae",
+      "title": "相对年龄效应",
+      "short": "RAE",
+      "english": "Relative Age Effect",
+      "chapter": "第 3 章",
+      "definition": "国际通用术语，本书规范化使用——出生月份对选材结果的系统性影响",
+      "aliases": [
+        "相对年龄效应",
+        "RAE"
+      ]
+    },
+    {
+      "id": "不可逆性放大效应",
+      "title": "不可逆性放大效应",
+      "short": "",
+      "english": "Irreversibility Amplification Effect",
+      "chapter": "第 3 章",
+      "definition": "选材错误在 RMD 不足时被环路放大且无法回收",
+      "aliases": [
+        "不可逆性放大效应"
+      ]
+    },
+    {
+      "id": "rmd",
+      "title": "再发现机制密度",
+      "short": "RMD",
+      "english": "Rediscovery-Mechanism Density",
+      "chapter": "第 3 章",
+      "definition": "一名孩子在被低估后能被重新观察的机会次数；中国 ≈ 1.5，临界阈值 ≈ 2.9",
+      "aliases": [
+        "再发现机制密度",
+        "RMD"
+      ]
+    },
+    {
+      "id": "ipti",
+      "title": "选材的不可分离性投影",
+      "short": "IPTI",
+      "english": "Inseparability Projection in Talent Identification",
+      "chapter": "第 3 章",
+      "definition": "选材依赖与潜力无关代理变量的制度经济学解释",
+      "aliases": [
+        "选材的不可分离性投影",
+        "IPTI"
+      ]
+    },
+    {
+      "id": "cri",
+      "title": "教练认知可靠性",
+      "short": "CRI",
+      "english": "Coach Recognition Reliability Index",
+      "chapter": "第 4 章",
+      "definition": "教练对球员判断的统计可靠性；中国 ≈ 0.364，可靠阈值 ≥ 0.80",
+      "aliases": [
+        "教练认知可靠性",
+        "CRI"
+      ]
+    },
+    {
+      "id": "认知污染闭环",
+      "title": "认知污染闭环",
+      "short": "",
+      "english": "Cognitive Contamination Loop",
+      "chapter": "第 4 章",
+      "definition": "调配 → 样本不足 → 案例库污染 → 原型偏差 → 判断偏差的闭环",
+      "aliases": [
+        "认知污染闭环"
+      ]
+    },
+    {
+      "id": "教练晋升阶梯论",
+      "title": "教练晋升阶梯论",
+      "short": "",
+      "english": "Coaching Pathway Argument",
+      "chapter": "第 4 章",
+      "definition": "教练成长依赖一套从基层到顶级的连续阶梯，缺位则供给侧崩塌",
+      "aliases": [
+        "教练晋升阶梯论"
+      ]
+    },
+    {
+      "id": "cif",
+      "title": "教练身份谬误",
+      "short": "CIF",
+      "english": "Coach-Identity Fallacy",
+      "chapter": "第 4 章",
+      "definition": "球员路径垄断顶级教练入口的身份偏见",
+      "aliases": [
+        "教练身份谬误",
+        "CIF"
+      ]
+    },
+    {
+      "id": "iphs",
+      "title": "主帅选拔的不可分离性投影",
+      "short": "IPHS",
+      "english": "Inseparability Projection in Head-Coach Selection",
+      "chapter": "第 4 章",
+      "definition": "主帅选拔缺少独立第三方评估的制度形态",
+      "aliases": [
+        "主帅选拔的不可分离性投影",
+        "IPHS"
+      ]
+    },
+    {
+      "id": "pmcsa",
+      "title": "复盘内容结构对比",
+      "short": "PMCSA",
+      "english": "Post-Match Content Structure Analysis",
+      "chapter": "第 4 章",
+      "definition": "不同地区教练复盘内容的结构性差异分析方法",
+      "aliases": [
+        "复盘内容结构对比",
+        "PMCSA"
+      ]
+    },
+    {
+      "id": "防御性决策与卸责性招聘",
+      "title": "防御性决策与卸责性招聘",
+      "short": "",
+      "english": "Defensive Decision-Making & Blame-Avoidance Hiring",
+      "chapter": "第 4 章",
+      "definition": "借用引入——管理者倾向于做\"出问题时不被追责\"的选择",
+      "aliases": [
+        "防御性决策与卸责性招聘"
+      ]
+    },
+    {
+      "id": "三轨道-kpi-互斥",
+      "title": "三轨道 KPI 互斥",
+      "short": "",
+      "english": "Three-Track KPI Incompatibility",
+      "chapter": "第 5 章",
+      "definition": "体育局/教育部/中足联三个考核体系互不识别对方的赛事成绩",
+      "aliases": [
+        "三轨道 KPI 互斥"
+      ]
+    },
+    {
+      "id": "四堵墙",
+      "title": "四堵墙",
+      "short": "",
+      "english": "Four Walls",
+      "chapter": "第 5 章",
+      "definition": "升学墙、成绩墙、考核墙、注册墙——孩子能否同时学习和踢球的四道制度墙",
+      "aliases": [
+        "四堵墙"
+      ]
+    },
+    {
+      "id": "激励排斥",
+      "title": "激励排斥",
+      "short": "",
+      "english": "Incentive Exclusion",
+      "chapter": "第 5 章",
+      "definition": "多主体各自最优的激励选择导致整体激励强度低于社会最优",
+      "aliases": [
+        "激励排斥"
+      ]
+    },
+    {
+      "id": "pcl",
+      "title": "病灶耦合环",
+      "short": "PCL",
+      "english": "Pathology Coupling Loop",
+      "chapter": "第 6 章",
+      "definition": "五个病灶节点构成的闭合正反馈系统",
+      "aliases": [
+        "病灶耦合环",
+        "PCL"
+      ]
+    },
+    {
+      "id": "单点干预悖论",
+      "title": "单点干预悖论",
+      "short": "",
+      "english": "Single-Point Intervention Paradox",
+      "chapter": "第 6 章",
+      "definition": "单节点改革被环路自动稀释甚至反向放大",
+      "aliases": [
+        "单点干预悖论"
+      ]
+    },
+    {
+      "id": "cam",
+      "title": "耦合放大乘数",
+      "short": "CAM",
+      "english": "Coupling Amplification Multiplier",
+      "chapter": "第 6 章",
+      "definition": "总耦合损失与单独损失之和的比值，理论上 > 1",
+      "aliases": [
+        "耦合放大乘数",
+        "CAM"
+      ]
+    },
+    {
+      "id": "td-6c",
+      "title": "青训六构件",
+      "short": "TD-6C",
+      "english": "Six Components of Talent Development",
+      "chapter": "第 9 章",
+      "definition": "哲学连续性 / 独立评估 / 教育融合 / 分级认证 / 转会税循环 / 海外跳板（部分文献分为更细的细类）",
+      "aliases": [
+        "青训六构件",
+        "TD-6C"
+      ]
+    },
+    {
+      "id": "六构件咬合环",
+      "title": "六构件咬合环",
+      "short": "",
+      "english": "Six-Component Interlocking Loop",
+      "chapter": "第 9 章",
+      "definition": "六构件之间相互咬合的循环关系，缺一构件则系统性能下降",
+      "aliases": [
+        "六构件咬合环"
+      ]
+    },
+    {
+      "id": "青训产品化原则",
+      "title": "青训产品化原则",
+      "short": "",
+      "english": "Products-Over-Projects Principle",
+      "chapter": "第 7 章",
+      "definition": "青训是产品（可被代际传递）而非项目（一次性活动）的判断",
+      "aliases": [
+        "青训产品化原则"
+      ]
+    },
+    {
+      "id": "浪潮压缩",
+      "title": "浪潮压缩",
+      "short": "",
+      "english": "Wave Compression",
+      "chapter": "第 8 章",
+      "definition": "中国教练职业化路径单一，导致代际之间无法形成多种共存职业化路径",
+      "aliases": [
+        "浪潮压缩"
+      ]
+    },
+    {
+      "id": "浪潮压缩悖论",
+      "title": "浪潮压缩悖论",
+      "short": "",
+      "english": "Wave Compression Paradox",
+      "chapter": "第 8 章",
+      "definition": "路径越单一，水平越下降——单一路径无法承担足够多样化的能力",
+      "aliases": [
+        "浪潮压缩悖论"
+      ]
+    },
+    {
+      "id": "可解耦机制",
+      "title": "可解耦机制",
+      "short": "",
+      "english": "Decoupleable Mechanism",
+      "chapter": "第 9 章",
+      "definition": "国际经验中可被分离引入的具体构件，区别于无法整体复制的\"范式\"",
+      "aliases": [
+        "可解耦机制"
+      ]
+    },
+    {
+      "id": "范式覆盖空白",
+      "title": "范式覆盖空白",
+      "short": "",
+      "english": "Paradigm Coverage Gap",
+      "chapter": "第 9 章",
+      "definition": "国际经验未覆盖的中国具体语境",
+      "aliases": [
+        "范式覆盖空白"
+      ]
+    },
+    {
+      "id": "七条青训-dna",
+      "title": "七条青训 DNA",
+      "short": "",
+      "english": "Seven DNA Strands",
+      "chapter": "第 10 章",
+      "definition": "哲学连续性 / 独立第三方评估 / 教育融合 / 分级认证 / 转会税循环 / 海外跳板 / 选材去偏",
+      "aliases": [
+        "七条青训 DNA"
+      ]
+    },
+    {
+      "id": "dna-三大主轴",
+      "title": "DNA 三大主轴",
+      "short": "",
+      "english": "Three Axes of DNA",
+      "chapter": "第 10 章",
+      "definition": "七条 DNA 之间内在的三大主轴关系结构",
+      "aliases": [
+        "DNA 三大主轴"
+      ]
+    },
+    {
+      "id": "dna-启动优先级",
+      "title": "DNA 启动优先级",
+      "short": "",
+      "english": "DNA Activation Priority",
+      "chapter": "第 10 章",
+      "definition": "中国当前条件下 7 条 DNA 应当按何种次序启动",
+      "aliases": [
+        "DNA 启动优先级"
+      ]
+    },
+    {
+      "id": "四重锁",
+      "title": "四重锁",
+      "short": "",
+      "english": "The Quadruple Lock",
+      "chapter": "第 13 章",
+      "definition": "教育-体育锁、市场-行政锁、文化-时间锁、规模-质量锁——中国整体复制国际路径的四重制度约束",
+      "aliases": [
+        "四重锁"
+      ]
+    },
+    {
+      "id": "约束条件清单",
+      "title": "约束条件清单",
+      "short": "",
+      "english": "China-specific Constraint List",
+      "chapter": "第 13 章",
+      "definition": "中国当前条件下能做与不能做的具体清单（C1-C4 + O1-O5）",
+      "aliases": [
+        "约束条件清单"
+      ]
+    },
+    {
+      "id": "五项杠杆",
+      "title": "五项杠杆",
+      "short": "",
+      "english": "Five Leverage Points",
+      "chapter": "第 13 章",
+      "definition": "在四重锁约束下中国可用的五项最有效干预点",
+      "aliases": [
+        "五项杠杆"
+      ]
+    },
+    {
+      "id": "四重锁耦合",
+      "title": "四重锁耦合",
+      "short": "",
+      "english": "Quadruple-Lock Coupling",
+      "chapter": "第 13 章",
+      "definition": "四重锁之间相互加强的耦合关系，使中国独特性大于四锁简单之和",
+      "aliases": [
+        "四重锁耦合"
+      ]
+    },
+    {
+      "id": "青训沉淀产品论",
+      "title": "青训沉淀产品论",
+      "short": "",
+      "english": "Talent-Development Sediment Product Argument",
+      "chapter": "第 14 章",
+      "definition": "青训真正的产品是方法、教练、文化三种沉淀产品，而不是球员",
+      "aliases": [
+        "青训沉淀产品论"
+      ]
+    },
+    {
+      "id": "五条资金通道",
+      "title": "五条资金通道",
+      "short": "",
+      "english": "Five Revenue Channels",
+      "chapter": "第 14 章",
+      "definition": "青训作为准公共品的五种资金来源结构",
+      "aliases": [
+        "五条资金通道"
+      ]
+    },
+    {
+      "id": "准公共品定位",
+      "title": "准公共品定位",
+      "short": "",
+      "english": "Quasi-Public Good Positioning",
+      "chapter": "第 14 章",
+      "definition": "青训不是商业产品，是介于公共品与私人物品之间的准公共品",
+      "aliases": [
+        "准公共品定位"
+      ]
+    },
+    {
+      "id": "分布式联赛操作系统",
+      "title": "分布式联赛操作系统",
+      "short": "",
+      "english": "Distributed League Operating System",
+      "chapter": "第 15 章",
+      "definition": "复兴杯的底层逻辑——不是又一项赛事，是底层基础设施",
+      "aliases": [
+        "分布式联赛操作系统"
+      ]
+    },
+    {
+      "id": "球员唯一-id",
+      "title": "球员唯一 ID",
+      "short": "",
+      "english": "Unified Player ID",
+      "chapter": "第 15 章",
+      "definition": "跨主体的球员数据脊梁，让赛事数据可被检索与传递",
+      "aliases": [
+        "球员唯一 ID"
+      ]
+    },
+    {
+      "id": "五级联赛金字塔",
+      "title": "五级联赛金字塔",
+      "short": "",
+      "english": "Five-Tier League Pyramid",
+      "chapter": "第 15 章",
+      "definition": "县区/城市/省级窗口/大区/全国冠军赛五级扩展型联赛结构",
+      "aliases": [
+        "五级联赛金字塔"
+      ]
+    },
+    {
+      "id": "成本倒置",
+      "title": "成本倒置",
+      "short": "",
+      "english": "Cost Inversion",
+      "chapter": "第 15 章",
+      "definition": "政府赛事高成本 vs 区域合伙人低成本运转的成本结构反转",
+      "aliases": [
+        "成本倒置"
+      ]
+    },
+    {
+      "id": "引入式青训",
+      "title": "引入式青训",
+      "short": "",
+      "english": "Imported-Method Talent Development",
+      "chapter": "第 16 章",
+      "definition": "把国际方法引入并本土化的青训路径——四环节四次升级",
+      "aliases": [
+        "引入式青训"
+      ]
+    },
+    {
+      "id": "四环节",
+      "title": "四环节",
+      "short": "",
+      "english": "Four Stages",
+      "chapter": "第 16 章",
+      "definition": "国际方法输入 + 本土教练共育 + 重复训练周期 + 知识留存机制",
+      "aliases": [
+        "四环节"
+      ]
+    },
+    {
+      "id": "四次升级",
+      "title": "四次升级",
+      "short": "",
+      "english": "Four Upgrades",
+      "chapter": "第 16 章",
+      "definition": "一次性活动 → 年度循环 → 双线导向 → 本土执行 → 制度化知识留存",
+      "aliases": [
+        "四次升级"
+      ]
+    },
+    {
+      "id": "高精尖与普惠双轨",
+      "title": "高精尖与普惠双轨",
+      "short": "",
+      "english": "High-End and Inclusive Dual Track",
+      "chapter": "第 17 章",
+      "definition": "CoachMind 专业版与学校版共用同一套核心 AI 模型",
+      "aliases": [
+        "高精尖与普惠双轨"
+      ]
+    },
+    {
+      "id": "场景定义者",
+      "title": "场景定义者",
+      "short": "",
+      "english": "Scene Definer",
+      "chapter": "第 17 章",
+      "definition": "中国从体育场景的使用者升格为定义者",
+      "aliases": [
+        "场景定义者"
+      ]
+    },
+    {
+      "id": "五位一体能力组合",
+      "title": "五位一体能力组合",
+      "short": "",
+      "english": "Five-in-One Capability",
+      "chapter": "第 17 章",
+      "definition": "真实场景 + 专项知识 + 数据标注 + 科研平台 + 品牌标准",
+      "aliases": [
+        "五位一体能力组合"
+      ]
+    },
+    {
+      "id": "三层文化生产机制",
+      "title": "三层文化生产机制",
+      "short": "",
+      "english": "Three-Tier Cultural Production",
+      "chapter": "第 18 章",
+      "definition": "日常生活层 + 知识体系层 + 文明对话层",
+      "aliases": [
+        "三层文化生产机制"
+      ]
+    },
+    {
+      "id": "文化沉淀五件套",
+      "title": "文化沉淀五件套",
+      "short": "",
+      "english": "Five-Piece Cultural Sediment",
+      "chapter": "第 18 章",
+      "definition": "故事库 + 仪式日历 + 媒介网络 + 教材体系 + 理论档案",
+      "aliases": [
+        "文化沉淀五件套"
+      ]
+    },
+    {
+      "id": "自主知识体系的足球版",
+      "title": "自主知识体系的足球版",
+      "short": "",
+      "english": "Football Edition of Independent Knowledge System",
+      "chapter": "第 18 章 / 第 20 章",
+      "definition": "中国体育人文社科自主知识体系在足球领域的具体形态",
+      "aliases": [
+        "自主知识体系的足球版"
+      ]
+    },
+    {
+      "id": "六个打通",
+      "title": "六个打通",
+      "short": "",
+      "english": "Six Linkages",
+      "chapter": "第 19 章",
+      "definition": "体教 / 赛训 / 选评 / 师承 / 文资 / 内外 六对长期割裂维度的同时打通",
+      "aliases": [
+        "六个打通"
+      ]
+    },
+    {
+      "id": "师承打通",
+      "title": "师承打通",
+      "short": "",
+      "english": "Mentorship Linkage",
+      "chapter": "第 19 章",
+      "definition": "师徒带教 + 晋升阶梯 + 知识下沉三维度——教练领域的系统性打通",
+      "aliases": [
+        "师承打通"
+      ]
+    },
+    {
+      "id": "耦合改善乘数",
+      "title": "耦合改善乘数",
+      "short": "",
+      "english": "Coupling Improvement Multiplier",
+      "chapter": "第 19 章",
+      "definition": "工具协同产生的 1.2^6 ≈ 3 倍乘数效应（CAM 的反向应用）",
+      "aliases": [
+        "耦合改善乘数"
+      ]
+    },
+    {
+      "id": "治理范式八个特征",
+      "title": "治理范式八个特征",
+      "short": "",
+      "english": "Eight Features of Governance Paradigm",
+      "chapter": "第 20 章",
+      "definition": "党的领导 + 以人为本 + 多元共治 + 半独立专业评估 + 数字化基础设施 + 国际接口 + 自主知识体系 + 可持续性",
+      "aliases": [
+        "治理范式八个特征"
+      ]
+    },
+    {
+      "id": "八特征四组结构",
+      "title": "八特征四组结构",
+      "short": "",
+      "english": "Eight-Feature Four-Group Structure",
+      "chapter": "第 20 章",
+      "definition": "根本组 + 结构组 + 工具组 + 意义组",
+      "aliases": [
+        "八特征四组结构"
+      ]
+    },
+    {
+      "id": "机构条件清单",
+      "title": "机构条件清单",
+      "short": "",
+      "english": "Institutional Conditions Checklist",
+      "chapter": "第 20 章",
+      "definition": "承担治理范式所需的五项核心机构条件",
+      "aliases": [
+        "机构条件清单"
+      ]
+    },
+    {
+      "id": "多元共治三层结构",
+      "title": "多元共治三层结构",
+      "short": "",
+      "english": "Three-Tier Multi-Stakeholder Governance",
+      "chapter": "第 20 章",
+      "definition": "政策层 + 专业评估与转化层 + 执行层",
+      "aliases": [
+        "多元共治三层结构"
+      ]
+    }
+  ]
+}

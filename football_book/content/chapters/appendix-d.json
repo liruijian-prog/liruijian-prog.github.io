@@ -1,0 +1,673 @@
+{
+  "id": "appendix-d",
+  "order": 28,
+  "title": "附录 D · 可扩展研究议题清单",
+  "subtitle": "一 · 博士论文级议题（10 项）",
+  "sectionId": "appendices",
+  "sectionTitle": "附录",
+  "html": "\n<blockquote class=\"annotatable-block\" data-block-id=\"b-0efef092d5-01\" data-block-type=\"blockquote\">\n<p>本附录是本书原创概念体系的\"研究纲领\"展开。本书自身是一份学术答卷，但答卷不是终点——本书提出的诊断框架、国际镜像、治理方案都欢迎同行学者基于这套框架做进一步研究。本附录按\"博士论文级 / 硕士论文级 / 政策研究级 / 跨学科扩展级\"四个层级，给出 30+ 项具体可扩展的研究议题。每一项议题都明确标注了：理论起点、核心研究问题、可能的研究方法、预期的学术贡献。这些议题构成本书理论引擎的\"半开放空间\"——读者可以从任何一项议题入手，把本书的概念体系扩展到本书未覆盖的领域。</p>\n</blockquote>\n<hr/>\n\n<p class=\"annotatable-block\" data-block-id=\"b-3d57f0cb71-01\" data-block-type=\"p\">博士论文级议题需要 3-5 年研究周期，要求学理深度、原创发现、可独立检验的实证或理论贡献。</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-3d6b493bfd-01\" data-block-type=\"h3\" id=\"d1\">D1 · 不可分离性投影族的扩展研究</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-96e1c84798-01\" data-block-type=\"p\"><strong>理论起点</strong>：第 3 章 IPTI（选材的不可分离性投影）+ 第 4 章 IPHS（主帅选拔的不可分离性投影）</p>\n<p class=\"annotatable-block\" data-block-id=\"b-be78c533f7-01\" data-block-type=\"p\"><strong>研究问题</strong>——\"不可分离性投影\"是否构成跨场景的通用机制？除选材层和主帅选拔层之外，是否还存在裁判选拔的不可分离性投影（IP-Refereeing）、赞助选择的不可分离性投影（IP-Sponsorship）、转会决策的不可分离性投影（IP-Transfer）等家族成员？</p>\n<p class=\"annotatable-block\" data-block-id=\"b-92cce5cc1c-01\" data-block-type=\"p\"><strong>研究方法</strong>——形式化建模 + 多场景实证检验（不同体育项目、不同国家、不同决策环节）</p>\n<p class=\"annotatable-block\" data-block-id=\"b-b6bb6ad6b4-01\" data-block-type=\"p\"><strong>预期贡献</strong>——把\"不可分离性投影\"从两个具体概念升级为一个\"投影族\"理论，扩展至更广的体育治理领域。可发表 3-5 篇 SSCI 论文。</p>\n<hr/>\n<h3 class=\"annotatable-block\" data-block-id=\"b-daf8d99951-01\" data-block-type=\"h3\" id=\"d2-cam\">D2 · CAM 耦合放大乘数的实证估计</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-94101851f5-01\" data-block-type=\"p\"><strong>理论起点</strong>：第 6 章耦合放大乘数（CAM）</p>\n<p class=\"annotatable-block\" data-block-id=\"b-e16cf859d2-01\" data-block-type=\"p\"><strong>研究问题</strong>——CAM 在中国青少年足球的具体数值是多少？不同病灶组合下的 CAM 是否相同？哪些病灶组合产生最大的耦合放大效应？</p>\n<p class=\"annotatable-block\" data-block-id=\"b-930849593b-01\" data-block-type=\"p\"><strong>研究方法</strong>——结构性方程建模（SEM）+ 多国对照实证 + 反事实模拟</p>\n<p class=\"annotatable-block\" data-block-id=\"b-a91e06d794-01\" data-block-type=\"p\"><strong>预期贡献</strong>——给 CAM 一个可被复现的实证估计区间。这是社科基金重大课题级别的实证研究。</p>\n<hr/>\n<h3 class=\"annotatable-block\" data-block-id=\"b-332d7ca58d-01\" data-block-type=\"h3\" id=\"d3-pmcsa\">D3 · PMCSA 大规模取样研究</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-377540f150-01\" data-block-type=\"p\"><strong>理论起点</strong>：第 4 章复盘内容结构对比（PMCSA）</p>\n<p class=\"annotatable-block\" data-block-id=\"b-5b22aaabaa-01\" data-block-type=\"p\"><strong>研究问题</strong>——把 PMCSA 从本书的 3-5 场样本扩展到 100+ 场完整发布会逐字稿，并完成句子级标注（按 4 维度）+ 至少 2 名独立标注者的一致性检验（Cohen's kappa ≥ 0.7）。中外教练的复盘内容差异是否在统计显著性上稳健？</p>\n<p class=\"annotatable-block\" data-block-id=\"b-1a1e96550d-01\" data-block-type=\"p\"><strong>研究方法</strong>——文本分析 + 自然语言处理（NLP）+ 双盲标注一致性检验</p>\n<p class=\"annotatable-block\" data-block-id=\"b-e72b4e3123-01\" data-block-type=\"p\"><strong>预期贡献</strong>——一份覆盖 6 国 30+ 位教练 100+ 场发布会的开放数据集。可作为\"中国体育语言学\"的重要语料库。</p>\n<hr/>\n<h3 class=\"annotatable-block\" data-block-id=\"b-a6d94ba90e-01\" data-block-type=\"h3\" id=\"d4-cif\">D4 · CIF 稀释路径的试点效果评估</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-5ea8c8dabc-01\" data-block-type=\"p\"><strong>理论起点</strong>：第 4 章 CIF 教练身份谬误</p>\n<p class=\"annotatable-block\" data-block-id=\"b-32b8ad8315-01\" data-block-type=\"p\"><strong>研究问题</strong>——通过引入式青训\"教练共育\"+ AI 知识补偿 + 重复训练周期，CIF 是否能在试点城市被显著稀释？非球员路径教练在试点 5 年后的占比是否有显著提升？</p>\n<p class=\"annotatable-block\" data-block-id=\"b-a1573a97d9-01\" data-block-type=\"p\"><strong>研究方法</strong>——准实验设计（试点城市 vs 对照城市）+ 双重差分法（DID）+ 长周期追踪研究</p>\n<p class=\"annotatable-block\" data-block-id=\"b-6e9377f562-01\" data-block-type=\"p\"><strong>预期贡献</strong>——为\"教练阶梯多元化\"政策提供严格的因果证据。</p>\n<hr/>\n<h3 class=\"annotatable-block\" data-block-id=\"b-10c555f360-01\" data-block-type=\"h3\" id=\"d5-id\">D5 · 球员唯一 ID 系统的运行机制研究</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-b4b771f9c0-01\" data-block-type=\"p\"><strong>理论起点</strong>：第 15 章分布式联赛操作系统 + 球员唯一 ID</p>\n<p class=\"annotatable-block\" data-block-id=\"b-5087f10e6e-01\" data-block-type=\"p\"><strong>研究问题</strong>——球员唯一 ID 系统在中国当前条件下能否真正实现跨主体的数据流通？哪些激励机制能让体育系统、教育系统、俱乐部、商业平台都接入同一张底盘？数据所有权如何分配？</p>\n<p class=\"annotatable-block\" data-block-id=\"b-aa57bfe1d9-01\" data-block-type=\"p\"><strong>研究方法</strong>——制度经济学分析 + 博弈论建模 + 国际经验对照（FA Full-Time / DFBnet / Wedstrijdzaken）</p>\n<p class=\"annotatable-block\" data-block-id=\"b-fa99cd7191-01\" data-block-type=\"p\"><strong>预期贡献</strong>——为中国体育数据基础设施治理提供理论框架。</p>\n<hr/>\n<h3 class=\"annotatable-block\" data-block-id=\"b-b8ef993130-01\" data-block-type=\"h3\" id=\"d6\">D6 · 文化沉淀五件套的代际效应研究</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-9c5195d66c-01\" data-block-type=\"p\"><strong>理论起点</strong>：第 18 章文化沉淀五件套（故事库 + 仪式日历 + 媒介网络 + 教材体系 + 理论档案）</p>\n<p class=\"annotatable-block\" data-block-id=\"b-19d7ec0382-01\" data-block-type=\"p\"><strong>研究问题</strong>——文化沉淀的实际代际效应有多强？10 年后的文化档案是否真的能改变下一代孩子的足球认知？哪些沉淀形态最具有跨代传递力？</p>\n<p class=\"annotatable-block\" data-block-id=\"b-3848e10f96-01\" data-block-type=\"p\"><strong>研究方法</strong>——纵向追踪研究（10-15 年）+ 国际对照（日本高中锦标赛 / 英格兰 CCO）+ 文化人类学方法</p>\n<p class=\"annotatable-block\" data-block-id=\"b-867e8e334a-01\" data-block-type=\"p\"><strong>预期贡献</strong>——为\"文化是可设计的\"这一命题提供严格的代际证据。</p>\n<hr/>\n<h3 class=\"annotatable-block\" data-block-id=\"b-4f9263daca-01\" data-block-type=\"h3\" id=\"d7\">D7 · 师承打通的中国本土化路径研究</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-fdfde286e7-01\" data-block-type=\"p\"><strong>理论起点</strong>：第 19 章师承打通三维度</p>\n<p class=\"annotatable-block\" data-block-id=\"b-a47c97ed1e-01\" data-block-type=\"p\"><strong>研究问题</strong>——德国\"Stuttgart School\"谱系（Helmut Groß → Rangnick → Klopp/Tuchel/Nagelsmann）在中国的本土化路径是怎样的？徐根宝崇明岛模式的可复制性边界在哪里？</p>\n<p class=\"annotatable-block\" data-block-id=\"b-fb4df8ce80-01\" data-block-type=\"p\"><strong>研究方法</strong>——案例研究 + 谱系学方法（family tree）+ 比较制度分析</p>\n<p class=\"annotatable-block\" data-block-id=\"b-bb49732459-01\" data-block-type=\"p\"><strong>预期贡献</strong>——为中国教练梯队建设提供具体的代际传递路径设计。</p>\n<hr/>\n<h3 class=\"annotatable-block\" data-block-id=\"b-0edd882287-01\" data-block-type=\"h3\" id=\"d8-ai\">D8 · AI 智能补偿的边界与代价研究</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-aa3123f86e-01\" data-block-type=\"p\"><strong>理论起点</strong>：第 11、17 章 AI 智能补偿</p>\n<p class=\"annotatable-block\" data-block-id=\"b-e433c62673-01\" data-block-type=\"p\"><strong>研究问题</strong>——AI 在足球场景下能补偿到什么程度？哪些软信息可以被技术显性化？哪些不可以？AI 介入对教练判断的\"驯化\"效应有多强？</p>\n<p class=\"annotatable-block\" data-block-id=\"b-a0682c285e-01\" data-block-type=\"p\"><strong>研究方法</strong>——人机交互实验 + 长周期对照研究 + 技术伦理学分析</p>\n<p class=\"annotatable-block\" data-block-id=\"b-28d44cd6d5-01\" data-block-type=\"p\"><strong>预期贡献</strong>——为体育 AI 的合理使用边界提供学术依据，避免\"AI 万能论\"误导。</p>\n<hr/>\n<h3 class=\"annotatable-block\" data-block-id=\"b-95e75125a1-01\" data-block-type=\"h3\" id=\"d9\">D9 · 治理范式八个特征的国际比较研究</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-1d312fdb46-01\" data-block-type=\"p\"><strong>理论起点</strong>：第 20 章治理范式八个特征四组结构</p>\n<p class=\"annotatable-block\" data-block-id=\"b-f2bbf3e93c-01\" data-block-type=\"p\"><strong>研究问题</strong>——本书提出的八个特征四组结构，能否在德国 / 法国 / 日本 / 西班牙的实际治理结构中找到对应？哪些国家在哪几个特征上发达，哪几个特征上薄弱？</p>\n<p class=\"annotatable-block\" data-block-id=\"b-273aa86f3b-01\" data-block-type=\"p\"><strong>研究方法</strong>——国际比较治理学 + 制度同型性（institutional isomorphism）分析</p>\n<p class=\"annotatable-block\" data-block-id=\"b-b89038ab2b-01\" data-block-type=\"p\"><strong>预期贡献</strong>——把本书的\"中国特色治理范式\"放到国际治理比较学的更广视野中验证。</p>\n<hr/>\n<h3 class=\"annotatable-block\" data-block-id=\"b-f43713fa18-01\" data-block-type=\"h3\" id=\"d10-ai\">D10 · 中国体育 AI 自主知识体系的形成机制</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-38cceaf55e-01\" data-block-type=\"p\"><strong>理论起点</strong>：第 17 章高精尖与普惠双轨 + 第 20 章自主知识体系的足球版</p>\n<p class=\"annotatable-block\" data-block-id=\"b-feae9c23d9-01\" data-block-type=\"p\"><strong>研究问题</strong>——中国体育 AI 从\"使用者\"升格为\"场景定义者\"的具体机制是什么？哪些数据资产 + 哪些标准输出 + 哪些学术支持的组合能让升格成为现实？</p>\n<p class=\"annotatable-block\" data-block-id=\"b-8bf6dfc8ad-01\" data-block-type=\"p\"><strong>研究方法</strong>——技术社会学 + 知识社会学 + 创新经济学</p>\n<p class=\"annotatable-block\" data-block-id=\"b-3c3899d8ca-01\" data-block-type=\"p\"><strong>预期贡献</strong>——为中国哲学社会科学自主知识体系建设提供一份具体的体育版本研究。</p>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-32224d54cd-01\" data-block-type=\"h2\" id=\"10_1\">二 · 硕士论文级议题（10 项）</h2>\n<p class=\"annotatable-block\" data-block-id=\"b-5055e48b7b-01\" data-block-type=\"p\">硕士论文级议题需要 1-2 年研究周期，要求清晰的研究问题、扎实的实证或理论贡献、对本书某一具体概念的深度展开。</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-edf9f95652-01\" data-block-type=\"h3\" id=\"m1\">M1 · 单一城市的复兴杯试点效果研究</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-5e980630f6-01\" data-block-type=\"p\"><strong>起点</strong>：第 15 章复兴杯五级联赛 → 选一座试点城市，跟踪其首年 1,274 场比赛的实际运行效果</p>\n<p class=\"annotatable-block\" data-block-id=\"b-e0d1e80900-01\" data-block-type=\"p\"><strong>问题</strong>：球员唯一 ID 注册率？区域合伙人成本结构是否符合预测？冷启动期 Div1 / Div2 设置的实际效果？</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-9615a2619d-01\" data-block-type=\"h3\" id=\"m2\">M2 · 校园足球大使的反刻板印象效应实证</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-6ad4666ab6-01\" data-block-type=\"p\"><strong>起点</strong>：第 18 章校园足球大使 → 在 5-10 所试点学校做问卷调查 + 准实验</p>\n<p class=\"annotatable-block\" data-block-id=\"b-575adbd745-01\" data-block-type=\"p\"><strong>问题</strong>：成绩优秀者也踢球的样本，是否真的能松动同伴层级\"踢球影响学习\"刻板印象？</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-a602762da8-01\" data-block-type=\"h3\" id=\"m3\">M3 · 一名外籍教练的本土化路径案例</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-eecc825d8a-01\" data-block-type=\"p\"><strong>起点</strong>：第 16 章引入式青训\"教练共育\"→ 跟踪 1-2 名外籍教练在中国的 18 个月完整周期</p>\n<p class=\"annotatable-block\" data-block-id=\"b-f12d738e3b-01\" data-block-type=\"p\"><strong>问题</strong>：四环节四次升级在具体执行中遇到的困难是什么？知识留存机制的实际产出是什么？</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-81b752021c-01\" data-block-type=\"h3\" id=\"m4\">M4 · 中超俱乐部解散对地方文化认同的影响</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-3ea724149d-01\" data-block-type=\"p\"><strong>起点</strong>：第 18 章约束一·俱乐部认同的脆弱性 → 选 1-2 个解散俱乐部所在城市做深度访谈</p>\n<p class=\"annotatable-block\" data-block-id=\"b-7f1083e89e-01\" data-block-type=\"p\"><strong>问题</strong>：俱乐部解散对当地少年足球氛围的影响是什么？孩子们的参与意愿如何变化？</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-3af9b50fcb-01\" data-block-type=\"h3\" id=\"m5\">M5 · 一所校园足球特色学校的生命故事研究</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-1153e7bde6-01\" data-block-type=\"p\"><strong>起点</strong>：第 18 章理论档案\"校园足球生命故事\"→ 选 1 所特色学校做 5 年纵向研究</p>\n<p class=\"annotatable-block\" data-block-id=\"b-353fb20a24-01\" data-block-type=\"p\"><strong>问题</strong>：从 2014 年特色校政策启动到今天，这所学校的足球文化是如何形成、波动、沉淀的？</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-1ca2c00aa6-01\" data-block-type=\"h3\" id=\"m6\">M6 · 中国家长付费意愿对青训消费的影响</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-c90515be50-01\" data-block-type=\"p\"><strong>起点</strong>：第 14 章五条资金通道 + 2350 亿少儿体育培训市场 → 问卷 + 深度访谈</p>\n<p class=\"annotatable-block\" data-block-id=\"b-a5f2e3dd37-01\" data-block-type=\"p\"><strong>问题</strong>：中国家长在足球与英语 / 编程 / 奥数之间的实际预算分配是怎样的？哪些因素能改变这一分配？</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-6221dff00c-01\" data-block-type=\"h3\" id=\"m7-coachmind-rae\">M7 · CoachMind RAE 校正算法的有效性研究</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-8075a6546c-01\" data-block-type=\"p\"><strong>起点</strong>：第 17 章 CoachMind RAE 校正算法 → β 从 0.95→0.30 → 在 3-5 所学校做对照实验</p>\n<p class=\"annotatable-block\" data-block-id=\"b-370389ee8a-01\" data-block-type=\"p\"><strong>问题</strong>：校正算法对教练评估结果的实际影响有多大？教练能否接受算法的纠正？</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-172a847261-01\" data-block-type=\"h3\" id=\"m8\">M8 · 一个区域合伙人模式的财务可持续性研究</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-66abce1a2f-01\" data-block-type=\"p\"><strong>起点</strong>：第 15 章成本倒置 → 选 1-2 个区域合伙人做财务追踪</p>\n<p class=\"annotatable-block\" data-block-id=\"b-849990b391-01\" data-block-type=\"p\"><strong>问题</strong>：区域合伙人年收入 2.2-3.7 万元的研究院测算是否在实际运营中成立？哪些成本被低估？</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-be617cbb6a-01\" data-block-type=\"h3\" id=\"m9\">M9 · 北体大冠军公益行的项目效果评估</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-e24123799e-01\" data-block-type=\"p\"><strong>起点</strong>：第 18 章冠军公益行 → 选 5-10 场已有活动做项目效果评估</p>\n<p class=\"annotatable-block\" data-block-id=\"b-7b5677a761-01\" data-block-type=\"p\"><strong>问题</strong>：冠军公益行的实际覆盖、参与者反馈、内容沉淀是怎样的？产品化空间在哪里？</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-187334b7a0-01\" data-block-type=\"h3\" id=\"m10\">M10 · 一项国际合作青训项目的四环节适配度评分</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-2e6ff8d7da-01\" data-block-type=\"p\"><strong>起点</strong>：第 16 章四环节框架 → 选恒大 - 皇马合作（2012-2024）等案例</p>\n<p class=\"annotatable-block\" data-block-id=\"b-2600a46775-01\" data-block-type=\"p\"><strong>问题</strong>：按四环节框架评估，过去十年中国\"国际青训合作\"项目的适配度评分是多少？</p>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-6d911331c8-01\" data-block-type=\"h2\" id=\"10_2\">三 · 政策研究级议题（10 项）</h2>\n<p class=\"annotatable-block\" data-block-id=\"b-579c93bc7c-01\" data-block-type=\"p\">政策研究级议题面向决策者与智库，需要清晰的政策建议、可执行的方案设计、明确的可衡量指标。</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-0ae6847ddf-01\" data-block-type=\"h3\" id=\"p1\">P1 · 复兴杯试点城市选择标准</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-06c681d30e-01\" data-block-type=\"p\">基于第 15 章复兴杯试点城市选择逻辑，给国家体育总局或地方教育局提供 6-10 个城市的优先级排序与试点启动方案。</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-732923543c-01\" data-block-type=\"h3\" id=\"p2\">P2 · 体教打通的最小可行试点</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-1691986597-01\" data-block-type=\"p\">基于第 19 章六个打通中\"体教打通\"的\"最小可行版本\"——在 1-2 个城市试点\"复兴杯赛事记录可作为高中升学综合素质评估材料\"。</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-3a67e77d51-01\" data-block-type=\"h3\" id=\"p3\">P3 · 教练员档案制度的政策设计</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-0cf4ca49a2-01\" data-block-type=\"p\">基于第 14 章沉淀产品教练层 + 第 17 章软信息可视化辅助，为足协提供\"教练员制度化档案\"的政策设计——含数据格式、隐私保护、跨主体共享机制。</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-882f28a379-01\" data-block-type=\"h3\" id=\"p4\">P4 · 师范类高校体育人才培养与师承打通的协同</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-2899d22823-01\" data-block-type=\"p\">基于第 19 章师承打通\"知识下沉\"维度，为教育部师范类高校体育系提供与师承打通对接的人才培养方案。</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-a4bbd2f86f-01\" data-block-type=\"h3\" id=\"p5\">P5 · 体育彩票公益金支持文化沉淀的资金通道设计</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-fd48cc5adc-01\" data-block-type=\"p\">基于第 14 章五条资金通道 + 第 18 章文化沉淀，为体育彩票公益金提供新的使用方向设计——把文化建设作为长期持续投入对象。</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-140027c8da-01\" data-block-type=\"h3\" id=\"p6\">P6 · 中外人文交流框架下的中美青少年足球友谊赛方案</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-0d68443216-01\" data-block-type=\"p\">基于第 18 章中美青少年足球友谊赛 + 2023 旧金山倡议，为研究院 / 教育部国际合作司提供具体的赛事操作方案。</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-56d077f0e4-01\" data-block-type=\"h3\" id=\"p7\">P7 · 体育院校自主知识体系建设的政策建议</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-1273d3951d-01\" data-block-type=\"p\">基于第 20 章自主知识体系的足球版 + 习近平 2022 指示，为体育院校提供具体的自主知识体系建设路径——含丛书出版、学生研究员制度、跨学科评审等。</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-42a3a62cc2-01\" data-block-type=\"h3\" id=\"p8\">P8 · 校园足球与教育评价改革的对接</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-7a8560fb41-01\" data-block-type=\"p\">基于第 5 章四堵墙 + 第 19 章体教打通，为教育部基础教育司提供\"校园足球与综合素质评价\"的对接方案。</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-23623f0875-01\" data-block-type=\"h3\" id=\"p9\">P9 · 半独立第三方专业评估机构的功能设计</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-192cd172be-01\" data-block-type=\"p\">基于第 20 章治理范式特征四 + 五项核心机构条件，为体育治理体系改革提供\"半独立专业评估机构\"的功能设计与边界界定。</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-7d5a740773-01\" data-block-type=\"h3\" id=\"p10-id\">P10 · 球员唯一 ID 系统的法律合规框架</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-eabaf4c72c-01\" data-block-type=\"p\">基于第 15 章球员唯一 ID + 第 17 章 AI 智能补偿，为数据治理部门提供球员唯一 ID 系统的法律合规框架——含未成年人数据保护、跨系统共享授权、数据安全等。</p>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-0f91e77e10-01\" data-block-type=\"h2\" id=\"5\">四 · 跨学科扩展级议题（5 项）</h2>\n<p class=\"annotatable-block\" data-block-id=\"b-04f5295077-01\" data-block-type=\"p\">跨学科扩展级议题让本书的概念体系跨出足球领域、跨出体育领域，扩展到更广的社会科学议题。</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-1f6987ac44-01\" data-block-type=\"h3\" id=\"x1\">X1 · 不可分离性投影在医生晋升体系的应用</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-c54e7ff287-01\" data-block-type=\"p\">把第 4 章 IPHS 框架应用到医院的\"主任医师晋升\"机制——医生评估面临的软信息不可分离性，与体育的高度相似。可作为医学社会学的新研究方向。</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-f7a93a3790-01\" data-block-type=\"h3\" id=\"x2\">X2 · 师承打通在大学教师培养中的应用</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-3b5e37c2ef-01\" data-block-type=\"p\">把第 19 章师承打通三维度应用到大学教师的\"师承培养\"——博士-青年教师-正教授的代际传承机制。可作为高等教育学的新研究方向。</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-80d238800a-01\" data-block-type=\"h3\" id=\"x3\">X3 · 病灶耦合环在产业政策中的应用</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-6e3b64644c-01\" data-block-type=\"p\">把第 6 章 PCL 框架应用到中国\"卡脖子\"技术（半导体 / 大飞机 / 操作系统等）的诊断——这些领域是否同样面临耦合环？</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-f8bbe761af-01\" data-block-type=\"h3\" id=\"x4\">X4 · 治理范式八个特征在其他公共品的应用</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-5c2938f19e-01\" data-block-type=\"p\">把第 20 章八个特征四组结构应用到其他公共品治理——养老、医疗、住房、生态保护等。八个特征是否具有普遍性？</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-ed99048f96-01\" data-block-type=\"h3\" id=\"x5\">X5 · 中外人文交流的\"足球版\"扩展到其他领域</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-a637b0567c-01\" data-block-type=\"p\">把第 18 章中美青少年足球友谊赛模式扩展到其他领域——青少年戏剧交流、青少年科技交流、青少年艺术交流等。能否形成\"中外人文交流的青少年标杆产品\"？</p>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-3ddb4632dd-01\" data-block-type=\"h2\" id=\"_1\">五 · 议题之间的交叉网络</h2>\n<p class=\"annotatable-block\" data-block-id=\"b-d33c228a28-01\" data-block-type=\"p\">35 项议题之间不是孤立的，存在相互启发的网络关系——</p>\n<ul>\n<li class=\"annotatable-block\" data-block-id=\"b-ef79391b7b-01\" data-block-type=\"li\">D1（不可分离性投影族）+ X1（医生晋升）+ X2（大学教师培养）→ 共同构成\"软信息治理\"的跨领域研究网络</li>\n<li class=\"annotatable-block\" data-block-id=\"b-4cfc6a1c5f-01\" data-block-type=\"li\">D2（CAM 实证估计）+ D6（文化沉淀代际效应）→ 共同回答\"耦合环治理\"的实证基础</li>\n<li class=\"annotatable-block\" data-block-id=\"b-ae7afd11fc-01\" data-block-type=\"li\">D5（球员唯一 ID）+ P10（数据合规）+ M1（复兴杯试点）→ 共同支持\"分布式数据基础设施\"的研究链</li>\n<li class=\"annotatable-block\" data-block-id=\"b-422c8e45b4-01\" data-block-type=\"li\">D3（PMCSA 取样）+ M2（大使反刻板印象）+ M5（生命故事）→ 共同支持\"中国青少年足球语料库\"的建设</li>\n</ul>\n<p class=\"annotatable-block\" data-block-id=\"b-6de694700e-01\" data-block-type=\"p\">学者可以从这种网络关系中发现新的研究合作可能。</p>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-7ba7b317df-01\" data-block-type=\"h2\" id=\"_2\">使用说明</h2>\n<p class=\"annotatable-block\" data-block-id=\"b-bf87de4f27-01\" data-block-type=\"p\"><strong>对学生</strong>——硕士论文级议题（M1-M10）是入门首选；博士论文级议题（D1-D10）需要更长周期与更深学理。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-77219178fd-01\" data-block-type=\"p\"><strong>对学者</strong>——博士论文级议题（D1-D10）+ 跨学科扩展级议题（X1-X5）是合作研究的优先方向。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-904ba17302-01\" data-block-type=\"p\"><strong>对决策者</strong>——政策研究级议题（P1-P10）直接面向治理实践，可作为体育治理体系改革的研究依据。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-6b9be97ef2-01\" data-block-type=\"p\"><strong>对智库</strong>——所有议题都可以作为研究项目立项依据。本书的概念体系作为\"研究框架\"提供，每一项议题作为\"研究纲领\"展开。</p>\n<hr/>\n<p class=\"annotatable-block\" data-block-id=\"b-faefa33311-01\" data-block-type=\"p\"><em>本附录的议题清单不是终极的——欢迎读者在阅读过程中自行发现新的可扩展议题。所有议题的进展都可以反馈到本书的概念体系修订中——这是开放学术共同体的真实形态。</em></p>",
+  "wordCount": 3974,
+  "readingMinutes": 9,
+  "summary": "本附录是本书原创概念体系的\"研究纲领\"展开。本书自身是一份学术答卷，但答卷不是终点——本书提出的诊断框架、国际镜像、治理方案都欢迎同行学者基于这套框架做进一步研究。本附录按\"博士论文级 / 硕士论文级 / 政策研究级 / 跨学科扩展级\"四个层级，给出 30+ 项具体可扩展的研究议题。每一项议题都明确标注了：理论起点、核心研究问题、可能的研究方法、预期的学术贡献。这些议题构成本书理论引擎的\"半开放空间\"——读者可以从任何一项议题入手，把本书的概念体系扩展到本书未覆盖的领域。",
+  "imageCount": 0,
+  "referenceCards": [],
+  "blockIndex": [
+    {
+      "id": "b-0efef092d5-01",
+      "type": "blockquote",
+      "preview": "本附录是本书原创概念体系的\"研究纲领\"展开。本书自身是一份学术答卷，但答卷不是终点——本书提出的诊断框架、国际镜像、治理方案都欢迎同行学者基于这套框架做进一步研究。本附录按\"博士论文级 / 硕士论文级 / 政策研究级 / 跨学科扩展级\"四个"
+    },
+    {
+      "id": "b-3d57f0cb71-01",
+      "type": "p",
+      "preview": "博士论文级议题需要 3-5 年研究周期，要求学理深度、原创发现、可独立检验的实证或理论贡献。"
+    },
+    {
+      "id": "b-3d6b493bfd-01",
+      "type": "h3",
+      "preview": "D1 · 不可分离性投影族的扩展研究"
+    },
+    {
+      "id": "b-96e1c84798-01",
+      "type": "p",
+      "preview": "理论起点 ：第 3 章 IPTI（选材的不可分离性投影）+ 第 4 章 IPHS（主帅选拔的不可分离性投影）"
+    },
+    {
+      "id": "b-be78c533f7-01",
+      "type": "p",
+      "preview": "研究问题 ——\"不可分离性投影\"是否构成跨场景的通用机制？除选材层和主帅选拔层之外，是否还存在裁判选拔的不可分离性投影（IP-Refereeing）、赞助选择的不可分离性投影（IP-Sponsorship）、转会决策的不可分离性投影（IP-"
+    },
+    {
+      "id": "b-92cce5cc1c-01",
+      "type": "p",
+      "preview": "研究方法 ——形式化建模 + 多场景实证检验（不同体育项目、不同国家、不同决策环节）"
+    },
+    {
+      "id": "b-b6bb6ad6b4-01",
+      "type": "p",
+      "preview": "预期贡献 ——把\"不可分离性投影\"从两个具体概念升级为一个\"投影族\"理论，扩展至更广的体育治理领域。可发表 3-5 篇 SSCI 论文。"
+    },
+    {
+      "id": "b-daf8d99951-01",
+      "type": "h3",
+      "preview": "D2 · CAM 耦合放大乘数的实证估计"
+    },
+    {
+      "id": "b-94101851f5-01",
+      "type": "p",
+      "preview": "理论起点 ：第 6 章耦合放大乘数（CAM）"
+    },
+    {
+      "id": "b-e16cf859d2-01",
+      "type": "p",
+      "preview": "研究问题 ——CAM 在中国青少年足球的具体数值是多少？不同病灶组合下的 CAM 是否相同？哪些病灶组合产生最大的耦合放大效应？"
+    },
+    {
+      "id": "b-930849593b-01",
+      "type": "p",
+      "preview": "研究方法 ——结构性方程建模（SEM）+ 多国对照实证 + 反事实模拟"
+    },
+    {
+      "id": "b-a91e06d794-01",
+      "type": "p",
+      "preview": "预期贡献 ——给 CAM 一个可被复现的实证估计区间。这是社科基金重大课题级别的实证研究。"
+    },
+    {
+      "id": "b-332d7ca58d-01",
+      "type": "h3",
+      "preview": "D3 · PMCSA 大规模取样研究"
+    },
+    {
+      "id": "b-377540f150-01",
+      "type": "p",
+      "preview": "理论起点 ：第 4 章复盘内容结构对比（PMCSA）"
+    },
+    {
+      "id": "b-5b22aaabaa-01",
+      "type": "p",
+      "preview": "研究问题 ——把 PMCSA 从本书的 3-5 场样本扩展到 100+ 场完整发布会逐字稿，并完成句子级标注（按 4 维度）+ 至少 2 名独立标注者的一致性检验（Cohen's kappa ≥ 0.7）。中外教练的复盘内容差异是否在统计显"
+    },
+    {
+      "id": "b-1a1e96550d-01",
+      "type": "p",
+      "preview": "研究方法 ——文本分析 + 自然语言处理（NLP）+ 双盲标注一致性检验"
+    },
+    {
+      "id": "b-e72b4e3123-01",
+      "type": "p",
+      "preview": "预期贡献 ——一份覆盖 6 国 30+ 位教练 100+ 场发布会的开放数据集。可作为\"中国体育语言学\"的重要语料库。"
+    },
+    {
+      "id": "b-a6d94ba90e-01",
+      "type": "h3",
+      "preview": "D4 · CIF 稀释路径的试点效果评估"
+    },
+    {
+      "id": "b-5ea8c8dabc-01",
+      "type": "p",
+      "preview": "理论起点 ：第 4 章 CIF 教练身份谬误"
+    },
+    {
+      "id": "b-32b8ad8315-01",
+      "type": "p",
+      "preview": "研究问题 ——通过引入式青训\"教练共育\"+ AI 知识补偿 + 重复训练周期，CIF 是否能在试点城市被显著稀释？非球员路径教练在试点 5 年后的占比是否有显著提升？"
+    },
+    {
+      "id": "b-a1573a97d9-01",
+      "type": "p",
+      "preview": "研究方法 ——准实验设计（试点城市 vs 对照城市）+ 双重差分法（DID）+ 长周期追踪研究"
+    },
+    {
+      "id": "b-6e9377f562-01",
+      "type": "p",
+      "preview": "预期贡献 ——为\"教练阶梯多元化\"政策提供严格的因果证据。"
+    },
+    {
+      "id": "b-10c555f360-01",
+      "type": "h3",
+      "preview": "D5 · 球员唯一 ID 系统的运行机制研究"
+    },
+    {
+      "id": "b-b4b771f9c0-01",
+      "type": "p",
+      "preview": "理论起点 ：第 15 章分布式联赛操作系统 + 球员唯一 ID"
+    },
+    {
+      "id": "b-5087f10e6e-01",
+      "type": "p",
+      "preview": "研究问题 ——球员唯一 ID 系统在中国当前条件下能否真正实现跨主体的数据流通？哪些激励机制能让体育系统、教育系统、俱乐部、商业平台都接入同一张底盘？数据所有权如何分配？"
+    },
+    {
+      "id": "b-aa57bfe1d9-01",
+      "type": "p",
+      "preview": "研究方法 ——制度经济学分析 + 博弈论建模 + 国际经验对照（FA Full-Time / DFBnet / Wedstrijdzaken）"
+    },
+    {
+      "id": "b-fa99cd7191-01",
+      "type": "p",
+      "preview": "预期贡献 ——为中国体育数据基础设施治理提供理论框架。"
+    },
+    {
+      "id": "b-b8ef993130-01",
+      "type": "h3",
+      "preview": "D6 · 文化沉淀五件套的代际效应研究"
+    },
+    {
+      "id": "b-9c5195d66c-01",
+      "type": "p",
+      "preview": "理论起点 ：第 18 章文化沉淀五件套（故事库 + 仪式日历 + 媒介网络 + 教材体系 + 理论档案）"
+    },
+    {
+      "id": "b-19d7ec0382-01",
+      "type": "p",
+      "preview": "研究问题 ——文化沉淀的实际代际效应有多强？10 年后的文化档案是否真的能改变下一代孩子的足球认知？哪些沉淀形态最具有跨代传递力？"
+    },
+    {
+      "id": "b-3848e10f96-01",
+      "type": "p",
+      "preview": "研究方法 ——纵向追踪研究（10-15 年）+ 国际对照（日本高中锦标赛 / 英格兰 CCO）+ 文化人类学方法"
+    },
+    {
+      "id": "b-867e8e334a-01",
+      "type": "p",
+      "preview": "预期贡献 ——为\"文化是可设计的\"这一命题提供严格的代际证据。"
+    },
+    {
+      "id": "b-4f9263daca-01",
+      "type": "h3",
+      "preview": "D7 · 师承打通的中国本土化路径研究"
+    },
+    {
+      "id": "b-fdfde286e7-01",
+      "type": "p",
+      "preview": "理论起点 ：第 19 章师承打通三维度"
+    },
+    {
+      "id": "b-a47c97ed1e-01",
+      "type": "p",
+      "preview": "研究问题 ——德国\"Stuttgart School\"谱系（Helmut Groß → Rangnick → Klopp/Tuchel/Nagelsmann）在中国的本土化路径是怎样的？徐根宝崇明岛模式的可复制性边界在哪里？"
+    },
+    {
+      "id": "b-fb4df8ce80-01",
+      "type": "p",
+      "preview": "研究方法 ——案例研究 + 谱系学方法（family tree）+ 比较制度分析"
+    },
+    {
+      "id": "b-bb49732459-01",
+      "type": "p",
+      "preview": "预期贡献 ——为中国教练梯队建设提供具体的代际传递路径设计。"
+    },
+    {
+      "id": "b-0edd882287-01",
+      "type": "h3",
+      "preview": "D8 · AI 智能补偿的边界与代价研究"
+    },
+    {
+      "id": "b-aa3123f86e-01",
+      "type": "p",
+      "preview": "理论起点 ：第 11、17 章 AI 智能补偿"
+    },
+    {
+      "id": "b-e433c62673-01",
+      "type": "p",
+      "preview": "研究问题 ——AI 在足球场景下能补偿到什么程度？哪些软信息可以被技术显性化？哪些不可以？AI 介入对教练判断的\"驯化\"效应有多强？"
+    },
+    {
+      "id": "b-a0682c285e-01",
+      "type": "p",
+      "preview": "研究方法 ——人机交互实验 + 长周期对照研究 + 技术伦理学分析"
+    },
+    {
+      "id": "b-28d44cd6d5-01",
+      "type": "p",
+      "preview": "预期贡献 ——为体育 AI 的合理使用边界提供学术依据，避免\"AI 万能论\"误导。"
+    },
+    {
+      "id": "b-95e75125a1-01",
+      "type": "h3",
+      "preview": "D9 · 治理范式八个特征的国际比较研究"
+    },
+    {
+      "id": "b-1d312fdb46-01",
+      "type": "p",
+      "preview": "理论起点 ：第 20 章治理范式八个特征四组结构"
+    },
+    {
+      "id": "b-f2bbf3e93c-01",
+      "type": "p",
+      "preview": "研究问题 ——本书提出的八个特征四组结构，能否在德国 / 法国 / 日本 / 西班牙的实际治理结构中找到对应？哪些国家在哪几个特征上发达，哪几个特征上薄弱？"
+    },
+    {
+      "id": "b-273aa86f3b-01",
+      "type": "p",
+      "preview": "研究方法 ——国际比较治理学 + 制度同型性（institutional isomorphism）分析"
+    },
+    {
+      "id": "b-b89038ab2b-01",
+      "type": "p",
+      "preview": "预期贡献 ——把本书的\"中国特色治理范式\"放到国际治理比较学的更广视野中验证。"
+    },
+    {
+      "id": "b-f43713fa18-01",
+      "type": "h3",
+      "preview": "D10 · 中国体育 AI 自主知识体系的形成机制"
+    },
+    {
+      "id": "b-38cceaf55e-01",
+      "type": "p",
+      "preview": "理论起点 ：第 17 章高精尖与普惠双轨 + 第 20 章自主知识体系的足球版"
+    },
+    {
+      "id": "b-feae9c23d9-01",
+      "type": "p",
+      "preview": "研究问题 ——中国体育 AI 从\"使用者\"升格为\"场景定义者\"的具体机制是什么？哪些数据资产 + 哪些标准输出 + 哪些学术支持的组合能让升格成为现实？"
+    },
+    {
+      "id": "b-8bf6dfc8ad-01",
+      "type": "p",
+      "preview": "研究方法 ——技术社会学 + 知识社会学 + 创新经济学"
+    },
+    {
+      "id": "b-3c3899d8ca-01",
+      "type": "p",
+      "preview": "预期贡献 ——为中国哲学社会科学自主知识体系建设提供一份具体的体育版本研究。"
+    },
+    {
+      "id": "b-32224d54cd-01",
+      "type": "h2",
+      "preview": "二 · 硕士论文级议题（10 项）"
+    },
+    {
+      "id": "b-5055e48b7b-01",
+      "type": "p",
+      "preview": "硕士论文级议题需要 1-2 年研究周期，要求清晰的研究问题、扎实的实证或理论贡献、对本书某一具体概念的深度展开。"
+    },
+    {
+      "id": "b-edf9f95652-01",
+      "type": "h3",
+      "preview": "M1 · 单一城市的复兴杯试点效果研究"
+    },
+    {
+      "id": "b-5e980630f6-01",
+      "type": "p",
+      "preview": "起点 ：第 15 章复兴杯五级联赛 → 选一座试点城市，跟踪其首年 1,274 场比赛的实际运行效果"
+    },
+    {
+      "id": "b-e0d1e80900-01",
+      "type": "p",
+      "preview": "问题 ：球员唯一 ID 注册率？区域合伙人成本结构是否符合预测？冷启动期 Div1 / Div2 设置的实际效果？"
+    },
+    {
+      "id": "b-9615a2619d-01",
+      "type": "h3",
+      "preview": "M2 · 校园足球大使的反刻板印象效应实证"
+    },
+    {
+      "id": "b-6ad4666ab6-01",
+      "type": "p",
+      "preview": "起点 ：第 18 章校园足球大使 → 在 5-10 所试点学校做问卷调查 + 准实验"
+    },
+    {
+      "id": "b-575adbd745-01",
+      "type": "p",
+      "preview": "问题 ：成绩优秀者也踢球的样本，是否真的能松动同伴层级\"踢球影响学习\"刻板印象？"
+    },
+    {
+      "id": "b-a602762da8-01",
+      "type": "h3",
+      "preview": "M3 · 一名外籍教练的本土化路径案例"
+    },
+    {
+      "id": "b-eecc825d8a-01",
+      "type": "p",
+      "preview": "起点 ：第 16 章引入式青训\"教练共育\"→ 跟踪 1-2 名外籍教练在中国的 18 个月完整周期"
+    },
+    {
+      "id": "b-f12d738e3b-01",
+      "type": "p",
+      "preview": "问题 ：四环节四次升级在具体执行中遇到的困难是什么？知识留存机制的实际产出是什么？"
+    },
+    {
+      "id": "b-81b752021c-01",
+      "type": "h3",
+      "preview": "M4 · 中超俱乐部解散对地方文化认同的影响"
+    },
+    {
+      "id": "b-3ea724149d-01",
+      "type": "p",
+      "preview": "起点 ：第 18 章约束一·俱乐部认同的脆弱性 → 选 1-2 个解散俱乐部所在城市做深度访谈"
+    },
+    {
+      "id": "b-7f1083e89e-01",
+      "type": "p",
+      "preview": "问题 ：俱乐部解散对当地少年足球氛围的影响是什么？孩子们的参与意愿如何变化？"
+    },
+    {
+      "id": "b-3af9b50fcb-01",
+      "type": "h3",
+      "preview": "M5 · 一所校园足球特色学校的生命故事研究"
+    },
+    {
+      "id": "b-1153e7bde6-01",
+      "type": "p",
+      "preview": "起点 ：第 18 章理论档案\"校园足球生命故事\"→ 选 1 所特色学校做 5 年纵向研究"
+    },
+    {
+      "id": "b-353fb20a24-01",
+      "type": "p",
+      "preview": "问题 ：从 2014 年特色校政策启动到今天，这所学校的足球文化是如何形成、波动、沉淀的？"
+    },
+    {
+      "id": "b-1ca2c00aa6-01",
+      "type": "h3",
+      "preview": "M6 · 中国家长付费意愿对青训消费的影响"
+    },
+    {
+      "id": "b-c90515be50-01",
+      "type": "p",
+      "preview": "起点 ：第 14 章五条资金通道 + 2350 亿少儿体育培训市场 → 问卷 + 深度访谈"
+    },
+    {
+      "id": "b-a5f2e3dd37-01",
+      "type": "p",
+      "preview": "问题 ：中国家长在足球与英语 / 编程 / 奥数之间的实际预算分配是怎样的？哪些因素能改变这一分配？"
+    },
+    {
+      "id": "b-6221dff00c-01",
+      "type": "h3",
+      "preview": "M7 · CoachMind RAE 校正算法的有效性研究"
+    },
+    {
+      "id": "b-8075a6546c-01",
+      "type": "p",
+      "preview": "起点 ：第 17 章 CoachMind RAE 校正算法 → β 从 0.95→0.30 → 在 3-5 所学校做对照实验"
+    },
+    {
+      "id": "b-370389ee8a-01",
+      "type": "p",
+      "preview": "问题 ：校正算法对教练评估结果的实际影响有多大？教练能否接受算法的纠正？"
+    },
+    {
+      "id": "b-172a847261-01",
+      "type": "h3",
+      "preview": "M8 · 一个区域合伙人模式的财务可持续性研究"
+    },
+    {
+      "id": "b-66abce1a2f-01",
+      "type": "p",
+      "preview": "起点 ：第 15 章成本倒置 → 选 1-2 个区域合伙人做财务追踪"
+    },
+    {
+      "id": "b-849990b391-01",
+      "type": "p",
+      "preview": "问题 ：区域合伙人年收入 2.2-3.7 万元的研究院测算是否在实际运营中成立？哪些成本被低估？"
+    },
+    {
+      "id": "b-be617cbb6a-01",
+      "type": "h3",
+      "preview": "M9 · 北体大冠军公益行的项目效果评估"
+    },
+    {
+      "id": "b-e24123799e-01",
+      "type": "p",
+      "preview": "起点 ：第 18 章冠军公益行 → 选 5-10 场已有活动做项目效果评估"
+    },
+    {
+      "id": "b-7b5677a761-01",
+      "type": "p",
+      "preview": "问题 ：冠军公益行的实际覆盖、参与者反馈、内容沉淀是怎样的？产品化空间在哪里？"
+    },
+    {
+      "id": "b-187334b7a0-01",
+      "type": "h3",
+      "preview": "M10 · 一项国际合作青训项目的四环节适配度评分"
+    },
+    {
+      "id": "b-2e6ff8d7da-01",
+      "type": "p",
+      "preview": "起点 ：第 16 章四环节框架 → 选恒大 - 皇马合作（2012-2024）等案例"
+    },
+    {
+      "id": "b-2600a46775-01",
+      "type": "p",
+      "preview": "问题 ：按四环节框架评估，过去十年中国\"国际青训合作\"项目的适配度评分是多少？"
+    },
+    {
+      "id": "b-6d911331c8-01",
+      "type": "h2",
+      "preview": "三 · 政策研究级议题（10 项）"
+    },
+    {
+      "id": "b-579c93bc7c-01",
+      "type": "p",
+      "preview": "政策研究级议题面向决策者与智库，需要清晰的政策建议、可执行的方案设计、明确的可衡量指标。"
+    },
+    {
+      "id": "b-0ae6847ddf-01",
+      "type": "h3",
+      "preview": "P1 · 复兴杯试点城市选择标准"
+    },
+    {
+      "id": "b-06c681d30e-01",
+      "type": "p",
+      "preview": "基于第 15 章复兴杯试点城市选择逻辑，给国家体育总局或地方教育局提供 6-10 个城市的优先级排序与试点启动方案。"
+    },
+    {
+      "id": "b-732923543c-01",
+      "type": "h3",
+      "preview": "P2 · 体教打通的最小可行试点"
+    },
+    {
+      "id": "b-1691986597-01",
+      "type": "p",
+      "preview": "基于第 19 章六个打通中\"体教打通\"的\"最小可行版本\"——在 1-2 个城市试点\"复兴杯赛事记录可作为高中升学综合素质评估材料\"。"
+    },
+    {
+      "id": "b-3a67e77d51-01",
+      "type": "h3",
+      "preview": "P3 · 教练员档案制度的政策设计"
+    },
+    {
+      "id": "b-0cf4ca49a2-01",
+      "type": "p",
+      "preview": "基于第 14 章沉淀产品教练层 + 第 17 章软信息可视化辅助，为足协提供\"教练员制度化档案\"的政策设计——含数据格式、隐私保护、跨主体共享机制。"
+    },
+    {
+      "id": "b-882f28a379-01",
+      "type": "h3",
+      "preview": "P4 · 师范类高校体育人才培养与师承打通的协同"
+    },
+    {
+      "id": "b-2899d22823-01",
+      "type": "p",
+      "preview": "基于第 19 章师承打通\"知识下沉\"维度，为教育部师范类高校体育系提供与师承打通对接的人才培养方案。"
+    },
+    {
+      "id": "b-a4bbd2f86f-01",
+      "type": "h3",
+      "preview": "P5 · 体育彩票公益金支持文化沉淀的资金通道设计"
+    },
+    {
+      "id": "b-fd48cc5adc-01",
+      "type": "p",
+      "preview": "基于第 14 章五条资金通道 + 第 18 章文化沉淀，为体育彩票公益金提供新的使用方向设计——把文化建设作为长期持续投入对象。"
+    },
+    {
+      "id": "b-140027c8da-01",
+      "type": "h3",
+      "preview": "P6 · 中外人文交流框架下的中美青少年足球友谊赛方案"
+    },
+    {
+      "id": "b-0d68443216-01",
+      "type": "p",
+      "preview": "基于第 18 章中美青少年足球友谊赛 + 2023 旧金山倡议，为研究院 / 教育部国际合作司提供具体的赛事操作方案。"
+    },
+    {
+      "id": "b-56d077f0e4-01",
+      "type": "h3",
+      "preview": "P7 · 体育院校自主知识体系建设的政策建议"
+    },
+    {
+      "id": "b-1273d3951d-01",
+      "type": "p",
+      "preview": "基于第 20 章自主知识体系的足球版 + 习近平 2022 指示，为体育院校提供具体的自主知识体系建设路径——含丛书出版、学生研究员制度、跨学科评审等。"
+    },
+    {
+      "id": "b-42a3a62cc2-01",
+      "type": "h3",
+      "preview": "P8 · 校园足球与教育评价改革的对接"
+    },
+    {
+      "id": "b-7a8560fb41-01",
+      "type": "p",
+      "preview": "基于第 5 章四堵墙 + 第 19 章体教打通，为教育部基础教育司提供\"校园足球与综合素质评价\"的对接方案。"
+    },
+    {
+      "id": "b-23623f0875-01",
+      "type": "h3",
+      "preview": "P9 · 半独立第三方专业评估机构的功能设计"
+    },
+    {
+      "id": "b-192cd172be-01",
+      "type": "p",
+      "preview": "基于第 20 章治理范式特征四 + 五项核心机构条件，为体育治理体系改革提供\"半独立专业评估机构\"的功能设计与边界界定。"
+    },
+    {
+      "id": "b-7d5a740773-01",
+      "type": "h3",
+      "preview": "P10 · 球员唯一 ID 系统的法律合规框架"
+    },
+    {
+      "id": "b-eabaf4c72c-01",
+      "type": "p",
+      "preview": "基于第 15 章球员唯一 ID + 第 17 章 AI 智能补偿，为数据治理部门提供球员唯一 ID 系统的法律合规框架——含未成年人数据保护、跨系统共享授权、数据安全等。"
+    },
+    {
+      "id": "b-0f91e77e10-01",
+      "type": "h2",
+      "preview": "四 · 跨学科扩展级议题（5 项）"
+    },
+    {
+      "id": "b-04f5295077-01",
+      "type": "p",
+      "preview": "跨学科扩展级议题让本书的概念体系跨出足球领域、跨出体育领域，扩展到更广的社会科学议题。"
+    },
+    {
+      "id": "b-1f6987ac44-01",
+      "type": "h3",
+      "preview": "X1 · 不可分离性投影在医生晋升体系的应用"
+    },
+    {
+      "id": "b-c54e7ff287-01",
+      "type": "p",
+      "preview": "把第 4 章 IPHS 框架应用到医院的\"主任医师晋升\"机制——医生评估面临的软信息不可分离性，与体育的高度相似。可作为医学社会学的新研究方向。"
+    },
+    {
+      "id": "b-f7a93a3790-01",
+      "type": "h3",
+      "preview": "X2 · 师承打通在大学教师培养中的应用"
+    },
+    {
+      "id": "b-3b5e37c2ef-01",
+      "type": "p",
+      "preview": "把第 19 章师承打通三维度应用到大学教师的\"师承培养\"——博士-青年教师-正教授的代际传承机制。可作为高等教育学的新研究方向。"
+    },
+    {
+      "id": "b-80d238800a-01",
+      "type": "h3",
+      "preview": "X3 · 病灶耦合环在产业政策中的应用"
+    },
+    {
+      "id": "b-6e3b64644c-01",
+      "type": "p",
+      "preview": "把第 6 章 PCL 框架应用到中国\"卡脖子\"技术（半导体 / 大飞机 / 操作系统等）的诊断——这些领域是否同样面临耦合环？"
+    },
+    {
+      "id": "b-f8bbe761af-01",
+      "type": "h3",
+      "preview": "X4 · 治理范式八个特征在其他公共品的应用"
+    },
+    {
+      "id": "b-5c2938f19e-01",
+      "type": "p",
+      "preview": "把第 20 章八个特征四组结构应用到其他公共品治理——养老、医疗、住房、生态保护等。八个特征是否具有普遍性？"
+    },
+    {
+      "id": "b-ed99048f96-01",
+      "type": "h3",
+      "preview": "X5 · 中外人文交流的\"足球版\"扩展到其他领域"
+    },
+    {
+      "id": "b-a637b0567c-01",
+      "type": "p",
+      "preview": "把第 18 章中美青少年足球友谊赛模式扩展到其他领域——青少年戏剧交流、青少年科技交流、青少年艺术交流等。能否形成\"中外人文交流的青少年标杆产品\"？"
+    },
+    {
+      "id": "b-3ddb4632dd-01",
+      "type": "h2",
+      "preview": "五 · 议题之间的交叉网络"
+    },
+    {
+      "id": "b-d33c228a28-01",
+      "type": "p",
+      "preview": "35 项议题之间不是孤立的，存在相互启发的网络关系——"
+    },
+    {
+      "id": "b-ef79391b7b-01",
+      "type": "li",
+      "preview": "D1（不可分离性投影族）+ X1（医生晋升）+ X2（大学教师培养）→ 共同构成\"软信息治理\"的跨领域研究网络"
+    },
+    {
+      "id": "b-4cfc6a1c5f-01",
+      "type": "li",
+      "preview": "D2（CAM 实证估计）+ D6（文化沉淀代际效应）→ 共同回答\"耦合环治理\"的实证基础"
+    },
+    {
+      "id": "b-ae7afd11fc-01",
+      "type": "li",
+      "preview": "D5（球员唯一 ID）+ P10（数据合规）+ M1（复兴杯试点）→ 共同支持\"分布式数据基础设施\"的研究链"
+    },
+    {
+      "id": "b-422c8e45b4-01",
+      "type": "li",
+      "preview": "D3（PMCSA 取样）+ M2（大使反刻板印象）+ M5（生命故事）→ 共同支持\"中国青少年足球语料库\"的建设"
+    },
+    {
+      "id": "b-6de694700e-01",
+      "type": "p",
+      "preview": "学者可以从这种网络关系中发现新的研究合作可能。"
+    },
+    {
+      "id": "b-7ba7b317df-01",
+      "type": "h2",
+      "preview": "使用说明"
+    },
+    {
+      "id": "b-bf87de4f27-01",
+      "type": "p",
+      "preview": "对学生 ——硕士论文级议题（M1-M10）是入门首选；博士论文级议题（D1-D10）需要更长周期与更深学理。"
+    },
+    {
+      "id": "b-77219178fd-01",
+      "type": "p",
+      "preview": "对学者 ——博士论文级议题（D1-D10）+ 跨学科扩展级议题（X1-X5）是合作研究的优先方向。"
+    },
+    {
+      "id": "b-904ba17302-01",
+      "type": "p",
+      "preview": "对决策者 ——政策研究级议题（P1-P10）直接面向治理实践，可作为体育治理体系改革的研究依据。"
+    },
+    {
+      "id": "b-6b9be97ef2-01",
+      "type": "p",
+      "preview": "对智库 ——所有议题都可以作为研究项目立项依据。本书的概念体系作为\"研究框架\"提供，每一项议题作为\"研究纲领\"展开。"
+    },
+    {
+      "id": "b-faefa33311-01",
+      "type": "p",
+      "preview": "本附录的议题清单不是终极的——欢迎读者在阅读过程中自行发现新的可扩展议题。所有议题的进展都可以反馈到本书的概念体系修订中——这是开放学术共同体的真实形态。"
+    }
+  ],
+  "sourcePath": "04_附录/附录D_可扩展研究议题清单.md",
+  "updatedAt": "2026-05-22 15:07"
+}

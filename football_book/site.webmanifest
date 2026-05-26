@@ -1,0 +1,17 @@
+{
+  "name": "人才漏斗阅读器",
+  "short_name": "人才漏斗",
+  "description": "基于书稿 Markdown 自动生成的移动端阅读器原型。",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#efe7d6",
+  "theme_color": "#efe7d6",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

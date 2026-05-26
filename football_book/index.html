@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#efe7d6" />
+    <title>人才漏斗阅读器</title>
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="assets/icon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="vendor/katex/katex.min.css" />
+  </head>
+  <body class="theme-paper">
+    <div class="app-shell">
+      <div class="app-backdrop" id="appBackdrop" hidden></div>
+
+      <aside class="drawer drawer--toc" id="tocDrawer" aria-hidden="true">
+        <div class="drawer__header">
+          <div>
+            <p class="eyebrow">目录</p>
+            <h2 class="drawer__title">全书结构</h2>
+          </div>
+          <button class="icon-button" id="closeTocButton" type="button" aria-label="关闭目录">×</button>
+        </div>
+        <div class="drawer__body" id="drawerToc"></div>
+      </aside>
+
+      <aside class="drawer drawer--settings" id="settingsDrawer" aria-hidden="true">
+        <div class="drawer__header">
+          <div>
+            <p class="eyebrow">阅读设置</p>
+            <h2 class="drawer__title">排版与主题</h2>
+          </div>
+          <button class="icon-button" id="closeSettingsButton" type="button" aria-label="关闭设置">×</button>
+        </div>
+        <div class="drawer__body settings-panel">
+          <section class="settings-group">
+            <h3>主题</h3>
+            <div class="theme-options">
+              <button class="theme-chip" data-theme="paper" type="button">纸白</button>
+              <button class="theme-chip" data-theme="sepia" type="button">暖褐</button>
+              <button class="theme-chip" data-theme="midnight" type="button">夜读</button>
+            </div>
+          </section>
+
+          <section class="settings-group">
+            <label for="fontSizeRange">字号</label>
+            <input id="fontSizeRange" type="range" min="15" max="24" step="1" />
+            <p class="setting-value" id="fontSizeValue"></p>
+          </section>
+
+          <section class="settings-group">
+            <label for="lineHeightRange">行距</label>
+            <input id="lineHeightRange" type="range" min="1.6" max="2.3" step="0.05" />
+            <p class="setting-value" id="lineHeightValue"></p>
+          </section>
+
+          <section class="settings-group">
+            <label for="contentWidthRange">版心</label>
+            <input id="contentWidthRange" type="range" min="640" max="900" step="10" />
+            <p class="setting-value" id="contentWidthValue"></p>
+          </section>
+        </div>
+      </aside>
+
+      <section class="search-overlay hidden" id="searchOverlay" aria-hidden="true">
+        <div class="search-overlay__panel">
+          <div class="search-overlay__header">
+            <div>
+              <p class="eyebrow">全文检索</p>
+              <h2>按章节搜索正文</h2>
+            </div>
+            <button class="icon-button" id="closeSearchButton" type="button" aria-label="关闭搜索">×</button>
+          </div>
+          <label class="search-box">
+            <span>关键词</span>
+            <input id="searchInput" type="search" placeholder="例如：四重锁、复兴杯、教练困局" />
+          </label>
+          <div class="search-meta" id="searchMeta">输入关键词后开始检索。</div>
+          <div class="search-results" id="searchResults"></div>
+        </div>
+      </section>
+
+      <section class="lightbox hidden" id="lightbox" aria-hidden="true">
+        <button class="icon-button lightbox__close" id="closeLightboxButton" type="button" aria-label="关闭图片">×</button>
+        <img id="lightboxImage" alt="" />
+        <p class="lightbox__caption" id="lightboxCaption"></p>
+      </section>
+
+      <section class="panel-overlay hidden" id="notesOverlay" aria-hidden="true">
+        <div class="panel-sheet panel-sheet--wide">
+          <div class="panel-sheet__header">
+            <div>
+              <p class="eyebrow">章节批注</p>
+              <h2>这一章的批注</h2>
+            </div>
+            <button class="icon-button" id="closeNotesButton" type="button" aria-label="关闭批注面板">×</button>
+          </div>
+          <div class="panel-sheet__meta" id="chapterNotesMeta">本章还没有批注。</div>
+          <div class="notes-list" id="chapterNotesList"></div>
+        </div>
+      </section>
+
+      <section class="panel-overlay hidden" id="glossaryOverlay" aria-hidden="true">
+        <div class="panel-sheet panel-sheet--wide">
+          <div class="panel-sheet__header">
+            <div>
+              <p class="eyebrow">术语卡</p>
+              <h2>全书术语索引</h2>
+            </div>
+            <button class="icon-button" id="closeGlossaryButton" type="button" aria-label="关闭术语面板">×</button>
+          </div>
+          <label class="search-box panel-search-box">
+            <span>术语检索</span>
+            <input id="glossarySearchInput" type="search" placeholder="例如：四重锁、CRI、复兴杯" />
+          </label>
+          <div class="panel-sheet__meta" id="glossarySummary">正在加载术语表。</div>
+          <div class="glossary-list" id="glossaryList"></div>
+        </div>
+      </section>
+
+      <section class="panel-overlay hidden" id="referencesOverlay" aria-hidden="true">
+        <div class="panel-sheet panel-sheet--wide">
+          <div class="panel-sheet__header">
+            <div>
+              <p class="eyebrow">脚注卡片</p>
+              <h2>本章资料来源</h2>
+            </div>
+            <button class="icon-button" id="closeReferencesButton" type="button" aria-label="关闭脚注面板">×</button>
+          </div>
+          <div class="panel-sheet__meta" id="referencesMeta">本章暂无脚注卡片。</div>
+          <div class="reference-card-list" id="referencesList"></div>
+        </div>
+      </section>
+
+      <section class="panel-overlay hidden" id="termOverlay" aria-hidden="true">
+        <div class="panel-sheet panel-sheet--compact">
+          <div class="panel-sheet__header">
+            <div>
+              <p class="eyebrow" id="termChapter"></p>
+              <h2 id="termTitle">术语详情</h2>
+            </div>
+            <button class="icon-button" id="closeTermButton" type="button" aria-label="关闭术语详情">×</button>
+          </div>
+          <div class="term-card">
+            <div class="term-card__meta">
+              <span class="term-pill" id="termShort"></span>
+              <span class="term-pill" id="termEnglish"></span>
+            </div>
+            <p class="term-card__definition" id="termDefinition"></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel-overlay hidden" id="noteEditorOverlay" aria-hidden="true">
+        <div class="panel-sheet panel-sheet--compact">
+          <div class="panel-sheet__header">
+            <div>
+              <p class="eyebrow">段落批注</p>
+              <h2 id="noteEditorTitle">编辑批注</h2>
+            </div>
+            <button class="icon-button" id="closeNoteEditorButton" type="button" aria-label="关闭批注编辑器">×</button>
+          </div>
+          <div class="note-context" id="noteContextPreview"></div>
+          <label class="editor-field" for="noteTextarea">
+            <span>写下你的想法</span>
+            <textarea id="noteTextarea" rows="7" placeholder="可以写判断、问题、改写意见，或留一个后续修订提醒。"></textarea>
+          </label>
+          <div class="composer-actions">
+            <button class="secondary-button" id="deleteNoteButton" type="button">删除</button>
+            <button class="primary-button" id="saveNoteButton" type="button">保存批注</button>
+          </div>
+        </div>
+      </section>
+
+      <header class="topbar">
+        <div class="topbar__left">
+          <button class="ghost-button" id="openTocButton" type="button">目录</button>
+          <div class="topbar__titles">
+            <p class="eyebrow" id="sectionEyebrow">书稿阅读器</p>
+            <h1 id="topbarTitle">人才漏斗</h1>
+          </div>
+        </div>
+        <div class="topbar__actions">
+          <button class="ghost-button" id="openSearchButton" type="button">搜索</button>
+          <button class="ghost-button" id="checkUpdatesButton" type="button">更新</button>
+          <button class="ghost-button" id="openSettingsButton" type="button">设置</button>
+        </div>
+      </header>
+
+      <main class="app-layout">
+        <aside class="book-rail">
+          <section class="cover-card">
+            <div class="cover-card__art">
+              <img id="coverImage" alt="本书封面图" />
+            </div>
+            <div class="cover-card__body">
+              <p class="eyebrow">持续修订版</p>
+              <h2 id="bookTitle"></h2>
+              <p class="cover-card__subtitle" id="bookSubtitle"></p>
+              <p class="cover-card__description" id="bookDescription"></p>
+              <div class="version-row">
+                <span id="bookVersion"></span>
+                <span id="bookStats"></span>
+              </div>
+              <div class="cover-card__actions">
+                <button class="primary-button" id="continueReadingButton" type="button">继续阅读</button>
+                <button class="secondary-button" id="bookmarkButton" type="button">收藏本章</button>
+              </div>
+            </div>
+          </section>
+
+          <section class="rail-panel">
+            <div class="rail-panel__header">
+              <h3>目录</h3>
+              <span id="overallProgressLabel">0%</span>
+            </div>
+            <div class="overall-progress"><span id="overallProgressBar"></span></div>
+            <div class="rail-toc" id="railToc"></div>
+          </section>
+        </aside>
+
+        <section class="reader-column">
+          <article class="chapter-shell" id="chapterShell">
+            <header class="chapter-meta">
+              <div class="chapter-meta__top">
+                <span class="section-pill" id="sectionPill"></span>
+                <span class="chapter-order" id="chapterOrder"></span>
+              </div>
+              <h2 id="chapterTitle">加载中…</h2>
+              <p class="chapter-subtitle" id="chapterSubtitle"></p>
+              <div class="chapter-stats">
+                <span id="chapterWordCount"></span>
+                <span id="chapterReadingMinutes"></span>
+                <span id="chapterUpdatedAt"></span>
+              </div>
+              <div class="chapter-tool-row">
+                <button class="tool-chip" id="noteModeButton" type="button">批注模式</button>
+                <button class="tool-chip" id="chapterNotesButton" type="button">本章批注 <span id="chapterNotesCount">0</span></button>
+                <button class="tool-chip" id="glossaryButton" type="button">术语卡 <span id="chapterTermsCount">0</span></button>
+                <button class="tool-chip hidden" id="referenceCardsButton" type="button">脚注卡 <span id="referenceCardsCount">0</span></button>
+              </div>
+            </header>
+
+            <div class="reading-progress"><span id="readingProgressBar"></span></div>
+
+            <div class="chapter-content" id="chapterContent"></div>
+
+            <nav class="chapter-nav">
+              <button class="secondary-button" id="prevChapterButton" type="button">上一章</button>
+              <button class="secondary-button" id="nextChapterButton" type="button">下一章</button>
+            </nav>
+          </article>
+        </section>
+      </main>
+
+      <nav class="reader-dock" aria-label="阅读工具">
+        <button class="dock-button" id="dockNoteModeButton" type="button">批注</button>
+        <button class="dock-button" id="dockChapterNotesButton" type="button">章内</button>
+        <button class="dock-button" id="dockGlossaryButton" type="button">术语</button>
+        <button class="dock-button hidden" id="dockReferenceCardsButton" type="button">脚注</button>
+      </nav>
+
+      <div class="toast hidden" id="toast"></div>
+    </div>
+
+    <script src="vendor/katex/katex.min.js"></script>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

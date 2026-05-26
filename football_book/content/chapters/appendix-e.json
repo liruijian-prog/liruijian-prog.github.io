@@ -1,0 +1,628 @@
+{
+  "id": "appendix-e",
+  "order": 29,
+  "title": "附录 E · 软信息、多委托人与举国体制的边界",
+  "subtitle": "——本书理论引擎的形式化基础",
+  "sectionId": "appendices",
+  "sectionTitle": "附录",
+  "html": "\n\n<blockquote class=\"annotatable-block\" data-block-id=\"b-79deb65d2f-01\" data-block-type=\"blockquote\">\n<p>本附录是本书理论引擎的形式化基础。本书引言第 3 节用普通话讲了一遍这台引擎；本附录把它拉回正式数学。但这一附录仍然是浓缩版——完整论文（约 50,000 字 + 33 个公式 + 多组反事实模拟）单独成稿，标题为《软信息、多委托人与举国体制的边界——信息结构、激励互补性与集权的超加性损失》，已投稿至中国体育人文社科核心期刊。本附录的目的，是让本书读者在不离开本书的情况下，对引擎的核心命题有形式化的把握；同时，让有进一步学理兴趣的读者知道完整论文的具体路径。</p>\n</blockquote>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-78cb1f8df3-01\" data-block-type=\"h2\" id=\"e1\">E.1 为什么需要一台理论引擎</h2>\n<p class=\"annotatable-block\" data-block-id=\"b-60b5305983-01\" data-block-type=\"p\">中国足球的讨论长期在两种语言之间摇摆——</p>\n<p class=\"annotatable-block\" data-block-id=\"b-5b89864067-01\" data-block-type=\"p\">一种是情绪化的语言：\"体制问题\"\"文化问题\"\"急功近利\"\"不重视青训\"。这些话不算错，但解释力有限——同样是举国体制，乒乓球与跳水拿出了几十年稳定的国际竞争力；同样是中国家长，他们的孩子在田径、游泳、羽毛球项目上完成了大量长期投入。如果体制和文化是底层原因，那么差异为什么如此显著？</p>\n<p class=\"annotatable-block\" data-block-id=\"b-c9bcbc2cb9-01\" data-block-type=\"p\">另一种是工程化的语言：\"补强体校\"\"推广校园足球\"\"增加比赛\"\"引进外教\"\"加大投入\"\"改革协会\"。每一条单独看都合理，但当它们被同时执行了几十年，结果却并未沿着预期方向积累。问题不在每条建议的方向，而在于这些建议之间是否存在被忽视的相互削弱。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-19db6c60f2-01\" data-block-type=\"p\">要走出这两种语言的循环，需要一台理论引擎——一组少量的、可被参数化、可被检验、能跨项目和跨国别使用的分析工具。它不必复杂，但必须能同时回答三个问题——</p>\n<p class=\"annotatable-block\" data-block-id=\"b-6a0076aaf9-01\" data-block-type=\"p\">第一，<strong>跨项目异质性</strong>：为什么同一套举国体制，对乒乓球、跳水有效，对足球、篮球失效？\n第二，<strong>干预的预期效果</strong>：在某一现有结构上加一笔投入、新设一个赛事、引进一位外教、上一套 AI 系统，预期会改变什么、不会改变什么？\n第三，<strong>边界条件</strong>：在什么条件下分权优于集权？什么条件下反过来？这条边界是否可计算？</p>\n<p class=\"annotatable-block\" data-block-id=\"b-8a51f7fb33-01\" data-block-type=\"p\">这就是本书引言第 3 节中那台\"理论引擎\"——它来自组织经济学，已在另一项独立研究中以正式模型给出。本附录给出形式化版本。</p>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-f93b796cf7-01\" data-block-type=\"h2\" id=\"e2\">E.2 三个核心变量</h2>\n<p class=\"annotatable-block\" data-block-id=\"b-3a5b7de38f-01\" data-block-type=\"p\">任何一项体育任务的治理结构问题，可以用三个变量描述。</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-5912380f5d-01\" data-block-type=\"h3\" id=\"_2\">变量 θ：任务的\"软硬比\"</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-b6cadc575f-01\" data-block-type=\"p\">任何一项体育训练或竞技任务，都同时依赖两类信息——</p>\n<ul>\n<li class=\"annotatable-block\" data-block-id=\"b-d15a4fe0b7-01\" data-block-type=\"li\"><strong>硬信息</strong>——可以测量、可以记录、可以传递的数据：百米成绩、命中率、跳水动作的客观评分、球员的速度与冲刺距离。</li>\n<li class=\"annotatable-block\" data-block-id=\"b-ea80595dba-01\" data-block-type=\"li\"><strong>软信息</strong>——只有在现场、长期接触某个人或某个团队的人才能掌握的判断：这个孩子在压力下会不会变形？他和队友的化学反应怎么样？他在赛季中段的状态走低是因为伤病、心理还是青春期？这些判断很难写进合同、很难传递给上级，也很难在论文里被证伪。</li>\n</ul>\n<p class=\"annotatable-block\" data-block-id=\"b-da2afcad07-01\" data-block-type=\"p\">定义 <strong>θ = ν − d</strong>，刻画软信息相对于硬信息的边际优势。其中 ν 是软信息的边际产出贡献，d 是硬信息的边际产出贡献。</p>\n<ul>\n<li class=\"annotatable-block\" data-block-id=\"b-7726a68437-01\" data-block-type=\"li\"><strong>θ &lt; 0：硬信息主导项目</strong>——乒乓球、跳水、举重、射击、自行车计时赛。这类项目的成绩高度依赖可被精确测量、客观评分、机械化训练的部分。</li>\n<li class=\"annotatable-block\" data-block-id=\"b-e24b77c1c3-01\" data-block-type=\"li\"><strong>θ &gt; 0：软信息主导项目</strong>——足球、篮球、橄榄球、冰球。这类项目里，临场判断、阵型理解、团队默契、对手心理这些\"很难说清楚但确实决定胜负\"的东西占了主导。</li>\n</ul>\n<p class=\"annotatable-block\" data-block-id=\"b-e54ff24929-01\" data-block-type=\"p\">中国举国体制在乒乓球和跳水上的成功不是偶然——在 θ &lt; 0 的项目里，谁能更高效地集中资源、统一标准、批量训练、用客观数据筛人，谁就赢。中国的体校体系恰好擅长这件事。但当这套体系搬到 θ &gt; 0 的足球上，它就开始出问题。这不是态度问题，是任务性质问题。</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-568d1df277-01\" data-block-type=\"h3\" id=\"_3\">变量 γ：多个老板之间的\"目标分歧\"</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-a8df600db9-01\" data-block-type=\"p\">在中国足球的现实里，一线教练同时面对很多\"老板\"——国家体育总局、地方体育局、足协、教育部、所在俱乐部、家长。每一方都有自己的目标——</p>\n<ul>\n<li class=\"annotatable-block\" data-block-id=\"b-32ac1aaf55-01\" data-block-type=\"li\">体育局要的是全运会、省运会的奖牌；</li>\n<li class=\"annotatable-block\" data-block-id=\"b-b328e3681e-01\" data-block-type=\"li\">教育部要的是足球特色校数量、学生参与率；</li>\n<li class=\"annotatable-block\" data-block-id=\"b-954efab937-01\" data-block-type=\"li\">俱乐部要的是球员长期发展和转会价值；</li>\n<li class=\"annotatable-block\" data-block-id=\"b-e09e62068a-01\" data-block-type=\"li\">家长要的是孩子升学不耽误。</li>\n</ul>\n<p class=\"annotatable-block\" data-block-id=\"b-dcc3e653d3-01\" data-block-type=\"p\">γ 衡量的就是这些\"老板\"之间的目标差距。形式化地，γ = max_i,j ‖μ_i − μ_j‖²，其中 μ_i 是委托人 i 的目标向量。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-d01ec8c474-01\" data-block-type=\"p\">γ 越大，每个老板在给教练设计激励时，越倾向于\"少给一点\"——因为给的激励会被其他老板\"搭便车\"。这是经济学里典型的<strong>多委托人公共品问题</strong>（Bernheim &amp; Whinston, 1986）。结果是：在分权结构下，教练拿到的总体激励，反而比有一个统一老板时还要低。</p>\n<h3 class=\"annotatable-block\" data-block-id=\"b-210fc07de9-01\" data-block-type=\"h3\" id=\"_4\">变量 λ：软信息与硬信息的\"互补性\"</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-0424d66129-01\" data-block-type=\"p\">软信息和硬信息之间不是替代关系，而是互相成全的关系——</p>\n<ul>\n<li class=\"annotatable-block\" data-block-id=\"b-0dc7faf75a-01\" data-block-type=\"li\">一名好教练知道哪个孩子需要加练（软信息），同时也能根据数据安排具体的训练负荷（硬信息）。两者结合，比单独使用任意一项都有效。</li>\n<li class=\"annotatable-block\" data-block-id=\"b-c89ff77ae4-01\" data-block-type=\"li\">一支好球队既需要清晰的战术体系（硬信息），也需要球员之间默契的临场判断（软信息）。</li>\n</ul>\n<p class=\"annotatable-block\" data-block-id=\"b-fed9df38a0-01\" data-block-type=\"p\">λ 衡量两者结合所产生的\"额外乘数效应\"。形式化地，λ 是生产函数 y = α·e_h + β·e_s + λ·e_h·e_s 中的交叉项系数。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-8bd24c370b-01\" data-block-type=\"p\">在足球这样的项目里，λ 远大于零。在跳水的单人动作里，λ 接近零。</p>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-1858b3c83a-01\" data-block-type=\"h2\" id=\"e3-1\">E.3 命题 1：集权最优条件的特征化</h2>\n<p class=\"annotatable-block\" data-block-id=\"b-92dde19858-01\" data-block-type=\"p\"><strong>命题 1</strong>——存在阈值 θ̄ 和 γ̄，使得当 θ &lt; θ̄ 且 γ &gt; γ̄ 时，集权治理（单一委托人）严格优于分权治理。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-24f1dbc16d-01\" data-block-type=\"p\">形式化表述——</p>\n<p class=\"annotatable-block\" data-block-id=\"b-254760e522-01\" data-block-type=\"p\">假设产出函数 y = α·e_h + β·e_s + λ·e_h·e_s + ε，其中 e_h 是硬信息驱动的努力、e_s 是软信息驱动的努力。集权下委托人 P 通过单一合同 W = w_0 + b_h·y_h（基于可核实的硬信息 y_h）激励代理人；分权下 N 个委托人各自合同 W_i = w_0i + b_hi·y_h。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-17675a22ab-01\" data-block-type=\"p\">集权均衡总激励强度为 b_h^C；分权均衡总激励强度为 b_h^D = b_h^C / (1 + (N−1)·γ)。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-1b9384ddf4-01\" data-block-type=\"p\">集权净社会福利 W_C 与分权净社会福利 W_D 之差，可以闭合解推导出——</p>\n<p class=\"annotatable-block\" data-block-id=\"b-d311a8e0c9-01\" data-block-type=\"p\"><strong>W_C − W_D = f(θ, γ, λ, N)</strong></p>\n<p class=\"annotatable-block\" data-block-id=\"b-2633e6d32a-01\" data-block-type=\"p\">其中 f 在 θ &lt; θ̄ 且 γ &gt; γ̄ 区间为正，反之为负。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-a258c4a4a1-01\" data-block-type=\"p\"><strong>直观解读</strong>——</p>\n<ul>\n<li class=\"annotatable-block\" data-block-id=\"b-ba32315b86-01\" data-block-type=\"li\">当任务以硬信息为主（θ &lt; θ̄）且老板之间分歧大（γ &gt; γ̄）时，集权胜——因为单一老板能避免\"搭便车\"问题，集中资源做硬信息测量。</li>\n<li class=\"annotatable-block\" data-block-id=\"b-3c8800d77d-01\" data-block-type=\"li\">当任务以软信息为主（θ &gt; θ̄）或老板之间分歧小（γ &lt; γ̄）时，分权胜——因为多老板格局允许多种激励路径并存，每条路径都更适合软信息生产。</li>\n</ul>\n<p class=\"annotatable-block\" data-block-id=\"b-620638574b-01\" data-block-type=\"p\"><strong>这正是为什么乒乓球（θ &lt;&lt; 0、γ大）适合举国体制，足球（θ &gt; 0、γ可被治理）反而需要去中心化结构</strong>。</p>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-98926f461b-01\" data-block-type=\"h2\" id=\"e4-3\">E.4 命题 3：不可分离性定理</h2>\n<p class=\"annotatable-block\" data-block-id=\"b-a9a3833023-01\" data-block-type=\"p\"><strong>命题 3（不可分离性定理）</strong>——在集权结构下，软信息与硬信息合同<strong>不可分离</strong>地混合在一起，导致激励工具失效。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-f0eff420e8-01\" data-block-type=\"p\">形式化表述——</p>\n<p class=\"annotatable-block\" data-block-id=\"b-d76fd5333a-01\" data-block-type=\"p\">假设委托人想分别激励硬信息生产 e_h 和软信息生产 e_s。理论最优合同应当是 W = w_0 + b_h·y_h + b_s·s（其中 s 是软信息）。但软信息按定义不可核实——s 不能进入合同。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-ed19568718-01\" data-block-type=\"p\">委托人只能用 W = w_0 + b_h·y_h 这一种合同，同时激励 e_h 和 e_s。此时——</p>\n<p class=\"annotatable-block\" data-block-id=\"b-628a580df3-01\" data-block-type=\"p\"><strong>∂e_s / ∂b_h = (λ·e_h^{*}) / (1 − λ²·b_h)</strong></p>\n<p class=\"annotatable-block\" data-block-id=\"b-8231ee328d-01\" data-block-type=\"p\">也就是说——软信息努力 e_s 完全由硬信息激励 b_h 决定。委托人<strong>没有独立的工具</strong>来调节软信息产出。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-ab05ce3b0a-01\" data-block-type=\"p\"><strong>直观解读</strong>——</p>\n<p class=\"annotatable-block\" data-block-id=\"b-f0b7d3128b-01\" data-block-type=\"p\">集权下软信息无法被单独激励、单独保留、单独传递。软信息的所有命运，都被硬信息合同的设计绑定。如果 b_h 高，软信息会\"搭便车\"被生产；如果 b_h 低，软信息生产同时崩塌。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-7e841851e4-01\" data-block-type=\"p\"><strong>应用 1</strong>：第 3 章选材的不可分离性投影（IPTI）——选材系统按硬信息（身高、出生月份等）打分，软信息（学习曲线、心理韧性）的命运被绑定。SNR=0.47 是这一投影的实测值。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-270ffbb87c-01\" data-block-type=\"p\"><strong>应用 2</strong>：第 4 章主帅选拔的不可分离性投影（IPHS）——主帅选拔按硬信息（球员经历）打分，软信息（教学能力、判断力、组织能力）的命运被绑定。CIF（教练身份谬误）是这一投影的具体形态。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-67c61f7782-01\" data-block-type=\"p\"><strong>应用 3</strong>：第 6 章人口窄、结构基因失衡——基层教练没有独立激励生产软信息（命题 3 的入口端表现），结果是软信息生产网络从未形成。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-fe4246e66d-01\" data-block-type=\"p\">不可分离性定理是本书第一编五个病灶诊断的<strong>统一上游约束</strong>——所有五个病灶在不同环节都是不可分离性定理的具体投影。</p>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-de18cc864a-01\" data-block-type=\"h2\" id=\"e5-1\">E.5 引理 1：调配破坏效应</h2>\n<p class=\"annotatable-block\" data-block-id=\"b-48ed289f8a-01\" data-block-type=\"p\"><strong>引理 1（调配破坏效应）</strong>——晋升锦标赛压力下，集权下管理者会理性地选择高频调配，破坏关系性长期契约的可行性。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-f52e605a0e-01\" data-block-type=\"p\">形式化表述——</p>\n<p class=\"annotatable-block\" data-block-id=\"b-0c04df74fb-01\" data-block-type=\"p\">设管理者面临晋升评估压力 κ。每次调配产生短期硬绩效信号 σ，但破坏教练-球员之间的关系性长期契约 δ。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-beea57c72f-01\" data-block-type=\"p\">管理者最优调配频率 f* 满足——</p>\n<p class=\"annotatable-block\" data-block-id=\"b-9cb384f7c5-01\" data-block-type=\"p\"><strong>f* = (κ·σ) / δ</strong></p>\n<p class=\"annotatable-block\" data-block-id=\"b-3f4a9fa97e-01\" data-block-type=\"p\">当 κ 上升（晋升压力大），f* 上升——管理者更频繁调配。但 δ 是个体与组织的关系性资本，需要时间积累——高频调配让 δ 永远无法达到稳定状态。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-ec702a6507-01\" data-block-type=\"p\"><strong>应用</strong>：第 4 章 CRI=0.364 教练认知可靠性低下——中国教练的关系性长期契约 δ 被高频调配破坏，案例库无法积累，认知污染闭环形成。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-8adc925a81-01\" data-block-type=\"p\">引理 1 给出了\"为什么中国教练 2.6 年才能完成可靠评估，而德国教练只需 2 个月\"的形式化原因——不是教练个体能力差异，是 δ 的均衡值差异。</p>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-9a14cac393-01\" data-block-type=\"h2\" id=\"e6-5\">E.6 命题 5：均衡集权程度的系统性偏高</h2>\n<p class=\"annotatable-block\" data-block-id=\"b-cb29235ce2-01\" data-block-type=\"p\"><strong>命题 5</strong>——在晋升锦标赛压力下，均衡集权程度 <span class=\"math-inline\" data-math=\"K^{*}\"></span> 系统性高于社会最优集权程度 <span class=\"math-inline\" data-math=\"K^{**}\"></span>。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-112b0744e6-01\" data-block-type=\"p\">形式化表述——</p>\n<p class=\"annotatable-block\" data-block-id=\"b-20170952b8-01\" data-block-type=\"p\">社会最优集权程度 <span class=\"math-inline\" data-math=\"K^{**}\"></span> 由命题 1 的最优化条件给出。但由于晋升锦标赛带来的官员职业关切 κ &gt; 0，每个官员个体的最优集权程度 <span class=\"math-inline\" data-math=\"K^{*} &gt; K^{**}\"></span>。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-ca4e0e3c84-01\" data-block-type=\"p\">这是因为——</p>\n<ul>\n<li class=\"annotatable-block\" data-block-id=\"b-7b72d7e915-01\" data-block-type=\"li\">集权能让官员可见地\"掌握\"赛事或资源（硬绩效）；</li>\n<li class=\"annotatable-block\" data-block-id=\"b-15997387c3-01\" data-block-type=\"li\">任何想要\"分权\"或\"合并\"的官员都面临个体理性悖论——分权 / 合并意味着失去自己的可考核 KPI。</li>\n</ul>\n<p class=\"annotatable-block\" data-block-id=\"b-3b125d6cd4-01\" data-block-type=\"p\"><strong>应用</strong>：第 5 章六轨并行——任何想合并赛事的官员都会失去自己的考核独立性，所以六轨很难自然减少；即便出现赛事主办结构调整，结果也往往只是新增一层归口区分，而不是自动消除多轨并行。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-03f8d80885-01\" data-block-type=\"p\">命题 5 给出了\"为什么单点干预悖论是数学必然\"的形式化原因——耦合环不可被单点改变，因为单点改变与官员个体理性冲突。</p>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-3ce2891ea3-01\" data-block-type=\"h2\" id=\"e7-_super\">E.7 超加性损失 Δ_super</h2>\n<p class=\"annotatable-block\" data-block-id=\"b-b2a366dbf6-01\" data-block-type=\"p\"><strong>超加性损失定理</strong>——当多重约束（命题 3 的不可分离性 + 引理 1 的调配破坏 + 命题 5 的均衡偏高）同时作用、且互补性 λ &gt; 0 时，总损失严格大于单独损失之和。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-95c8e7b4d6-01\" data-block-type=\"p\">形式化表述——</p>\n<p class=\"annotatable-block\" data-block-id=\"b-33b92af706-01\" data-block-type=\"p\">设 L_1 是单独存在不可分离性时的损失，L_2 是单独存在调配破坏时的损失，L_3 是单独存在集权偏高时的损失。当三者同时作用——</p>\n<p class=\"annotatable-block\" data-block-id=\"b-4523097215-01\" data-block-type=\"p\"><strong>L_total = L_1 + L_2 + L_3 + Δ_super</strong></p>\n<p class=\"annotatable-block\" data-block-id=\"b-a07239cdb3-01\" data-block-type=\"p\">其中 Δ_super &gt; 0 是交互项（superadditive loss）。Δ_super 的存在意味着——</p>\n<ul>\n<li class=\"annotatable-block\" data-block-id=\"b-047c8551b4-01\" data-block-type=\"li\"><strong>任何单点干预都会被其他两项放大</strong>——这是单点干预悖论的形式化。</li>\n<li class=\"annotatable-block\" data-block-id=\"b-26ac7f1b30-01\" data-block-type=\"li\"><strong>多点同步干预的边际效率高于单点累积</strong>——这是耦合改善乘数（CAM）的反向应用。</li>\n</ul>\n<p class=\"annotatable-block\" data-block-id=\"b-f9aac9a74d-01\" data-block-type=\"p\"><strong>应用</strong>：第 6 章 PCL 病灶耦合环 + 第 19 章 CAM 耦合改善乘数——前者是 Δ_super 在中国当前条件下的具体形态，后者是 Δ_super 反向运行（多点同步治理）的预期效果。1.2^6 ≈ 3 倍的耦合改善乘数，正是 Δ_super 反向运行的边际效率。</p>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-461e99099f-01\" data-block-type=\"h2\" id=\"e8\">E.8 治理边界 θ̄ 与中国体育的\"分项治理\"</h2>\n<p class=\"annotatable-block\" data-block-id=\"b-d29568fcce-01\" data-block-type=\"p\">把命题 1 的阈值 θ̄ 应用到中国体育的具体项目——</p>\n<div class=\"table-wrap annotatable-block\" data-block-id=\"b-a39d35625a-01\" data-block-type=\"div\"><table class=\"data-table\">\n<thead>\n<tr>\n<th>项目</th>\n<th>θ 估计</th>\n<th>γ 估计</th>\n<th>λ 估计</th>\n<th>最优治理</th>\n<th>中国实际治理</th>\n<th>是否匹配</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>跳水</td>\n<td>θ &lt;&lt; 0</td>\n<td>中</td>\n<td>λ ≈ 0</td>\n<td>集权</td>\n<td>集权</td>\n<td>✓ 匹配</td>\n</tr>\n<tr>\n<td>乒乓球</td>\n<td>θ &lt;&lt; 0</td>\n<td>中</td>\n<td>λ 小</td>\n<td>集权</td>\n<td>集权</td>\n<td>✓ 匹配</td>\n</tr>\n<tr>\n<td>举重</td>\n<td>θ &lt;&lt; 0</td>\n<td>低</td>\n<td>λ ≈ 0</td>\n<td>集权</td>\n<td>集权</td>\n<td>✓ 匹配</td>\n</tr>\n<tr>\n<td>射击</td>\n<td>θ &lt; 0</td>\n<td>低</td>\n<td>λ 小</td>\n<td>集权</td>\n<td>集权</td>\n<td>✓ 匹配</td>\n</tr>\n<tr>\n<td>田径（部分项目）</td>\n<td>θ &lt; 0</td>\n<td>中</td>\n<td>λ 小-中</td>\n<td>集权偏分权</td>\n<td>集权</td>\n<td>△ 部分错配</td>\n</tr>\n<tr>\n<td>游泳</td>\n<td>θ &lt; 0</td>\n<td>中</td>\n<td>λ 中</td>\n<td>集权偏分权</td>\n<td>集权</td>\n<td>△ 部分错配</td>\n</tr>\n<tr>\n<td>篮球</td>\n<td>θ ≈ 0</td>\n<td>高</td>\n<td>λ 大</td>\n<td>分权</td>\n<td>集权</td>\n<td>✗ 错配</td>\n</tr>\n<tr>\n<td>足球</td>\n<td>θ &gt; 0</td>\n<td>极高</td>\n<td>λ 极大</td>\n<td>分权</td>\n<td>集权</td>\n<td>✗ 严重错配</td>\n</tr>\n</tbody>\n</table></div>\n<p class=\"annotatable-block\" data-block-id=\"b-02f441c534-01\" data-block-type=\"p\"><strong>结论</strong>——中国举国体制对硬信息主导项目（θ &lt;&lt; 0、λ 小）有效，对软信息主导项目（θ &gt; 0、λ 大、γ 高）系统性失效。这不是中国足球独有的问题，是举国体制在 θ 域上的边界问题。</p>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-79fd4b2c98-01\" data-block-type=\"h2\" id=\"e9\">E.9 政策含义</h2>\n<p class=\"annotatable-block\" data-block-id=\"b-dde8249331-01\" data-block-type=\"p\">引擎给出的政策含义——</p>\n<p class=\"annotatable-block\" data-block-id=\"b-e31b89047b-01\" data-block-type=\"p\"><strong>政策含义 1</strong>：跨项目异质性。同一套治理结构对不同项目的效果不同——这不是态度问题，是任务性质问题。中国乒乓球的成功与中国足球的失败可以用同一台引擎统一解释。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-ed4851f684-01\" data-block-type=\"p\"><strong>政策含义 2</strong>：单点干预悖论。在 PCL 存在的条件下，任何单点干预都会被环路稀释。这是过去三十年中国足球改革史的形式化解释。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-cb97974f43-01\" data-block-type=\"p\"><strong>政策含义 3</strong>：耦合改善乘数（CAM 反向）。要让总损失下降一个数量级，所需要的多点同步干预强度，远低于单点干预所累积的尝试总和。这是第三编（治理重建）所有方案的根本性方法论支撑。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-30962a9859-01\" data-block-type=\"p\"><strong>政策含义 4</strong>：θ̄ 治理边界。在 θ &gt; 0 的项目上，应当探索\"分布式协同\"治理结构——既不是完全市场化，也不是完全集权化，而是多元共治的中间形态。第 20 章治理范式八个特征四组结构是这一探索的具体方案。</p>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-8c219c1157-01\" data-block-type=\"h2\" id=\"e10\">E.10 完整论文路径</h2>\n<p class=\"annotatable-block\" data-block-id=\"b-892973b58e-01\" data-block-type=\"p\">本附录是浓缩版。完整论文包含——</p>\n<ul>\n<li class=\"annotatable-block\" data-block-id=\"b-dbafacc3a1-01\" data-block-type=\"li\"><strong>基础模型</strong>（3.1-3.6）：博弈参与方、生产技术、合同空间、关系性契约内生化、官员职业关切的完整推导</li>\n<li class=\"annotatable-block\" data-block-id=\"b-04ed371620-01\" data-block-type=\"li\"><strong>均衡分析</strong>（4.1-4.3）：集权 / 分权均衡的闭合解 + 超加性损失定理证明</li>\n<li class=\"annotatable-block\" data-block-id=\"b-1263bca7e5-01\" data-block-type=\"li\"><strong>核心命题</strong>（5.1-5.5）：命题 1-5 的完整证明，含临界值显式推导</li>\n<li class=\"annotatable-block\" data-block-id=\"b-da3e8e432b-01\" data-block-type=\"li\"><strong>政治经济学扩展</strong>（6.1-6.2）：从晋升锦标赛内生推导职业关切强度 κ；改革的政治均衡</li>\n<li class=\"annotatable-block\" data-block-id=\"b-cdb7db2a3d-01\" data-block-type=\"li\"><strong>制度映射与识别策略</strong>（7.1-7.3）：跨项目制度映射、可执行的准实验识别策略、信息结构参数的独立测量方案</li>\n<li class=\"annotatable-block\" data-block-id=\"b-76ce5b4b1f-01\" data-block-type=\"li\"><strong>数值模拟</strong>（A.6）：参数敏感性分析与反事实模拟</li>\n</ul>\n<p class=\"annotatable-block\" data-block-id=\"b-a99d64aa5e-01\" data-block-type=\"p\">完整论文标题——《软信息、多委托人与举国体制的边界——信息结构、激励互补性与集权的超加性损失》。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-e7a8638a20-01\" data-block-type=\"p\">完整论文已投稿至中国体育人文社科核心期刊。投稿过程的修订版本可参考相关研究档案。论文当前状态——v3 投稿版，2026 年。</p>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-fe41bda5b6-01\" data-block-type=\"h2\" id=\"e11\">E.11 引擎与本书概念体系的对应表</h2>\n<div class=\"table-wrap annotatable-block\" data-block-id=\"b-f13fd3e06c-01\" data-block-type=\"div\"><table class=\"data-table\">\n<thead>\n<tr>\n<th>引擎概念</th>\n<th>本书章节</th>\n<th>中国语境的具体投影</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>θ &lt; 0 项目</td>\n<td>引言、第 1-6 章背景</td>\n<td>乒乓球、跳水、举重等成功案例</td>\n</tr>\n<tr>\n<td>θ &gt; 0 项目</td>\n<td>全书研究对象</td>\n<td>足球（本书核心）、篮球（部分参照）</td>\n</tr>\n<tr>\n<td>γ 多老板冲突</td>\n<td>第 5 章三轨道 KPI 互斥 / 第 6 章六轨并行</td>\n<td>体育局 / 教育部 / 足协 / 中足联多委托人格局</td>\n</tr>\n<tr>\n<td>λ 软硬信息互补性</td>\n<td>第 4 章慢动作困局 / 第 11 章 AI 边界</td>\n<td>软信息生产无法被独立激励的具体表现</td>\n</tr>\n<tr>\n<td>命题 3 不可分离性</td>\n<td>第 3 章 IPTI / 第 4 章 IPHS、CIF</td>\n<td>选材层与主帅选拔层的不可分离性投影</td>\n</tr>\n<tr>\n<td>引理 1 调配破坏</td>\n<td>第 4 章慢动作困局 / 认知污染闭环</td>\n<td>中国教练 2.6 年评估 vs 德国 2 个月</td>\n</tr>\n<tr>\n<td>命题 5 集权偏高</td>\n<td>第 5 章六轨并行 / 第 6 章单点干预悖论</td>\n<td>任何整合赛事的官员都失去 KPI 独立性</td>\n</tr>\n<tr>\n<td>Δ_super 超加性损失</td>\n<td>第 6 章 CAM 耦合放大乘数</td>\n<td>五个病灶之间互相放大产生的耦合环</td>\n</tr>\n<tr>\n<td>Δ_super 反向运行</td>\n<td>第 19 章耦合改善乘数</td>\n<td>1.2^6 ≈ 3 倍的协同治理乘数效应</td>\n</tr>\n<tr>\n<td>θ̄ 治理边界</td>\n<td>第 20 章治理范式八个特征</td>\n<td>多元共治三层结构是 θ̄ 边界的中国版</td>\n</tr>\n</tbody>\n</table></div>\n<p class=\"annotatable-block\" data-block-id=\"b-0404343373-01\" data-block-type=\"p\">这张表是本书理论引擎与具体章节论证之间的\"翻译表\"。读者在阅读本书任何一章时，可以回到本附录确认引擎层面的形式化基础；同时，本书每一章的中国语境分析，都是对引擎参数空间在具体环节上的验证。</p>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-b4364eccf9-01\" data-block-type=\"h2\" id=\"e12\">E.12 引擎的局限与未来研究</h2>\n<p class=\"annotatable-block\" data-block-id=\"b-8906b61338-01\" data-block-type=\"p\">任何理论引擎都有局限。本引擎的明确局限——</p>\n<p class=\"annotatable-block\" data-block-id=\"b-e0843d88f0-01\" data-block-type=\"p\"><strong>局限 1 · 静态假设</strong>：当前模型是单期或重复博弈的稳态分析。中国足球的演化是长周期动态过程，需要进一步发展动态版本。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-9857a638ab-01\" data-block-type=\"p\"><strong>局限 2 · 同质代理人假设</strong>：当前模型假设代理人之间同质。中国教练 / 球员 / 家长存在显著异质性，需要异质性扩展。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-048c1b9d3d-01\" data-block-type=\"p\"><strong>局限 3 · 信息结构外生</strong>：θ、γ、λ 在当前模型中是外生参数。AI 等技术进步会内生改变 θ（让部分软信息可核实化）—— 这一内生化是后续研究方向。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-c328c42b65-01\" data-block-type=\"p\"><strong>局限 4 · 文化变量缺位</strong>：当前模型不直接处理文化因素。第 18 章文化沉淀涉及的代际传递、身份认同、归属感，需要进一步引入文化经济学的扩展。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-754fa06ee8-01\" data-block-type=\"p\">这四个局限对应着附录 D 中至少 5 项博士论文级研究议题（D2 / D6 / D8 / D9 / D10）。本引擎不是终极的——它是一套可以被同行扩展的研究纲领。</p>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-d6a382133d-01\" data-block-type=\"h2\" id=\"e13\">E.13 给非经济学背景读者的快速指南</h2>\n<p class=\"annotatable-block\" data-block-id=\"b-cc65c124e3-01\" data-block-type=\"p\">如果你不是经济学专业背景，读到这里可能会感到 θ-γ-λ 这些参数有些抽象。给一份快速指南——</p>\n<p class=\"annotatable-block\" data-block-id=\"b-08bb0c6f46-01\" data-block-type=\"p\"><strong>最少需要记住的三件事</strong>——</p>\n<ol>\n<li class=\"annotatable-block\" data-block-id=\"b-e51b8e718a-01\" data-block-type=\"li\">\n<p><strong>不同体育项目需要不同的治理结构</strong>——硬信息项目（数据可测）适合集权，软信息项目（判断难传递）需要分权或多元共治。中国足球失败的根本原因是用了\"硬信息项目的治理结构\"做\"软信息项目\"。</p>\n</li>\n<li class=\"annotatable-block\" data-block-id=\"b-3e2e75c204-01\" data-block-type=\"li\">\n<p><strong>单点改革注定失败</strong>——病灶之间相互放大（耦合环），任何一个孤立改革都会被环路稀释。要见效，必须多点同步发力。</p>\n</li>\n<li class=\"annotatable-block\" data-block-id=\"b-5fafceb216-01\" data-block-type=\"li\">\n<p><strong>在一个持续推进的中期过程中，多元共治结构 + AI 智能补偿 + 文化沉淀的组合，可以让 PCL 反向运行</strong>——这就是耦合改善乘数（CAM 反向）能产生 ≈ 3 倍稳定改善的原因。</p>\n</li>\n</ol>\n<p class=\"annotatable-block\" data-block-id=\"b-db9674cf97-01\" data-block-type=\"p\">如果只能记住三件事，记住这三件——本书后面的所有内容都是这三件事的具体展开。</p>\n<hr/>\n<p class=\"annotatable-block\" data-block-id=\"b-f5b000b239-01\" data-block-type=\"p\"><em>本附录的完整证明、形式化推导、参数敏感性分析在独立学术论文中。本附录的目的是让本书读者把握引擎核心，而不是替代论文本身。本附录与正文相互呼应——正文的中国语境分析为引擎提供应用场域，引擎为正文分析提供形式化基础。</em></p>",
+  "wordCount": 4936,
+  "readingMinutes": 11,
+  "summary": "本附录是本书理论引擎的形式化基础。本书引言第 3 节用普通话讲了一遍这台引擎；本附录把它拉回正式数学。但这一附录仍然是浓缩版——完整论文（约 50,000 字 + 33 个公式 + 多组反事实模拟）单独成稿，标题为《软信息、多委托人与举国体制的边界——信息结构、激励互补性与集权的超加性损失》，已投稿至中国体育人文社科核心期刊。本附录的目的，是让本书读者在不离开本书的情况下，对引擎的核心命题有形式化的把握；同时，让有进一步学理兴趣的读者知道完整论文的具体路径。",
+  "imageCount": 0,
+  "referenceCards": [],
+  "blockIndex": [
+    {
+      "id": "b-79deb65d2f-01",
+      "type": "blockquote",
+      "preview": "本附录是本书理论引擎的形式化基础。本书引言第 3 节用普通话讲了一遍这台引擎；本附录把它拉回正式数学。但这一附录仍然是浓缩版——完整论文（约 50,000 字 + 33 个公式 + 多组反事实模拟）单独成稿，标题为《软信息、多委托人与举国体"
+    },
+    {
+      "id": "b-78cb1f8df3-01",
+      "type": "h2",
+      "preview": "E.1 为什么需要一台理论引擎"
+    },
+    {
+      "id": "b-60b5305983-01",
+      "type": "p",
+      "preview": "中国足球的讨论长期在两种语言之间摇摆——"
+    },
+    {
+      "id": "b-5b89864067-01",
+      "type": "p",
+      "preview": "一种是情绪化的语言：\"体制问题\"\"文化问题\"\"急功近利\"\"不重视青训\"。这些话不算错，但解释力有限——同样是举国体制，乒乓球与跳水拿出了几十年稳定的国际竞争力；同样是中国家长，他们的孩子在田径、游泳、羽毛球项目上完成了大量长期投入。如果体制"
+    },
+    {
+      "id": "b-c9bcbc2cb9-01",
+      "type": "p",
+      "preview": "另一种是工程化的语言：\"补强体校\"\"推广校园足球\"\"增加比赛\"\"引进外教\"\"加大投入\"\"改革协会\"。每一条单独看都合理，但当它们被同时执行了几十年，结果却并未沿着预期方向积累。问题不在每条建议的方向，而在于这些建议之间是否存在被忽视的相互削"
+    },
+    {
+      "id": "b-19db6c60f2-01",
+      "type": "p",
+      "preview": "要走出这两种语言的循环，需要一台理论引擎——一组少量的、可被参数化、可被检验、能跨项目和跨国别使用的分析工具。它不必复杂，但必须能同时回答三个问题——"
+    },
+    {
+      "id": "b-6a0076aaf9-01",
+      "type": "p",
+      "preview": "第一， 跨项目异质性 ：为什么同一套举国体制，对乒乓球、跳水有效，对足球、篮球失效？ 第二， 干预的预期效果 ：在某一现有结构上加一笔投入、新设一个赛事、引进一位外教、上一套 AI 系统，预期会改变什么、不会改变什么？ 第三， 边界条件 ："
+    },
+    {
+      "id": "b-8a51f7fb33-01",
+      "type": "p",
+      "preview": "这就是本书引言第 3 节中那台\"理论引擎\"——它来自组织经济学，已在另一项独立研究中以正式模型给出。本附录给出形式化版本。"
+    },
+    {
+      "id": "b-f93b796cf7-01",
+      "type": "h2",
+      "preview": "E.2 三个核心变量"
+    },
+    {
+      "id": "b-3a5b7de38f-01",
+      "type": "p",
+      "preview": "任何一项体育任务的治理结构问题，可以用三个变量描述。"
+    },
+    {
+      "id": "b-5912380f5d-01",
+      "type": "h3",
+      "preview": "变量 θ：任务的\"软硬比\""
+    },
+    {
+      "id": "b-b6cadc575f-01",
+      "type": "p",
+      "preview": "任何一项体育训练或竞技任务，都同时依赖两类信息——"
+    },
+    {
+      "id": "b-d15a4fe0b7-01",
+      "type": "li",
+      "preview": "硬信息 ——可以测量、可以记录、可以传递的数据：百米成绩、命中率、跳水动作的客观评分、球员的速度与冲刺距离。"
+    },
+    {
+      "id": "b-ea80595dba-01",
+      "type": "li",
+      "preview": "软信息 ——只有在现场、长期接触某个人或某个团队的人才能掌握的判断：这个孩子在压力下会不会变形？他和队友的化学反应怎么样？他在赛季中段的状态走低是因为伤病、心理还是青春期？这些判断很难写进合同、很难传递给上级，也很难在论文里被证伪。"
+    },
+    {
+      "id": "b-da2afcad07-01",
+      "type": "p",
+      "preview": "定义 θ = ν − d ，刻画软信息相对于硬信息的边际优势。其中 ν 是软信息的边际产出贡献，d 是硬信息的边际产出贡献。"
+    },
+    {
+      "id": "b-7726a68437-01",
+      "type": "li",
+      "preview": "θ < 0：硬信息主导项目 ——乒乓球、跳水、举重、射击、自行车计时赛。这类项目的成绩高度依赖可被精确测量、客观评分、机械化训练的部分。"
+    },
+    {
+      "id": "b-e24b77c1c3-01",
+      "type": "li",
+      "preview": "θ > 0：软信息主导项目 ——足球、篮球、橄榄球、冰球。这类项目里，临场判断、阵型理解、团队默契、对手心理这些\"很难说清楚但确实决定胜负\"的东西占了主导。"
+    },
+    {
+      "id": "b-e54ff24929-01",
+      "type": "p",
+      "preview": "中国举国体制在乒乓球和跳水上的成功不是偶然——在 θ < 0 的项目里，谁能更高效地集中资源、统一标准、批量训练、用客观数据筛人，谁就赢。中国的体校体系恰好擅长这件事。但当这套体系搬到 θ > 0 的足球上，它就开始出问题。这不是态度问题，"
+    },
+    {
+      "id": "b-568d1df277-01",
+      "type": "h3",
+      "preview": "变量 γ：多个老板之间的\"目标分歧\""
+    },
+    {
+      "id": "b-a8df600db9-01",
+      "type": "p",
+      "preview": "在中国足球的现实里，一线教练同时面对很多\"老板\"——国家体育总局、地方体育局、足协、教育部、所在俱乐部、家长。每一方都有自己的目标——"
+    },
+    {
+      "id": "b-32ac1aaf55-01",
+      "type": "li",
+      "preview": "体育局要的是全运会、省运会的奖牌；"
+    },
+    {
+      "id": "b-b328e3681e-01",
+      "type": "li",
+      "preview": "教育部要的是足球特色校数量、学生参与率；"
+    },
+    {
+      "id": "b-954efab937-01",
+      "type": "li",
+      "preview": "俱乐部要的是球员长期发展和转会价值；"
+    },
+    {
+      "id": "b-e09e62068a-01",
+      "type": "li",
+      "preview": "家长要的是孩子升学不耽误。"
+    },
+    {
+      "id": "b-dcc3e653d3-01",
+      "type": "p",
+      "preview": "γ 衡量的就是这些\"老板\"之间的目标差距。形式化地，γ = max_i,j ‖μ_i − μ_j‖²，其中 μ_i 是委托人 i 的目标向量。"
+    },
+    {
+      "id": "b-d01ec8c474-01",
+      "type": "p",
+      "preview": "γ 越大，每个老板在给教练设计激励时，越倾向于\"少给一点\"——因为给的激励会被其他老板\"搭便车\"。这是经济学里典型的 多委托人公共品问题 （Bernheim & Whinston, 1986）。结果是：在分权结构下，教练拿到的总体激励，反而"
+    },
+    {
+      "id": "b-210fc07de9-01",
+      "type": "h3",
+      "preview": "变量 λ：软信息与硬信息的\"互补性\""
+    },
+    {
+      "id": "b-0424d66129-01",
+      "type": "p",
+      "preview": "软信息和硬信息之间不是替代关系，而是互相成全的关系——"
+    },
+    {
+      "id": "b-0dc7faf75a-01",
+      "type": "li",
+      "preview": "一名好教练知道哪个孩子需要加练（软信息），同时也能根据数据安排具体的训练负荷（硬信息）。两者结合，比单独使用任意一项都有效。"
+    },
+    {
+      "id": "b-c89ff77ae4-01",
+      "type": "li",
+      "preview": "一支好球队既需要清晰的战术体系（硬信息），也需要球员之间默契的临场判断（软信息）。"
+    },
+    {
+      "id": "b-fed9df38a0-01",
+      "type": "p",
+      "preview": "λ 衡量两者结合所产生的\"额外乘数效应\"。形式化地，λ 是生产函数 y = α·e_h + β·e_s + λ·e_h·e_s 中的交叉项系数。"
+    },
+    {
+      "id": "b-8bd24c370b-01",
+      "type": "p",
+      "preview": "在足球这样的项目里，λ 远大于零。在跳水的单人动作里，λ 接近零。"
+    },
+    {
+      "id": "b-1858b3c83a-01",
+      "type": "h2",
+      "preview": "E.3 命题 1：集权最优条件的特征化"
+    },
+    {
+      "id": "b-92dde19858-01",
+      "type": "p",
+      "preview": "命题 1 ——存在阈值 θ̄ 和 γ̄，使得当 θ < θ̄ 且 γ > γ̄ 时，集权治理（单一委托人）严格优于分权治理。"
+    },
+    {
+      "id": "b-24f1dbc16d-01",
+      "type": "p",
+      "preview": "形式化表述——"
+    },
+    {
+      "id": "b-254760e522-01",
+      "type": "p",
+      "preview": "假设产出函数 y = α·e_h + β·e_s + λ·e_h·e_s + ε，其中 e_h 是硬信息驱动的努力、e_s 是软信息驱动的努力。集权下委托人 P 通过单一合同 W = w_0 + b_h·y_h（基于可核实的硬信息 y_h）"
+    },
+    {
+      "id": "b-17675a22ab-01",
+      "type": "p",
+      "preview": "集权均衡总激励强度为 b_h^C；分权均衡总激励强度为 b_h^D = b_h^C / (1 + (N−1)·γ)。"
+    },
+    {
+      "id": "b-1b9384ddf4-01",
+      "type": "p",
+      "preview": "集权净社会福利 W_C 与分权净社会福利 W_D 之差，可以闭合解推导出——"
+    },
+    {
+      "id": "b-d311a8e0c9-01",
+      "type": "p",
+      "preview": "W_C − W_D = f(θ, γ, λ, N)"
+    },
+    {
+      "id": "b-2633e6d32a-01",
+      "type": "p",
+      "preview": "其中 f 在 θ < θ̄ 且 γ > γ̄ 区间为正，反之为负。"
+    },
+    {
+      "id": "b-a258c4a4a1-01",
+      "type": "p",
+      "preview": "直观解读 ——"
+    },
+    {
+      "id": "b-ba32315b86-01",
+      "type": "li",
+      "preview": "当任务以硬信息为主（θ < θ̄）且老板之间分歧大（γ > γ̄）时，集权胜——因为单一老板能避免\"搭便车\"问题，集中资源做硬信息测量。"
+    },
+    {
+      "id": "b-3c8800d77d-01",
+      "type": "li",
+      "preview": "当任务以软信息为主（θ > θ̄）或老板之间分歧小（γ < γ̄）时，分权胜——因为多老板格局允许多种激励路径并存，每条路径都更适合软信息生产。"
+    },
+    {
+      "id": "b-620638574b-01",
+      "type": "p",
+      "preview": "这正是为什么乒乓球（θ << 0、γ大）适合举国体制，足球（θ > 0、γ可被治理）反而需要去中心化结构 。"
+    },
+    {
+      "id": "b-98926f461b-01",
+      "type": "h2",
+      "preview": "E.4 命题 3：不可分离性定理"
+    },
+    {
+      "id": "b-a9a3833023-01",
+      "type": "p",
+      "preview": "命题 3（不可分离性定理） ——在集权结构下，软信息与硬信息合同 不可分离 地混合在一起，导致激励工具失效。"
+    },
+    {
+      "id": "b-f0eff420e8-01",
+      "type": "p",
+      "preview": "形式化表述——"
+    },
+    {
+      "id": "b-d76fd5333a-01",
+      "type": "p",
+      "preview": "假设委托人想分别激励硬信息生产 e_h 和软信息生产 e_s。理论最优合同应当是 W = w_0 + b_h·y_h + b_s·s（其中 s 是软信息）。但软信息按定义不可核实——s 不能进入合同。"
+    },
+    {
+      "id": "b-ed19568718-01",
+      "type": "p",
+      "preview": "委托人只能用 W = w_0 + b_h·y_h 这一种合同，同时激励 e_h 和 e_s。此时——"
+    },
+    {
+      "id": "b-628a580df3-01",
+      "type": "p",
+      "preview": "∂e_s / ∂b_h = (λ·e_h^{*}) / (1 − λ²·b_h)"
+    },
+    {
+      "id": "b-8231ee328d-01",
+      "type": "p",
+      "preview": "也就是说——软信息努力 e_s 完全由硬信息激励 b_h 决定。委托人 没有独立的工具 来调节软信息产出。"
+    },
+    {
+      "id": "b-ab05ce3b0a-01",
+      "type": "p",
+      "preview": "直观解读 ——"
+    },
+    {
+      "id": "b-f0b7d3128b-01",
+      "type": "p",
+      "preview": "集权下软信息无法被单独激励、单独保留、单独传递。软信息的所有命运，都被硬信息合同的设计绑定。如果 b_h 高，软信息会\"搭便车\"被生产；如果 b_h 低，软信息生产同时崩塌。"
+    },
+    {
+      "id": "b-7e841851e4-01",
+      "type": "p",
+      "preview": "应用 1 ：第 3 章选材的不可分离性投影（IPTI）——选材系统按硬信息（身高、出生月份等）打分，软信息（学习曲线、心理韧性）的命运被绑定。SNR=0.47 是这一投影的实测值。"
+    },
+    {
+      "id": "b-270ffbb87c-01",
+      "type": "p",
+      "preview": "应用 2 ：第 4 章主帅选拔的不可分离性投影（IPHS）——主帅选拔按硬信息（球员经历）打分，软信息（教学能力、判断力、组织能力）的命运被绑定。CIF（教练身份谬误）是这一投影的具体形态。"
+    },
+    {
+      "id": "b-67c61f7782-01",
+      "type": "p",
+      "preview": "应用 3 ：第 6 章人口窄、结构基因失衡——基层教练没有独立激励生产软信息（命题 3 的入口端表现），结果是软信息生产网络从未形成。"
+    },
+    {
+      "id": "b-fe4246e66d-01",
+      "type": "p",
+      "preview": "不可分离性定理是本书第一编五个病灶诊断的 统一上游约束 ——所有五个病灶在不同环节都是不可分离性定理的具体投影。"
+    },
+    {
+      "id": "b-de18cc864a-01",
+      "type": "h2",
+      "preview": "E.5 引理 1：调配破坏效应"
+    },
+    {
+      "id": "b-48ed289f8a-01",
+      "type": "p",
+      "preview": "引理 1（调配破坏效应） ——晋升锦标赛压力下，集权下管理者会理性地选择高频调配，破坏关系性长期契约的可行性。"
+    },
+    {
+      "id": "b-f52e605a0e-01",
+      "type": "p",
+      "preview": "形式化表述——"
+    },
+    {
+      "id": "b-0c04df74fb-01",
+      "type": "p",
+      "preview": "设管理者面临晋升评估压力 κ。每次调配产生短期硬绩效信号 σ，但破坏教练-球员之间的关系性长期契约 δ。"
+    },
+    {
+      "id": "b-beea57c72f-01",
+      "type": "p",
+      "preview": "管理者最优调配频率 f* 满足——"
+    },
+    {
+      "id": "b-9cb384f7c5-01",
+      "type": "p",
+      "preview": "f* = (κ·σ) / δ"
+    },
+    {
+      "id": "b-3f4a9fa97e-01",
+      "type": "p",
+      "preview": "当 κ 上升（晋升压力大），f* 上升——管理者更频繁调配。但 δ 是个体与组织的关系性资本，需要时间积累——高频调配让 δ 永远无法达到稳定状态。"
+    },
+    {
+      "id": "b-ec702a6507-01",
+      "type": "p",
+      "preview": "应用 ：第 4 章 CRI=0.364 教练认知可靠性低下——中国教练的关系性长期契约 δ 被高频调配破坏，案例库无法积累，认知污染闭环形成。"
+    },
+    {
+      "id": "b-8adc925a81-01",
+      "type": "p",
+      "preview": "引理 1 给出了\"为什么中国教练 2.6 年才能完成可靠评估，而德国教练只需 2 个月\"的形式化原因——不是教练个体能力差异，是 δ 的均衡值差异。"
+    },
+    {
+      "id": "b-9a14cac393-01",
+      "type": "h2",
+      "preview": "E.6 命题 5：均衡集权程度的系统性偏高"
+    },
+    {
+      "id": "b-cb29235ce2-01",
+      "type": "p",
+      "preview": "命题 5 ——在晋升锦标赛压力下，均衡集权程度 系统性高于社会最优集权程度 。"
+    },
+    {
+      "id": "b-112b0744e6-01",
+      "type": "p",
+      "preview": "形式化表述——"
+    },
+    {
+      "id": "b-20170952b8-01",
+      "type": "p",
+      "preview": "社会最优集权程度 由命题 1 的最优化条件给出。但由于晋升锦标赛带来的官员职业关切 κ > 0，每个官员个体的最优集权程度 。"
+    },
+    {
+      "id": "b-ca4e0e3c84-01",
+      "type": "p",
+      "preview": "这是因为——"
+    },
+    {
+      "id": "b-7b72d7e915-01",
+      "type": "li",
+      "preview": "集权能让官员可见地\"掌握\"赛事或资源（硬绩效）；"
+    },
+    {
+      "id": "b-15997387c3-01",
+      "type": "li",
+      "preview": "任何想要\"分权\"或\"合并\"的官员都面临个体理性悖论——分权 / 合并意味着失去自己的可考核 KPI。"
+    },
+    {
+      "id": "b-3b125d6cd4-01",
+      "type": "p",
+      "preview": "应用 ：第 5 章六轨并行——任何想合并赛事的官员都会失去自己的考核独立性，所以六轨很难自然减少；即便出现赛事主办结构调整，结果也往往只是新增一层归口区分，而不是自动消除多轨并行。"
+    },
+    {
+      "id": "b-03f8d80885-01",
+      "type": "p",
+      "preview": "命题 5 给出了\"为什么单点干预悖论是数学必然\"的形式化原因——耦合环不可被单点改变，因为单点改变与官员个体理性冲突。"
+    },
+    {
+      "id": "b-3ce2891ea3-01",
+      "type": "h2",
+      "preview": "E.7 超加性损失 Δ_super"
+    },
+    {
+      "id": "b-b2a366dbf6-01",
+      "type": "p",
+      "preview": "超加性损失定理 ——当多重约束（命题 3 的不可分离性 + 引理 1 的调配破坏 + 命题 5 的均衡偏高）同时作用、且互补性 λ > 0 时，总损失严格大于单独损失之和。"
+    },
+    {
+      "id": "b-95c8e7b4d6-01",
+      "type": "p",
+      "preview": "形式化表述——"
+    },
+    {
+      "id": "b-33b92af706-01",
+      "type": "p",
+      "preview": "设 L_1 是单独存在不可分离性时的损失，L_2 是单独存在调配破坏时的损失，L_3 是单独存在集权偏高时的损失。当三者同时作用——"
+    },
+    {
+      "id": "b-4523097215-01",
+      "type": "p",
+      "preview": "L_total = L_1 + L_2 + L_3 + Δ_super"
+    },
+    {
+      "id": "b-a07239cdb3-01",
+      "type": "p",
+      "preview": "其中 Δ_super > 0 是交互项（superadditive loss）。Δ_super 的存在意味着——"
+    },
+    {
+      "id": "b-047c8551b4-01",
+      "type": "li",
+      "preview": "任何单点干预都会被其他两项放大 ——这是单点干预悖论的形式化。"
+    },
+    {
+      "id": "b-26ac7f1b30-01",
+      "type": "li",
+      "preview": "多点同步干预的边际效率高于单点累积 ——这是耦合改善乘数（CAM）的反向应用。"
+    },
+    {
+      "id": "b-f9aac9a74d-01",
+      "type": "p",
+      "preview": "应用 ：第 6 章 PCL 病灶耦合环 + 第 19 章 CAM 耦合改善乘数——前者是 Δ_super 在中国当前条件下的具体形态，后者是 Δ_super 反向运行（多点同步治理）的预期效果。1.2^6 ≈ 3 倍的耦合改善乘数，正是 Δ"
+    },
+    {
+      "id": "b-461e99099f-01",
+      "type": "h2",
+      "preview": "E.8 治理边界 θ̄ 与中国体育的\"分项治理\""
+    },
+    {
+      "id": "b-d29568fcce-01",
+      "type": "p",
+      "preview": "把命题 1 的阈值 θ̄ 应用到中国体育的具体项目——"
+    },
+    {
+      "id": "b-a39d35625a-01",
+      "type": "div",
+      "preview": "项目 θ 估计 γ 估计 λ 估计 最优治理 中国实际治理 是否匹配 跳水 θ << 0 中 λ ≈ 0 集权 集权 ✓ 匹配 乒乓球 θ << 0 中 λ 小 集权 集权 ✓ 匹配 举重 θ << 0 低 λ ≈ 0 集权 集权 ✓ 匹配"
+    },
+    {
+      "id": "b-02f441c534-01",
+      "type": "p",
+      "preview": "结论 ——中国举国体制对硬信息主导项目（θ << 0、λ 小）有效，对软信息主导项目（θ > 0、λ 大、γ 高）系统性失效。这不是中国足球独有的问题，是举国体制在 θ 域上的边界问题。"
+    },
+    {
+      "id": "b-79fd4b2c98-01",
+      "type": "h2",
+      "preview": "E.9 政策含义"
+    },
+    {
+      "id": "b-dde8249331-01",
+      "type": "p",
+      "preview": "引擎给出的政策含义——"
+    },
+    {
+      "id": "b-e31b89047b-01",
+      "type": "p",
+      "preview": "政策含义 1 ：跨项目异质性。同一套治理结构对不同项目的效果不同——这不是态度问题，是任务性质问题。中国乒乓球的成功与中国足球的失败可以用同一台引擎统一解释。"
+    },
+    {
+      "id": "b-ed4851f684-01",
+      "type": "p",
+      "preview": "政策含义 2 ：单点干预悖论。在 PCL 存在的条件下，任何单点干预都会被环路稀释。这是过去三十年中国足球改革史的形式化解释。"
+    },
+    {
+      "id": "b-cb97974f43-01",
+      "type": "p",
+      "preview": "政策含义 3 ：耦合改善乘数（CAM 反向）。要让总损失下降一个数量级，所需要的多点同步干预强度，远低于单点干预所累积的尝试总和。这是第三编（治理重建）所有方案的根本性方法论支撑。"
+    },
+    {
+      "id": "b-30962a9859-01",
+      "type": "p",
+      "preview": "政策含义 4 ：θ̄ 治理边界。在 θ > 0 的项目上，应当探索\"分布式协同\"治理结构——既不是完全市场化，也不是完全集权化，而是多元共治的中间形态。第 20 章治理范式八个特征四组结构是这一探索的具体方案。"
+    },
+    {
+      "id": "b-8c219c1157-01",
+      "type": "h2",
+      "preview": "E.10 完整论文路径"
+    },
+    {
+      "id": "b-892973b58e-01",
+      "type": "p",
+      "preview": "本附录是浓缩版。完整论文包含——"
+    },
+    {
+      "id": "b-dbafacc3a1-01",
+      "type": "li",
+      "preview": "基础模型 （3.1-3.6）：博弈参与方、生产技术、合同空间、关系性契约内生化、官员职业关切的完整推导"
+    },
+    {
+      "id": "b-04ed371620-01",
+      "type": "li",
+      "preview": "均衡分析 （4.1-4.3）：集权 / 分权均衡的闭合解 + 超加性损失定理证明"
+    },
+    {
+      "id": "b-1263bca7e5-01",
+      "type": "li",
+      "preview": "核心命题 （5.1-5.5）：命题 1-5 的完整证明，含临界值显式推导"
+    },
+    {
+      "id": "b-da3e8e432b-01",
+      "type": "li",
+      "preview": "政治经济学扩展 （6.1-6.2）：从晋升锦标赛内生推导职业关切强度 κ；改革的政治均衡"
+    },
+    {
+      "id": "b-cdb7db2a3d-01",
+      "type": "li",
+      "preview": "制度映射与识别策略 （7.1-7.3）：跨项目制度映射、可执行的准实验识别策略、信息结构参数的独立测量方案"
+    },
+    {
+      "id": "b-76ce5b4b1f-01",
+      "type": "li",
+      "preview": "数值模拟 （A.6）：参数敏感性分析与反事实模拟"
+    },
+    {
+      "id": "b-a99d64aa5e-01",
+      "type": "p",
+      "preview": "完整论文标题——《软信息、多委托人与举国体制的边界——信息结构、激励互补性与集权的超加性损失》。"
+    },
+    {
+      "id": "b-e7a8638a20-01",
+      "type": "p",
+      "preview": "完整论文已投稿至中国体育人文社科核心期刊。投稿过程的修订版本可参考相关研究档案。论文当前状态——v3 投稿版，2026 年。"
+    },
+    {
+      "id": "b-fe41bda5b6-01",
+      "type": "h2",
+      "preview": "E.11 引擎与本书概念体系的对应表"
+    },
+    {
+      "id": "b-f13fd3e06c-01",
+      "type": "div",
+      "preview": "引擎概念 本书章节 中国语境的具体投影 θ < 0 项目 引言、第 1-6 章背景 乒乓球、跳水、举重等成功案例 θ > 0 项目 全书研究对象 足球（本书核心）、篮球（部分参照） γ 多老板冲突 第 5 章三轨道 KPI 互斥 / 第 6"
+    },
+    {
+      "id": "b-0404343373-01",
+      "type": "p",
+      "preview": "这张表是本书理论引擎与具体章节论证之间的\"翻译表\"。读者在阅读本书任何一章时，可以回到本附录确认引擎层面的形式化基础；同时，本书每一章的中国语境分析，都是对引擎参数空间在具体环节上的验证。"
+    },
+    {
+      "id": "b-b4364eccf9-01",
+      "type": "h2",
+      "preview": "E.12 引擎的局限与未来研究"
+    },
+    {
+      "id": "b-8906b61338-01",
+      "type": "p",
+      "preview": "任何理论引擎都有局限。本引擎的明确局限——"
+    },
+    {
+      "id": "b-e0843d88f0-01",
+      "type": "p",
+      "preview": "局限 1 · 静态假设 ：当前模型是单期或重复博弈的稳态分析。中国足球的演化是长周期动态过程，需要进一步发展动态版本。"
+    },
+    {
+      "id": "b-9857a638ab-01",
+      "type": "p",
+      "preview": "局限 2 · 同质代理人假设 ：当前模型假设代理人之间同质。中国教练 / 球员 / 家长存在显著异质性，需要异质性扩展。"
+    },
+    {
+      "id": "b-048c1b9d3d-01",
+      "type": "p",
+      "preview": "局限 3 · 信息结构外生 ：θ、γ、λ 在当前模型中是外生参数。AI 等技术进步会内生改变 θ（让部分软信息可核实化）—— 这一内生化是后续研究方向。"
+    },
+    {
+      "id": "b-c328c42b65-01",
+      "type": "p",
+      "preview": "局限 4 · 文化变量缺位 ：当前模型不直接处理文化因素。第 18 章文化沉淀涉及的代际传递、身份认同、归属感，需要进一步引入文化经济学的扩展。"
+    },
+    {
+      "id": "b-754fa06ee8-01",
+      "type": "p",
+      "preview": "这四个局限对应着附录 D 中至少 5 项博士论文级研究议题（D2 / D6 / D8 / D9 / D10）。本引擎不是终极的——它是一套可以被同行扩展的研究纲领。"
+    },
+    {
+      "id": "b-d6a382133d-01",
+      "type": "h2",
+      "preview": "E.13 给非经济学背景读者的快速指南"
+    },
+    {
+      "id": "b-cc65c124e3-01",
+      "type": "p",
+      "preview": "如果你不是经济学专业背景，读到这里可能会感到 θ-γ-λ 这些参数有些抽象。给一份快速指南——"
+    },
+    {
+      "id": "b-08bb0c6f46-01",
+      "type": "p",
+      "preview": "最少需要记住的三件事 ——"
+    },
+    {
+      "id": "b-e51b8e718a-01",
+      "type": "li",
+      "preview": "不同体育项目需要不同的治理结构 ——硬信息项目（数据可测）适合集权，软信息项目（判断难传递）需要分权或多元共治。中国足球失败的根本原因是用了\"硬信息项目的治理结构\"做\"软信息项目\"。"
+    },
+    {
+      "id": "b-3e2e75c204-01",
+      "type": "li",
+      "preview": "单点改革注定失败 ——病灶之间相互放大（耦合环），任何一个孤立改革都会被环路稀释。要见效，必须多点同步发力。"
+    },
+    {
+      "id": "b-5fafceb216-01",
+      "type": "li",
+      "preview": "在一个持续推进的中期过程中，多元共治结构 + AI 智能补偿 + 文化沉淀的组合，可以让 PCL 反向运行 ——这就是耦合改善乘数（CAM 反向）能产生 ≈ 3 倍稳定改善的原因。"
+    },
+    {
+      "id": "b-db9674cf97-01",
+      "type": "p",
+      "preview": "如果只能记住三件事，记住这三件——本书后面的所有内容都是这三件事的具体展开。"
+    },
+    {
+      "id": "b-f5b000b239-01",
+      "type": "p",
+      "preview": "本附录的完整证明、形式化推导、参数敏感性分析在独立学术论文中。本附录的目的是让本书读者把握引擎核心，而不是替代论文本身。本附录与正文相互呼应——正文的中国语境分析为引擎提供应用场域，引擎为正文分析提供形式化基础。"
+    }
+  ],
+  "sourcePath": "04_附录/附录E_软信息论文完整推导.md",
+  "updatedAt": "2026-05-26 11:19"
+}

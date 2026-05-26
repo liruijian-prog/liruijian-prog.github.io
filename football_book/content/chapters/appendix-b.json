@@ -1,0 +1,418 @@
+{
+  "id": "appendix-b",
+  "order": 27,
+  "title": "附录 B · 数据分级与方法论说明",
+  "subtitle": "B.1 数据可信度的四级分级标准",
+  "sectionId": "appendices",
+  "sectionTitle": "附录",
+  "html": "\n<blockquote class=\"annotatable-block\" data-block-id=\"b-86b1eb8e3a-01\" data-block-type=\"blockquote\">\n<p>本附录把全书各章末\"数据分级附录\"统一为一份完整的方法论文档。本书涉及大量跨国别、跨年代、跨主管部门的数据。在数据可信度上保持透明，是本书与一般\"中国足球评论\"的根本区别。本附录给出的是<strong>全书使用的数据可信度分级标准、来源核证方法、原创概念的研究估算逻辑</strong>——目的是让任何同行学者都能独立复核本书的每一处数据声明。</p>\n</blockquote>\n<hr/>\n\n<p class=\"annotatable-block\" data-block-id=\"b-55ee72b6ff-01\" data-block-type=\"p\">本书所有数据按四级分级——</p>\n<p class=\"annotatable-block\" data-block-id=\"b-dd50c184cf-01\" data-block-type=\"p\"><strong>A 级 · 官方权威数据</strong>——来自国家级或国际级官方文件、权威机构、可独立验证的公开数据。具体包括：</p>\n<ul>\n<li class=\"annotatable-block\" data-block-id=\"b-8a42cdabce-01\" data-block-type=\"li\">中国国家级官方文件——教育部、国家体育总局、国家统计局、中共中央 / 国务院发布的统计公报、规划纲要、决定文件</li>\n<li class=\"annotatable-block\" data-block-id=\"b-68a6bc6f7a-01\" data-block-type=\"li\">国际级官方文件——FIFA、UEFA、AFC 等国际组织的年报与统计</li>\n<li class=\"annotatable-block\" data-block-id=\"b-b4d322e107-01\" data-block-type=\"li\">各国足协官方文件——DFB（德国）、JFA（日本）、RFEF（西班牙）、KNVB（荷兰）、FA（英格兰）、FFF（法国）、KSÍ（冰岛）等</li>\n<li class=\"annotatable-block\" data-block-id=\"b-fff0f84c17-01\" data-block-type=\"li\">学术权威期刊——Nature 系列、JEEA、AER、《经济学（季刊）》、《体育科学》《北京体育大学学报》等</li>\n<li class=\"annotatable-block\" data-block-id=\"b-5d8f3c2055-01\" data-block-type=\"li\">国际公开学术经典——Akerlof (1970)、Holmstrom (1991)、Bernheim &amp; Whinston (1986)、Ostrom (1990)、Klein (1998) 等</li>\n</ul>\n<p class=\"annotatable-block\" data-block-id=\"b-cc749d464e-01\" data-block-type=\"p\"><strong>B 级 · 综合估算 / 合成数据</strong>——研究估算、综合判断、学术研究合成的数据。具体包括：</p>\n<ul>\n<li class=\"annotatable-block\" data-block-id=\"b-977484c6b7-01\" data-block-type=\"li\">多源公开数据的综合判断——如各国 U12 球员人数估算、教练员持证人数估算</li>\n<li class=\"annotatable-block\" data-block-id=\"b-7846debfe4-01\" data-block-type=\"li\">行业研究机构数据——艾瑞咨询、易观国际、Deloitte、CIES Football Observatory 等</li>\n<li class=\"annotatable-block\" data-block-id=\"b-1ab40f0701-01\" data-block-type=\"li\">媒体综合数据——多家主流媒体重复报道形成共识的数字</li>\n<li class=\"annotatable-block\" data-block-id=\"b-2008d4ac7a-01\" data-block-type=\"li\">研究院内部测算——基于公开数据 + 研究院专项调研的合成判断</li>\n</ul>\n<p class=\"annotatable-block\" data-block-id=\"b-9c3f7022a5-01\" data-block-type=\"p\"><strong>C 级 · 单一来源 / 媒体引用</strong>——单一来源数据、媒体引用、历史口径存疑数据。具体包括：</p>\n<ul>\n<li class=\"annotatable-block\" data-block-id=\"b-660a1ab491-01\" data-block-type=\"li\">仅一家媒体报道的具体数字</li>\n<li class=\"annotatable-block\" data-block-id=\"b-0bf3ce9730-01\" data-block-type=\"li\">历史数据但当代核证有限</li>\n<li class=\"annotatable-block\" data-block-id=\"b-b47ebb73d2-01\" data-block-type=\"li\">行业访谈或专家访问获得的非正式数据</li>\n</ul>\n<p class=\"annotatable-block\" data-block-id=\"b-d6a13485a8-01\" data-block-type=\"p\"><strong>D 级 · 理论推论 / 模型假设</strong>——基于理论框架的推论或模型假设。具体包括：</p>\n<ul>\n<li class=\"annotatable-block\" data-block-id=\"b-b2a12a9ac8-01\" data-block-type=\"li\">命题 1-5 的临界值与阈值估算</li>\n<li class=\"annotatable-block\" data-block-id=\"b-b9713dacac-01\" data-block-type=\"li\">CAM 耦合放大乘数的理论推算（1.2^5、1.2^6 等）</li>\n<li class=\"annotatable-block\" data-block-id=\"b-474d042ddd-01\" data-block-type=\"li\">第 17 章 RAE 校正算法 β 从 0.95→0.30 的研究院理论预期</li>\n<li class=\"annotatable-block\" data-block-id=\"b-3acd23ca0a-01\" data-block-type=\"li\">第 17 章年均观察 8 场→25+ 场的研究院假设</li>\n<li class=\"annotatable-block\" data-block-id=\"b-d47bb4ac58-01\" data-block-type=\"li\">第 19 章六个打通\"耦合改善乘数 ≈ 3 倍\"的理论推算</li>\n</ul>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-e57a8a3cd8-01\" data-block-type=\"h2\" id=\"b2\">B.2 各章数据分级简要清单</h2>\n<h3 class=\"annotatable-block\" data-block-id=\"b-b7e5d0fb29-01\" data-block-type=\"h3\" id=\"_1\">引言部分</h3>\n<ul>\n<li class=\"annotatable-block\" data-block-id=\"b-b42aecc5a2-01\" data-block-type=\"li\">A 级：习近平总书记 2022 年关于哲学社会科学高质量发展重要指示；2023-06-02 文化传承发展座谈会\"两个结合\"；党的十八届、十九届、二十届三中全会决定；《教育强国建设规划纲要（2024—2035 年）》；《体育强国建设纲要》（2019）</li>\n</ul>\n<h3 class=\"annotatable-block\" data-block-id=\"b-99e7fcfd6f-01\" data-block-type=\"h3\" id=\"1-6\">第一编（第 1-6 章）</h3>\n<div class=\"table-wrap annotatable-block\" data-block-id=\"b-9b153b0b71-01\" data-block-type=\"div\"><table class=\"data-table\">\n<thead>\n<tr>\n<th>章</th>\n<th>关键数据</th>\n<th>等级</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>第 1 章</td>\n<td>十国分层参照、中国 A/B 口径、U15 结构承接表、结构漏斗</td>\n<td>B/C（分层使用）</td>\n</tr>\n<tr>\n<td>第 1 章</td>\n<td>1990s 中国 60-65 万 → 2008 年 1.3 万的跌幅 95%</td>\n<td>C（明确标注）</td>\n</tr>\n<tr>\n<td>第 2 章</td>\n<td>Akerlof 柠檬市场理论</td>\n<td>A 级（学术权威）</td>\n</tr>\n<tr>\n<td>第 2 章</td>\n<td>CSI 综合结构指数中国 ≈ 德国 15%</td>\n<td>B（合成判断）</td>\n</tr>\n<tr>\n<td>第 3 章</td>\n<td>RAE Q1/Q4 = 2.71（中国）vs 2.16（德国）vs 1.92（日本）</td>\n<td>B（公开研究综合）</td>\n</tr>\n<tr>\n<td>第 3 章</td>\n<td>SNR=0.47 / RMD=1.5 / 临界值 RMD≥2.9</td>\n<td>D（理论推算）</td>\n</tr>\n<tr>\n<td>第 4 章</td>\n<td>中国教练年均 8 场比赛 / 德国 34 场</td>\n<td>B（合成判断）</td>\n</tr>\n<tr>\n<td>第 4 章</td>\n<td>CRI=0.364 / 可靠阈值≥0.80</td>\n<td>D（理论推算）</td>\n</tr>\n<tr>\n<td>第 4 章</td>\n<td>教练 2.6 年完成可靠评估 / 德国 2 个月</td>\n<td>D（基于 CRI 推算）</td>\n</tr>\n<tr>\n<td>第 5 章</td>\n<td>2025 年六套并行赛事完整档案</td>\n<td>A 级（官方文件）</td>\n</tr>\n<tr>\n<td>第 5 章</td>\n<td>校园足球特色校 38,514 所 / 规划 5 万所</td>\n<td>A（教育部公开）</td>\n</tr>\n<tr>\n<td>第 6 章</td>\n<td>五个病灶核心指标对照表（综合自前五章）</td>\n<td>综合（A+B+D）</td>\n</tr>\n<tr>\n<td>第 6 章</td>\n<td>CAM &gt; 1（耦合放大乘数）</td>\n<td>D（理论引擎推论）</td>\n</tr>\n</tbody>\n</table></div>\n<h3 class=\"annotatable-block\" data-block-id=\"b-b95cf150ee-01\" data-block-type=\"h3\" id=\"7-13\">第二编（第 7-13 章）</h3>\n<div class=\"table-wrap annotatable-block\" data-block-id=\"b-c0b0fd903f-01\" data-block-type=\"div\"><table class=\"data-table\">\n<thead>\n<tr>\n<th>章</th>\n<th>关键数据</th>\n<th>等级</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>第 7 章</td>\n<td>德国 NLZ 59 个 / 日本 U12 球员 274,774 / 荷兰青少年比赛节律 14 场</td>\n<td>A（官方）</td>\n</tr>\n<tr>\n<td>第 7 章</td>\n<td>西班牙 / 法国 / 英格兰 U12 赛季场次</td>\n<td>B（章程综合）</td>\n</tr>\n<tr>\n<td>第 7 章</td>\n<td>冰岛球场 179 块 / 教练 639 名</td>\n<td>A（KSÍ 公开）</td>\n</tr>\n<tr>\n<td>第 8 章</td>\n<td>五种教练职业化路径中具体国家持证人数</td>\n<td>B（综合到 2024 年）</td>\n</tr>\n<tr>\n<td>第 9 章</td>\n<td>四种范式 + 三种主要混合范式（荷 / 英 / 法）</td>\n<td>B（学术综合）</td>\n</tr>\n<tr>\n<td>第 10 章</td>\n<td>La Masia 自 1979 年至今约 45 年 / Ajax 自 1965 年近 60 年 / Clairefontaine 自 1988 年 37 年 / Japan's Way 自 1996 年约 30 年</td>\n<td>A（俱乐部 / 足协公开史）</td>\n</tr>\n<tr>\n<td>第 11 章</td>\n<td>ProZone 50 万英镑年费 / Veo 600 英镑年费</td>\n<td>A（公开报价）</td>\n</tr>\n<tr>\n<td>第 11 章</td>\n<td>DeepMind × 利物浦 TacticAI 90% 战术优先率</td>\n<td>A（Nature Communications 2024）</td>\n</tr>\n<tr>\n<td>第 12 章</td>\n<td>英超 CCO 2022-2023 赛季服务 1000 万 + 参与者 / Football Foundation 累计 10+ 亿英镑</td>\n<td>A（英超官方）</td>\n</tr>\n<tr>\n<td>第 12 章</td>\n<td>日本高中锦标赛 2023 年 8,088 队预选 / 48 队进决赛</td>\n<td>A（日本足协公开）</td>\n</tr>\n<tr>\n<td>第 13 章</td>\n<td>四重锁的中国独特性论证</td>\n<td>B（综合判断）</td>\n</tr>\n</tbody>\n</table></div>\n<h3 class=\"annotatable-block\" data-block-id=\"b-1249aee0e5-01\" data-block-type=\"h3\" id=\"14-20\">第三编（第 14-20 章）</h3>\n<div class=\"table-wrap annotatable-block\" data-block-id=\"b-844cb51876-01\" data-block-type=\"div\"><table class=\"data-table\">\n<thead>\n<tr>\n<th>章</th>\n<th>关键数据</th>\n<th>等级</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>第 14 章</td>\n<td>本菲卡 €5.16 亿十年青训净利润</td>\n<td>B（Transfermarkt + 媒体综合）</td>\n</tr>\n<tr>\n<td>第 14 章</td>\n<td>英格兰 EPPP £25 亿投入 → £40 亿转会收益</td>\n<td>B（英超 + 媒体综合）</td>\n</tr>\n<tr>\n<td>第 14 章</td>\n<td>中国 2,350 亿少儿体育培训市场 / 89% 家长付费意愿</td>\n<td>B（艾瑞咨询）</td>\n</tr>\n<tr>\n<td>第 15 章</td>\n<td>复兴杯首年 1,274 场 + 区域合伙人年收入 2.2-3.7 万元</td>\n<td>B（研究院测算）</td>\n</tr>\n<tr>\n<td>第 15 章</td>\n<td>德国 DFBnet / 英格兰 FA Full-Time / 荷兰 Wedstrijdzaken 等系统</td>\n<td>A（官方公开）</td>\n</tr>\n<tr>\n<td>第 16 章</td>\n<td>Barça Academy 2025-2026 全球分级 / AC Milan / City Football Schools / Real Madrid Foundation 各官方资料</td>\n<td>A（俱乐部官方）</td>\n</tr>\n<tr>\n<td>第 16 章</td>\n<td>巴萨 2025-07-16 咨询项目</td>\n<td>A（FCB 官方公告）</td>\n</tr>\n<tr>\n<td>第 17 章</td>\n<td>全国学校 47.00 万所（2024 年）/ 体育场地 484.17 万个（2024-12-31）/ 体育产业总规模 38421 亿元（2024）</td>\n<td>A（政府公开）</td>\n</tr>\n<tr>\n<td>第 17 章</td>\n<td>北体大综合可行性研判分（95/84/90/88/86）</td>\n<td>B（可行性研究内部）</td>\n</tr>\n<tr>\n<td>第 17 章</td>\n<td>CoachMind RAE 校正 β 0.95→0.30 / 观察场次 8→25+ 场</td>\n<td>D（研究院测算 / 假设）</td>\n</tr>\n<tr>\n<td>第 17 章</td>\n<td>YOLO11 / ByteTrack / VAEP / RTMPose / Whisper v3 等技术架构</td>\n<td>A（开源资料）</td>\n</tr>\n<tr>\n<td>第 18 章</td>\n<td>1971 乒乓外交 / 2023 旧金山习拜会\"5 年 5 万\"倡议 / 2024-07 中美青少年乒乓球邀请赛</td>\n<td>A（公开史 + 多源核实）</td>\n</tr>\n<tr>\n<td>第 18 章</td>\n<td>2003 巴西《佩雷拉法案》 Clube Formador / 2014 世界杯后约 32 亿雷亚尔投入</td>\n<td>B（多源公开）</td>\n</tr>\n<tr>\n<td>第 19 章</td>\n<td>师承打通三维度（师徒带教 / 晋升阶梯 / 知识下沉）</td>\n<td>B（研究院方案预设）</td>\n</tr>\n<tr>\n<td>第 19 章</td>\n<td>耦合改善乘数 1.2^6 ≈ 3 倍</td>\n<td>D（理论推算）</td>\n</tr>\n<tr>\n<td>第 20 章</td>\n<td>治理范式八个特征 + 五项核心机构条件</td>\n<td>B（基于全书论证综合）</td>\n</tr>\n<tr>\n<td>第 20 章</td>\n<td>阶段路径四阶段（去具体年份）</td>\n<td>B（研究院方案预设）</td>\n</tr>\n</tbody>\n</table></div>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-a3eb988796-01\" data-block-type=\"h2\" id=\"b3\">B.3 原创概念的研究估算逻辑</h2>\n<p class=\"annotatable-block\" data-block-id=\"b-c269d01eaf-01\" data-block-type=\"p\">本书的若干关键参数 / 阈值是 D 级\"理论推论\"——这一节集中说明这些参数的推算逻辑，让读者了解它们的可信度与边界。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-5ab5c0059d-01\" data-block-type=\"p\"><strong>SNR=0.47（选材信噪比）</strong></p>\n<p class=\"annotatable-block\" data-block-id=\"b-fcf1fd6b32-01\" data-block-type=\"p\">推算逻辑——根据相对年龄效应（RAE）实测的 Q1/Q4 = 2.71，结合代理变量与潜力的相关系数估计（多源研究综合 ≈ 0.45-0.55），代入 SNR 的定义公式得 SNR ≈ 0.47。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-ed8cf7c129-01\" data-block-type=\"p\">可信度边界——推算依赖于\"代理变量与潜力相关系数\"的估计，该估计存在 ±0.10 的不确定性区间。SNR 真值大概率落在 0.37-0.57 之间。但即使取上限 0.57，仍然低于纯随机选择临界值 1.0——核心结论稳健。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-06cf4daa66-01\" data-block-type=\"p\"><strong>RMD ≈ 1.5 / 临界值 RMD ≥ 2.9</strong></p>\n<p class=\"annotatable-block\" data-block-id=\"b-16d6a5b581-01\" data-block-type=\"p\">推算逻辑——基于多代理人结构模型，假设每名孩子需要在 6-18 岁期间被有意义观察 N 次才能避免\"早期错误识别永久化\"。N 的估算基于教练认知科学（Klein 1998 NDM/RPD 框架）。临界值 RMD ≥ 2.9 是模型给出的\"避免不可逆性放大效应\"的最低密度。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-f05eb552ff-01\" data-block-type=\"p\">可信度边界——临界值 2.9 是结构推算，应当被理解为\"研究假设\"而非\"测量值\"。后续研究可以做实证检验（参附录 D 议题 D2）。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-7aedc5ed70-01\" data-block-type=\"p\"><strong>CRI=0.364（教练认知可靠性）</strong></p>\n<p class=\"annotatable-block\" data-block-id=\"b-29ed895baa-01\" data-block-type=\"p\">推算逻辑——基于教练认知学习速度的研究估算（Klein 1998），假设可靠评估门槛是 21 次有效观察。中国教练年均 8 场比赛、单场观察 2-3 名球员的实际效率，代入贝叶斯更新公式得 CRI ≈ 0.364。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-7d581f7eab-01\" data-block-type=\"p\">可信度边界——CRI 估算依赖于\"21 次有效观察门槛\"的假设，该假设来自国际研究通用值。中国具体语境下可能存在偏差，需要更精细的实证研究（参附录 D 议题 D3）。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-40b3fd0727-01\" data-block-type=\"p\"><strong>CAM 耦合放大乘数 &gt; 1</strong></p>\n<p class=\"annotatable-block\" data-block-id=\"b-5ec016d50f-01\" data-block-type=\"p\">推算逻辑——超加性损失定理（附录 E 命题）的直接推论。在病灶之间存在互补性的条件下，总损失严格大于各病灶单独损失之和，故 CAM &gt; 1。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-8ea79e4630-01\" data-block-type=\"p\">可信度边界——CAM &gt; 1 是定理性结论，不依赖具体数值估算。但 CAM 的精确数值（如 2x、3x、5x）需要进一步实证研究（参附录 D 议题 D2）。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-5bd356964e-01\" data-block-type=\"p\"><strong>耦合改善乘数 1.2^6 ≈ 3 倍（第 19 章）</strong></p>\n<p class=\"annotatable-block\" data-block-id=\"b-18f4464605-01\" data-block-type=\"p\">推算逻辑——假设六个打通各自的边际改善幅度均为 1.2 倍（保守估计），且改善之间存在正交互（互补性 λ &gt; 0），则总体改善 ≈ 1.2^6 ≈ 2.99 倍。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-8a801b0151-01\" data-block-type=\"p\">可信度边界——1.2 是单工具改善幅度的保守研究估算。实际改善幅度可能因工具而异（如复兴杯可能 1.3 倍，AI 可能 1.15 倍）。1.2^6 ≈ 3 倍是保守的中位估计。后续可做敏感性分析。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-c82cef3c7e-01\" data-block-type=\"p\"><strong>RAE 校正 β 从 0.95→0.30</strong></p>\n<p class=\"annotatable-block\" data-block-id=\"b-5dd5bfeebe-01\" data-block-type=\"p\">推算逻辑——基于 CoachMind 系统的 RAE 校正算法在试点场景的预期效果。β 从 0.95 校正到 0.30 是研究院内部测算的\"算法工程目标\"。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-3811a122ce-01\" data-block-type=\"p\">可信度边界——这是产品工程目标，不是已实现的测量值。需要在试点过程中通过对照实验验证（参附录 D 议题 M7）。</p>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-950cfb679e-01\" data-block-type=\"h2\" id=\"b4\">B.4 数据使用的纪律</h2>\n<p class=\"annotatable-block\" data-block-id=\"b-948cac3592-01\" data-block-type=\"p\">本书在使用数据时遵循以下纪律——</p>\n<p class=\"annotatable-block\" data-block-id=\"b-2671f6388b-01\" data-block-type=\"p\"><strong>纪律 1 · 跨章节数据一致性</strong>——同一数据在不同章节出现时数值一致。如有不一致，以最早出现章节为准。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-a5a4a898c9-01\" data-block-type=\"p\"><strong>纪律 2 · A 级数据有具体来源</strong>——A 级数据每条都有具体的来源 URL / DOI / 文件号。读者可以独立核证。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-a4baa2b6aa-01\" data-block-type=\"p\"><strong>纪律 3 · B / C / D 级数据明确标注</strong>——B 级数据标注\"研究估算\"或\"综合判断\"；C 级数据标注\"媒体综合\"；D 级数据标注\"理论推算\"。读者可以判断每一处数据的可信度。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-7ffa6c425c-01\" data-block-type=\"p\"><strong>纪律 4 · 数据局限性透明化</strong>——重要的 D 级推算（如 CRI=0.364、CAM &gt; 1、耦合改善乘数 ≈ 3 倍）在正文中明确标注其推算性质，避免被误读为测量值。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-c32b737adc-01\" data-block-type=\"p\"><strong>纪律 5 · 跨国数据可比性处理</strong>——跨国数据按\"同一年度、同一年龄段、同一统计口径\"做最大可能的可比化处理。无法可比化的数据明确标注（如冰岛 U12 比赛场次\"未获取\"）。</p>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-d7c545f1cc-01\" data-block-type=\"h2\" id=\"b5\">B.5 时间敏感数据的更新机制</h2>\n<p class=\"annotatable-block\" data-block-id=\"b-916b2edbde-01\" data-block-type=\"p\">本书的部分数据是时间敏感的——</p>\n<p class=\"annotatable-block\" data-block-id=\"b-351ddd3e74-01\" data-block-type=\"p\"><strong>2024-2026 年数据</strong>——\n- 2025-01 教育强国规划纲要（2024-2035）印发\n- 2025-09 中国足协选帅标准\n- 2025-11 邵佳一任主帅\n- 2025-04-30 职业俱乐部青年赛事主办结构调整\n- 2026-01 中国足协注册数据</p>\n<p class=\"annotatable-block\" data-block-id=\"b-b2285da456-01\" data-block-type=\"p\">终稿前需要做一次时间敏感数据的统一更新——把所有\"截至 X 年 Y 月\"的数据更新到出版前最新状态。</p>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-c6e973d356-01\" data-block-type=\"h2\" id=\"b6\">B.6 引用规范</h2>\n<p class=\"annotatable-block\" data-block-id=\"b-aca4f2eb6c-01\" data-block-type=\"p\">本书正文采用出版书稿惯例：关键事实、数据、引文来源优先做页下注；书后统一列参考文献，著录以 GB/T 7714-2015 为基础。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-e5dce20a39-01\" data-block-type=\"p\">个别附录或工作文稿如果暂时出现作者-年份式标识，仅作为写作过程中的整理辅助；进入终稿时，统一折回上述体例。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-0018cd14a2-01\" data-block-type=\"p\">引用格式举例——</p>\n<ul>\n<li class=\"annotatable-block\" data-block-id=\"b-ed6352e9ba-01\" data-block-type=\"li\">Akerlof, G. A. (1970). The market for \"lemons\": Quality uncertainty and the market mechanism. <em>Quarterly Journal of Economics</em>, 84(3), 488-500.</li>\n<li class=\"annotatable-block\" data-block-id=\"b-e3b0d34bfb-01\" data-block-type=\"li\">Bernheim, B. D., &amp; Whinston, M. D. (1986). Common agency. <em>Econometrica</em>, 54(4), 923-942.</li>\n<li class=\"annotatable-block\" data-block-id=\"b-7381c05098-01\" data-block-type=\"li\">Holmstrom, B., &amp; Milgrom, P. (1991). Multitask principal-agent analyses: Incentive contracts, asset ownership, and job design. <em>Journal of Law, Economics, and Organization</em>, 7, 24-52.</li>\n<li class=\"annotatable-block\" data-block-id=\"b-7e21130db3-01\" data-block-type=\"li\">Klein, G. (1998). <em>Sources of power: How people make decisions</em>. MIT Press.</li>\n<li class=\"annotatable-block\" data-block-id=\"b-93dc137c3b-01\" data-block-type=\"li\">Ostrom, E. (1990). <em>Governing the commons: The evolution of institutions for collective action</em>. Cambridge University Press.</li>\n</ul>\n<p class=\"annotatable-block\" data-block-id=\"b-d908618e45-01\" data-block-type=\"p\">完整文献清单见附录 C。</p>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-bac52d4c35-01\" data-block-type=\"h2\" id=\"b7\">B.7 数据使用的边界</h2>\n<p class=\"annotatable-block\" data-block-id=\"b-9066802ecf-01\" data-block-type=\"p\">本书数据有以下明确边界——</p>\n<p class=\"annotatable-block\" data-block-id=\"b-647fbb90ca-01\" data-block-type=\"p\"><strong>边界 1 · 不做未公开数据的引用</strong>——本书引用的所有数据都是公开可获取的。研究院内部数据仅在明确标注\"研究院测算\"前提下使用。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-953096bfb6-01\" data-block-type=\"p\"><strong>边界 2 · 不引用单一来源未经多源核证的数据</strong>——任何重要数据如果只来自一家媒体或一份文档，且无法多源核证，要么不用，要么明确标注\"单一来源\"。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-e84756c71a-01\" data-block-type=\"p\"><strong>边界 3 · 历史数据按当代核证标准评估</strong>——1990 年代以前的数据使用 C 级标注。该年代数据的统计口径可能与当代差异较大。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-bbe9030b82-01\" data-block-type=\"p\"><strong>边界 4 · 不预测未来</strong>——本书所有数据都是\"截至当前\"的事实陈述。本书不做\"2030 年中国足球将怎样\"等具体预测。任何阶段路径都明确标注为\"如果各项条件按当前最佳估计演进\"的路径。</p>\n<hr/>\n<p class=\"annotatable-block\" data-block-id=\"b-f1e2ff1d9b-01\" data-block-type=\"p\"><em>本附录的目的是让本书的全部数据使用透明化、可复核、可批评。任何同行学者都可以基于本附录复核本书的每一处数据声明。如发现具体数据问题，欢迎反馈到本书的修订版本。</em></p>",
+  "wordCount": 3035,
+  "readingMinutes": 7,
+  "summary": "本附录把全书各章末\"数据分级附录\"统一为一份完整的方法论文档。本书涉及大量跨国别、跨年代、跨主管部门的数据。在数据可信度上保持透明，是本书与一般\"中国足球评论\"的根本区别。本附录给出的是 全书使用的数据可信度分级标准、来源核证方法、原创概念的研究估算逻辑 ——目的是让任何同行学者都能独立复核本书的每一处数据声明。",
+  "imageCount": 0,
+  "referenceCards": [],
+  "blockIndex": [
+    {
+      "id": "b-86b1eb8e3a-01",
+      "type": "blockquote",
+      "preview": "本附录把全书各章末\"数据分级附录\"统一为一份完整的方法论文档。本书涉及大量跨国别、跨年代、跨主管部门的数据。在数据可信度上保持透明，是本书与一般\"中国足球评论\"的根本区别。本附录给出的是 全书使用的数据可信度分级标准、来源核证方法、原创概念"
+    },
+    {
+      "id": "b-55ee72b6ff-01",
+      "type": "p",
+      "preview": "本书所有数据按四级分级——"
+    },
+    {
+      "id": "b-dd50c184cf-01",
+      "type": "p",
+      "preview": "A 级 · 官方权威数据 ——来自国家级或国际级官方文件、权威机构、可独立验证的公开数据。具体包括："
+    },
+    {
+      "id": "b-8a42cdabce-01",
+      "type": "li",
+      "preview": "中国国家级官方文件——教育部、国家体育总局、国家统计局、中共中央 / 国务院发布的统计公报、规划纲要、决定文件"
+    },
+    {
+      "id": "b-68a6bc6f7a-01",
+      "type": "li",
+      "preview": "国际级官方文件——FIFA、UEFA、AFC 等国际组织的年报与统计"
+    },
+    {
+      "id": "b-b4d322e107-01",
+      "type": "li",
+      "preview": "各国足协官方文件——DFB（德国）、JFA（日本）、RFEF（西班牙）、KNVB（荷兰）、FA（英格兰）、FFF（法国）、KSÍ（冰岛）等"
+    },
+    {
+      "id": "b-fff0f84c17-01",
+      "type": "li",
+      "preview": "学术权威期刊——Nature 系列、JEEA、AER、《经济学（季刊）》、《体育科学》《北京体育大学学报》等"
+    },
+    {
+      "id": "b-5d8f3c2055-01",
+      "type": "li",
+      "preview": "国际公开学术经典——Akerlof (1970)、Holmstrom (1991)、Bernheim & Whinston (1986)、Ostrom (1990)、Klein (1998) 等"
+    },
+    {
+      "id": "b-cc749d464e-01",
+      "type": "p",
+      "preview": "B 级 · 综合估算 / 合成数据 ——研究估算、综合判断、学术研究合成的数据。具体包括："
+    },
+    {
+      "id": "b-977484c6b7-01",
+      "type": "li",
+      "preview": "多源公开数据的综合判断——如各国 U12 球员人数估算、教练员持证人数估算"
+    },
+    {
+      "id": "b-7846debfe4-01",
+      "type": "li",
+      "preview": "行业研究机构数据——艾瑞咨询、易观国际、Deloitte、CIES Football Observatory 等"
+    },
+    {
+      "id": "b-1ab40f0701-01",
+      "type": "li",
+      "preview": "媒体综合数据——多家主流媒体重复报道形成共识的数字"
+    },
+    {
+      "id": "b-2008d4ac7a-01",
+      "type": "li",
+      "preview": "研究院内部测算——基于公开数据 + 研究院专项调研的合成判断"
+    },
+    {
+      "id": "b-9c3f7022a5-01",
+      "type": "p",
+      "preview": "C 级 · 单一来源 / 媒体引用 ——单一来源数据、媒体引用、历史口径存疑数据。具体包括："
+    },
+    {
+      "id": "b-660a1ab491-01",
+      "type": "li",
+      "preview": "仅一家媒体报道的具体数字"
+    },
+    {
+      "id": "b-0bf3ce9730-01",
+      "type": "li",
+      "preview": "历史数据但当代核证有限"
+    },
+    {
+      "id": "b-b47ebb73d2-01",
+      "type": "li",
+      "preview": "行业访谈或专家访问获得的非正式数据"
+    },
+    {
+      "id": "b-d6a13485a8-01",
+      "type": "p",
+      "preview": "D 级 · 理论推论 / 模型假设 ——基于理论框架的推论或模型假设。具体包括："
+    },
+    {
+      "id": "b-b2a12a9ac8-01",
+      "type": "li",
+      "preview": "命题 1-5 的临界值与阈值估算"
+    },
+    {
+      "id": "b-b9713dacac-01",
+      "type": "li",
+      "preview": "CAM 耦合放大乘数的理论推算（1.2^5、1.2^6 等）"
+    },
+    {
+      "id": "b-474d042ddd-01",
+      "type": "li",
+      "preview": "第 17 章 RAE 校正算法 β 从 0.95→0.30 的研究院理论预期"
+    },
+    {
+      "id": "b-3acd23ca0a-01",
+      "type": "li",
+      "preview": "第 17 章年均观察 8 场→25+ 场的研究院假设"
+    },
+    {
+      "id": "b-d47bb4ac58-01",
+      "type": "li",
+      "preview": "第 19 章六个打通\"耦合改善乘数 ≈ 3 倍\"的理论推算"
+    },
+    {
+      "id": "b-e57a8a3cd8-01",
+      "type": "h2",
+      "preview": "B.2 各章数据分级简要清单"
+    },
+    {
+      "id": "b-b7e5d0fb29-01",
+      "type": "h3",
+      "preview": "引言部分"
+    },
+    {
+      "id": "b-b42aecc5a2-01",
+      "type": "li",
+      "preview": "A 级：习近平总书记 2022 年关于哲学社会科学高质量发展重要指示；2023-06-02 文化传承发展座谈会\"两个结合\"；党的十八届、十九届、二十届三中全会决定；《教育强国建设规划纲要（2024—2035 年）》；《体育强国建设纲要》（2"
+    },
+    {
+      "id": "b-99e7fcfd6f-01",
+      "type": "h3",
+      "preview": "第一编（第 1-6 章）"
+    },
+    {
+      "id": "b-9b153b0b71-01",
+      "type": "div",
+      "preview": "章 关键数据 等级 第 1 章 十国分层参照、中国 A/B 口径、U15 结构承接表、结构漏斗 B/C（分层使用） 第 1 章 1990s 中国 60-65 万 → 2008 年 1.3 万的跌幅 95% C（明确标注） 第 2 章 Ake"
+    },
+    {
+      "id": "b-b95cf150ee-01",
+      "type": "h3",
+      "preview": "第二编（第 7-13 章）"
+    },
+    {
+      "id": "b-c0b0fd903f-01",
+      "type": "div",
+      "preview": "章 关键数据 等级 第 7 章 德国 NLZ 59 个 / 日本 U12 球员 274,774 / 荷兰青少年比赛节律 14 场 A（官方） 第 7 章 西班牙 / 法国 / 英格兰 U12 赛季场次 B（章程综合） 第 7 章 冰岛球场 "
+    },
+    {
+      "id": "b-1249aee0e5-01",
+      "type": "h3",
+      "preview": "第三编（第 14-20 章）"
+    },
+    {
+      "id": "b-844cb51876-01",
+      "type": "div",
+      "preview": "章 关键数据 等级 第 14 章 本菲卡 €5.16 亿十年青训净利润 B（Transfermarkt + 媒体综合） 第 14 章 英格兰 EPPP £25 亿投入 → £40 亿转会收益 B（英超 + 媒体综合） 第 14 章 中国 2"
+    },
+    {
+      "id": "b-a3eb988796-01",
+      "type": "h2",
+      "preview": "B.3 原创概念的研究估算逻辑"
+    },
+    {
+      "id": "b-c269d01eaf-01",
+      "type": "p",
+      "preview": "本书的若干关键参数 / 阈值是 D 级\"理论推论\"——这一节集中说明这些参数的推算逻辑，让读者了解它们的可信度与边界。"
+    },
+    {
+      "id": "b-5ab5c0059d-01",
+      "type": "p",
+      "preview": "SNR=0.47（选材信噪比）"
+    },
+    {
+      "id": "b-fcf1fd6b32-01",
+      "type": "p",
+      "preview": "推算逻辑——根据相对年龄效应（RAE）实测的 Q1/Q4 = 2.71，结合代理变量与潜力的相关系数估计（多源研究综合 ≈ 0.45-0.55），代入 SNR 的定义公式得 SNR ≈ 0.47。"
+    },
+    {
+      "id": "b-ed8cf7c129-01",
+      "type": "p",
+      "preview": "可信度边界——推算依赖于\"代理变量与潜力相关系数\"的估计，该估计存在 ±0.10 的不确定性区间。SNR 真值大概率落在 0.37-0.57 之间。但即使取上限 0.57，仍然低于纯随机选择临界值 1.0——核心结论稳健。"
+    },
+    {
+      "id": "b-06cf4daa66-01",
+      "type": "p",
+      "preview": "RMD ≈ 1.5 / 临界值 RMD ≥ 2.9"
+    },
+    {
+      "id": "b-16d6a5b581-01",
+      "type": "p",
+      "preview": "推算逻辑——基于多代理人结构模型，假设每名孩子需要在 6-18 岁期间被有意义观察 N 次才能避免\"早期错误识别永久化\"。N 的估算基于教练认知科学（Klein 1998 NDM/RPD 框架）。临界值 RMD ≥ 2.9 是模型给出的\"避"
+    },
+    {
+      "id": "b-f05eb552ff-01",
+      "type": "p",
+      "preview": "可信度边界——临界值 2.9 是结构推算，应当被理解为\"研究假设\"而非\"测量值\"。后续研究可以做实证检验（参附录 D 议题 D2）。"
+    },
+    {
+      "id": "b-7aedc5ed70-01",
+      "type": "p",
+      "preview": "CRI=0.364（教练认知可靠性）"
+    },
+    {
+      "id": "b-29ed895baa-01",
+      "type": "p",
+      "preview": "推算逻辑——基于教练认知学习速度的研究估算（Klein 1998），假设可靠评估门槛是 21 次有效观察。中国教练年均 8 场比赛、单场观察 2-3 名球员的实际效率，代入贝叶斯更新公式得 CRI ≈ 0.364。"
+    },
+    {
+      "id": "b-7d581f7eab-01",
+      "type": "p",
+      "preview": "可信度边界——CRI 估算依赖于\"21 次有效观察门槛\"的假设，该假设来自国际研究通用值。中国具体语境下可能存在偏差，需要更精细的实证研究（参附录 D 议题 D3）。"
+    },
+    {
+      "id": "b-40b3fd0727-01",
+      "type": "p",
+      "preview": "CAM 耦合放大乘数 > 1"
+    },
+    {
+      "id": "b-5ec016d50f-01",
+      "type": "p",
+      "preview": "推算逻辑——超加性损失定理（附录 E 命题）的直接推论。在病灶之间存在互补性的条件下，总损失严格大于各病灶单独损失之和，故 CAM > 1。"
+    },
+    {
+      "id": "b-8ea79e4630-01",
+      "type": "p",
+      "preview": "可信度边界——CAM > 1 是定理性结论，不依赖具体数值估算。但 CAM 的精确数值（如 2x、3x、5x）需要进一步实证研究（参附录 D 议题 D2）。"
+    },
+    {
+      "id": "b-5bd356964e-01",
+      "type": "p",
+      "preview": "耦合改善乘数 1.2^6 ≈ 3 倍（第 19 章）"
+    },
+    {
+      "id": "b-18f4464605-01",
+      "type": "p",
+      "preview": "推算逻辑——假设六个打通各自的边际改善幅度均为 1.2 倍（保守估计），且改善之间存在正交互（互补性 λ > 0），则总体改善 ≈ 1.2^6 ≈ 2.99 倍。"
+    },
+    {
+      "id": "b-8a801b0151-01",
+      "type": "p",
+      "preview": "可信度边界——1.2 是单工具改善幅度的保守研究估算。实际改善幅度可能因工具而异（如复兴杯可能 1.3 倍，AI 可能 1.15 倍）。1.2^6 ≈ 3 倍是保守的中位估计。后续可做敏感性分析。"
+    },
+    {
+      "id": "b-c82cef3c7e-01",
+      "type": "p",
+      "preview": "RAE 校正 β 从 0.95→0.30"
+    },
+    {
+      "id": "b-5dd5bfeebe-01",
+      "type": "p",
+      "preview": "推算逻辑——基于 CoachMind 系统的 RAE 校正算法在试点场景的预期效果。β 从 0.95 校正到 0.30 是研究院内部测算的\"算法工程目标\"。"
+    },
+    {
+      "id": "b-3811a122ce-01",
+      "type": "p",
+      "preview": "可信度边界——这是产品工程目标，不是已实现的测量值。需要在试点过程中通过对照实验验证（参附录 D 议题 M7）。"
+    },
+    {
+      "id": "b-950cfb679e-01",
+      "type": "h2",
+      "preview": "B.4 数据使用的纪律"
+    },
+    {
+      "id": "b-948cac3592-01",
+      "type": "p",
+      "preview": "本书在使用数据时遵循以下纪律——"
+    },
+    {
+      "id": "b-2671f6388b-01",
+      "type": "p",
+      "preview": "纪律 1 · 跨章节数据一致性 ——同一数据在不同章节出现时数值一致。如有不一致，以最早出现章节为准。"
+    },
+    {
+      "id": "b-a5a4a898c9-01",
+      "type": "p",
+      "preview": "纪律 2 · A 级数据有具体来源 ——A 级数据每条都有具体的来源 URL / DOI / 文件号。读者可以独立核证。"
+    },
+    {
+      "id": "b-a4baa2b6aa-01",
+      "type": "p",
+      "preview": "纪律 3 · B / C / D 级数据明确标注 ——B 级数据标注\"研究估算\"或\"综合判断\"；C 级数据标注\"媒体综合\"；D 级数据标注\"理论推算\"。读者可以判断每一处数据的可信度。"
+    },
+    {
+      "id": "b-7ffa6c425c-01",
+      "type": "p",
+      "preview": "纪律 4 · 数据局限性透明化 ——重要的 D 级推算（如 CRI=0.364、CAM > 1、耦合改善乘数 ≈ 3 倍）在正文中明确标注其推算性质，避免被误读为测量值。"
+    },
+    {
+      "id": "b-c32b737adc-01",
+      "type": "p",
+      "preview": "纪律 5 · 跨国数据可比性处理 ——跨国数据按\"同一年度、同一年龄段、同一统计口径\"做最大可能的可比化处理。无法可比化的数据明确标注（如冰岛 U12 比赛场次\"未获取\"）。"
+    },
+    {
+      "id": "b-d7c545f1cc-01",
+      "type": "h2",
+      "preview": "B.5 时间敏感数据的更新机制"
+    },
+    {
+      "id": "b-916b2edbde-01",
+      "type": "p",
+      "preview": "本书的部分数据是时间敏感的——"
+    },
+    {
+      "id": "b-351ddd3e74-01",
+      "type": "p",
+      "preview": "2024-2026 年数据 —— - 2025-01 教育强国规划纲要（2024-2035）印发 - 2025-09 中国足协选帅标准 - 2025-11 邵佳一任主帅 - 2025-04-30 职业俱乐部青年赛事主办结构调整 - 2026"
+    },
+    {
+      "id": "b-b2285da456-01",
+      "type": "p",
+      "preview": "终稿前需要做一次时间敏感数据的统一更新——把所有\"截至 X 年 Y 月\"的数据更新到出版前最新状态。"
+    },
+    {
+      "id": "b-c6e973d356-01",
+      "type": "h2",
+      "preview": "B.6 引用规范"
+    },
+    {
+      "id": "b-aca4f2eb6c-01",
+      "type": "p",
+      "preview": "本书正文采用出版书稿惯例：关键事实、数据、引文来源优先做页下注；书后统一列参考文献，著录以 GB/T 7714-2015 为基础。"
+    },
+    {
+      "id": "b-e5dce20a39-01",
+      "type": "p",
+      "preview": "个别附录或工作文稿如果暂时出现作者-年份式标识，仅作为写作过程中的整理辅助；进入终稿时，统一折回上述体例。"
+    },
+    {
+      "id": "b-0018cd14a2-01",
+      "type": "p",
+      "preview": "引用格式举例——"
+    },
+    {
+      "id": "b-ed6352e9ba-01",
+      "type": "li",
+      "preview": "Akerlof, G. A. (1970). The market for \"lemons\": Quality uncertainty and the market mechanism. Quarterly Journal of Econo"
+    },
+    {
+      "id": "b-e3b0d34bfb-01",
+      "type": "li",
+      "preview": "Bernheim, B. D., & Whinston, M. D. (1986). Common agency. Econometrica , 54(4), 923-942."
+    },
+    {
+      "id": "b-7381c05098-01",
+      "type": "li",
+      "preview": "Holmstrom, B., & Milgrom, P. (1991). Multitask principal-agent analyses: Incentive contracts, asset ownership, and job d"
+    },
+    {
+      "id": "b-7e21130db3-01",
+      "type": "li",
+      "preview": "Klein, G. (1998). Sources of power: How people make decisions . MIT Press."
+    },
+    {
+      "id": "b-93dc137c3b-01",
+      "type": "li",
+      "preview": "Ostrom, E. (1990). Governing the commons: The evolution of institutions for collective action . Cambridge University Pre"
+    },
+    {
+      "id": "b-d908618e45-01",
+      "type": "p",
+      "preview": "完整文献清单见附录 C。"
+    },
+    {
+      "id": "b-bac52d4c35-01",
+      "type": "h2",
+      "preview": "B.7 数据使用的边界"
+    },
+    {
+      "id": "b-9066802ecf-01",
+      "type": "p",
+      "preview": "本书数据有以下明确边界——"
+    },
+    {
+      "id": "b-647fbb90ca-01",
+      "type": "p",
+      "preview": "边界 1 · 不做未公开数据的引用 ——本书引用的所有数据都是公开可获取的。研究院内部数据仅在明确标注\"研究院测算\"前提下使用。"
+    },
+    {
+      "id": "b-953096bfb6-01",
+      "type": "p",
+      "preview": "边界 2 · 不引用单一来源未经多源核证的数据 ——任何重要数据如果只来自一家媒体或一份文档，且无法多源核证，要么不用，要么明确标注\"单一来源\"。"
+    },
+    {
+      "id": "b-e84756c71a-01",
+      "type": "p",
+      "preview": "边界 3 · 历史数据按当代核证标准评估 ——1990 年代以前的数据使用 C 级标注。该年代数据的统计口径可能与当代差异较大。"
+    },
+    {
+      "id": "b-bbe9030b82-01",
+      "type": "p",
+      "preview": "边界 4 · 不预测未来 ——本书所有数据都是\"截至当前\"的事实陈述。本书不做\"2030 年中国足球将怎样\"等具体预测。任何阶段路径都明确标注为\"如果各项条件按当前最佳估计演进\"的路径。"
+    },
+    {
+      "id": "b-f1e2ff1d9b-01",
+      "type": "p",
+      "preview": "本附录的目的是让本书的全部数据使用透明化、可复核、可批评。任何同行学者都可以基于本附录复核本书的每一处数据声明。如发现具体数据问题，欢迎反馈到本书的修订版本。"
+    }
+  ],
+  "sourcePath": "04_附录/附录B_数据分级与方法论.md",
+  "updatedAt": "2026-05-22 23:17"
+}

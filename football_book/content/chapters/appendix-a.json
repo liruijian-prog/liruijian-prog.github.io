@@ -1,0 +1,238 @@
+{
+  "id": "appendix-a",
+  "order": 26,
+  "title": "附录 A · 完整术语表",
+  "subtitle": "索引方式一 · 按章节顺序（首次出现章节）",
+  "sectionId": "appendices",
+  "sectionTitle": "附录",
+  "html": "\n<blockquote class=\"annotatable-block\" data-block-id=\"b-70e31c48ac-01\" data-block-type=\"blockquote\">\n<p>本附录是全书所有原创概念、关键命名、专门缩写的统一索引。本书在第 1 章至第 20 章中创造了一组原创概念体系，本附录用三种索引方式（按章节、按字母、按主题）让读者可以从任何一章打开本附录，快速找到他遇到的概念的精确定义、出处与关联。</p>\n</blockquote>\n<hr/>\n\n<h3 class=\"annotatable-block\" data-block-id=\"b-97c5b79862-01\" data-block-type=\"h3\" id=\"_2\">引言 + 第一编 · 病灶诊断（识别问题）</h3>\n<div class=\"table-wrap annotatable-block\" data-block-id=\"b-c4b8cb6d39-01\" data-block-type=\"div\"><table class=\"data-table\">\n<thead>\n<tr>\n<th>概念</th>\n<th>缩写</th>\n<th>英文</th>\n<th>首次出现</th>\n<th>一句话定义</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>三重口径</td>\n<td>—</td>\n<td>Three-Tier Calibration</td>\n<td>第 1 章</td>\n<td>衡量\"14 岁仍在系统里\"球员数量的三种统计口径（A 正式注册、B 有组织竞技、C 接触人口）</td>\n</tr>\n<tr>\n<td>四次断崖式流失</td>\n<td>—</td>\n<td>Four-Cliff Attrition</td>\n<td>第 1 章</td>\n<td>6→10、10→14、14→16、16→18 四道筛选断崖</td>\n</tr>\n<tr>\n<td>漏斗收缩效应</td>\n<td>—</td>\n<td>Funnel Contraction Effect</td>\n<td>第 1 章</td>\n<td>中国青训漏斗自上而下不断收窄的形态</td>\n</tr>\n<tr>\n<td>五个结构基因</td>\n<td>SG①-⑤</td>\n<td>Five Structural Genes</td>\n<td>第 2 章</td>\n<td>NCD 网络覆盖密度 / HP 层级贯通 / CFD 竞赛频率 / PMM 球员流动 / RMD 再发现密度</td>\n</tr>\n<tr>\n<td>综合结构指数</td>\n<td>CSI</td>\n<td>Comprehensive Structure Index</td>\n<td>第 2 章</td>\n<td>五个结构基因加权综合得分</td>\n</tr>\n<tr>\n<td>三轨断裂</td>\n<td>—</td>\n<td>Three-Track Fracture</td>\n<td>第 2 章</td>\n<td>体校系统 / 校园系统 / 俱乐部系统三条轨道在同一年龄段的并行无连接</td>\n</tr>\n<tr>\n<td>选材信噪比</td>\n<td>SNR</td>\n<td>Signal-to-Noise Ratio in Talent Identification</td>\n<td>第 3 章</td>\n<td>选材信号强度与噪声强度之比；中国 ≈ 0.47（劣于纯随机选择）</td>\n</tr>\n<tr>\n<td>相对年龄效应</td>\n<td>RAE</td>\n<td>Relative Age Effect</td>\n<td>第 3 章</td>\n<td>国际通用术语，本书规范化使用——出生月份对选材结果的系统性影响</td>\n</tr>\n<tr>\n<td>不可逆性放大效应</td>\n<td>—</td>\n<td>Irreversibility Amplification Effect</td>\n<td>第 3 章</td>\n<td>选材错误在 RMD 不足时被环路放大且无法回收</td>\n</tr>\n<tr>\n<td>再发现机制密度</td>\n<td>RMD</td>\n<td>Rediscovery-Mechanism Density</td>\n<td>第 3 章</td>\n<td>一名孩子在被低估后能被重新观察的机会次数；中国 ≈ 1.5，临界阈值 ≈ 2.9</td>\n</tr>\n<tr>\n<td>选材的不可分离性投影</td>\n<td>IPTI</td>\n<td>Inseparability Projection in Talent Identification</td>\n<td>第 3 章</td>\n<td>选材依赖与潜力无关代理变量的制度经济学解释</td>\n</tr>\n<tr>\n<td>教练认知可靠性</td>\n<td>CRI</td>\n<td>Coach Recognition Reliability Index</td>\n<td>第 4 章</td>\n<td>教练对球员判断的统计可靠性；中国 ≈ 0.364，可靠阈值 ≥ 0.80</td>\n</tr>\n<tr>\n<td>认知污染闭环</td>\n<td>—</td>\n<td>Cognitive Contamination Loop</td>\n<td>第 4 章</td>\n<td>调配 → 样本不足 → 案例库污染 → 原型偏差 → 判断偏差的闭环</td>\n</tr>\n<tr>\n<td>教练晋升阶梯论</td>\n<td>—</td>\n<td>Coaching Pathway Argument</td>\n<td>第 4 章</td>\n<td>教练成长依赖一套从基层到顶级的连续阶梯，缺位则供给侧崩塌</td>\n</tr>\n<tr>\n<td>教练身份谬误</td>\n<td>CIF</td>\n<td>Coach-Identity Fallacy</td>\n<td>第 4 章</td>\n<td>球员路径垄断顶级教练入口的身份偏见</td>\n</tr>\n<tr>\n<td>主帅选拔的不可分离性投影</td>\n<td>IPHS</td>\n<td>Inseparability Projection in Head-Coach Selection</td>\n<td>第 4 章</td>\n<td>主帅选拔缺少独立第三方评估的制度形态</td>\n</tr>\n<tr>\n<td>复盘内容结构对比</td>\n<td>PMCSA</td>\n<td>Post-Match Content Structure Analysis</td>\n<td>第 4 章</td>\n<td>不同地区教练复盘内容的结构性差异分析方法</td>\n</tr>\n<tr>\n<td>防御性决策与卸责性招聘</td>\n<td>—</td>\n<td>Defensive Decision-Making &amp; Blame-Avoidance Hiring</td>\n<td>第 4 章</td>\n<td>借用引入——管理者倾向于做\"出问题时不被追责\"的选择</td>\n</tr>\n<tr>\n<td>三轨道 KPI 互斥</td>\n<td>—</td>\n<td>Three-Track KPI Incompatibility</td>\n<td>第 5 章</td>\n<td>体育局/教育部/中足联三个考核体系互不识别对方的赛事成绩</td>\n</tr>\n<tr>\n<td>四堵墙</td>\n<td>—</td>\n<td>Four Walls</td>\n<td>第 5 章</td>\n<td>升学墙、成绩墙、考核墙、注册墙——孩子能否同时学习和踢球的四道制度墙</td>\n</tr>\n<tr>\n<td>激励排斥</td>\n<td>—</td>\n<td>Incentive Exclusion</td>\n<td>第 5 章</td>\n<td>多主体各自最优的激励选择导致整体激励强度低于社会最优</td>\n</tr>\n<tr>\n<td>病灶耦合环</td>\n<td>PCL</td>\n<td>Pathology Coupling Loop</td>\n<td>第 6 章</td>\n<td>五个病灶节点构成的闭合正反馈系统</td>\n</tr>\n<tr>\n<td>单点干预悖论</td>\n<td>—</td>\n<td>Single-Point Intervention Paradox</td>\n<td>第 6 章</td>\n<td>单节点改革被环路自动稀释甚至反向放大</td>\n</tr>\n<tr>\n<td>耦合放大乘数</td>\n<td>CAM</td>\n<td>Coupling Amplification Multiplier</td>\n<td>第 6 章</td>\n<td>总耦合损失与单独损失之和的比值，理论上 &gt; 1</td>\n</tr>\n</tbody>\n</table></div>\n<h3 class=\"annotatable-block\" data-block-id=\"b-bafd127107-01\" data-block-type=\"h3\" id=\"_3\">第二编 · 国际镜像（认识世界）</h3>\n<div class=\"table-wrap annotatable-block\" data-block-id=\"b-813a98a47f-01\" data-block-type=\"div\"><table class=\"data-table\">\n<thead>\n<tr>\n<th>概念</th>\n<th>缩写</th>\n<th>英文</th>\n<th>首次出现</th>\n<th>一句话定义</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>青训六构件</td>\n<td>TD-6C</td>\n<td>Six Components of Talent Development</td>\n<td>第 9 章</td>\n<td>哲学连续性 / 独立评估 / 教育融合 / 分级认证 / 转会税循环 / 海外跳板（部分文献分为更细的细类）</td>\n</tr>\n<tr>\n<td>六构件咬合环</td>\n<td>—</td>\n<td>Six-Component Interlocking Loop</td>\n<td>第 9 章</td>\n<td>六构件之间相互咬合的循环关系，缺一构件则系统性能下降</td>\n</tr>\n<tr>\n<td>青训产品化原则</td>\n<td>—</td>\n<td>Products-Over-Projects Principle</td>\n<td>第 7 章</td>\n<td>青训是产品（可被代际传递）而非项目（一次性活动）的判断</td>\n</tr>\n<tr>\n<td>浪潮压缩</td>\n<td>—</td>\n<td>Wave Compression</td>\n<td>第 8 章</td>\n<td>中国教练职业化路径单一，导致代际之间无法形成多种共存职业化路径</td>\n</tr>\n<tr>\n<td>浪潮压缩悖论</td>\n<td>—</td>\n<td>Wave Compression Paradox</td>\n<td>第 8 章</td>\n<td>路径越单一，水平越下降——单一路径无法承担足够多样化的能力</td>\n</tr>\n<tr>\n<td>可解耦机制</td>\n<td>—</td>\n<td>Decoupleable Mechanism</td>\n<td>第 9 章</td>\n<td>国际经验中可被分离引入的具体构件，区别于无法整体复制的\"范式\"</td>\n</tr>\n<tr>\n<td>范式覆盖空白</td>\n<td>—</td>\n<td>Paradigm Coverage Gap</td>\n<td>第 9 章</td>\n<td>国际经验未覆盖的中国具体语境</td>\n</tr>\n<tr>\n<td>七条青训 DNA</td>\n<td>—</td>\n<td>Seven DNA Strands</td>\n<td>第 10 章</td>\n<td>哲学连续性 / 独立第三方评估 / 教育融合 / 分级认证 / 转会税循环 / 海外跳板 / 选材去偏</td>\n</tr>\n<tr>\n<td>DNA 三大主轴</td>\n<td>—</td>\n<td>Three Axes of DNA</td>\n<td>第 10 章</td>\n<td>七条 DNA 之间内在的三大主轴关系结构</td>\n</tr>\n<tr>\n<td>DNA 启动优先级</td>\n<td>—</td>\n<td>DNA Activation Priority</td>\n<td>第 10 章</td>\n<td>中国当前条件下 7 条 DNA 应当按何种次序启动</td>\n</tr>\n<tr>\n<td>四重锁</td>\n<td>—</td>\n<td>The Quadruple Lock</td>\n<td>第 13 章</td>\n<td>教育-体育锁、市场-行政锁、文化-时间锁、规模-质量锁——中国整体复制国际路径的四重制度约束</td>\n</tr>\n<tr>\n<td>约束条件清单</td>\n<td>—</td>\n<td>China-specific Constraint List</td>\n<td>第 13 章</td>\n<td>中国当前条件下能做与不能做的具体清单（C1-C4 + O1-O5）</td>\n</tr>\n<tr>\n<td>五项杠杆</td>\n<td>—</td>\n<td>Five Leverage Points</td>\n<td>第 13 章</td>\n<td>在四重锁约束下中国可用的五项最有效干预点</td>\n</tr>\n<tr>\n<td>四重锁耦合</td>\n<td>—</td>\n<td>Quadruple-Lock Coupling</td>\n<td>第 13 章</td>\n<td>四重锁之间相互加强的耦合关系，使中国独特性大于四锁简单之和</td>\n</tr>\n</tbody>\n</table></div>\n<h3 class=\"annotatable-block\" data-block-id=\"b-93c9d9a7dd-01\" data-block-type=\"h3\" id=\"_4\">第三编 · 治理重建（构建工具与组织系统）</h3>\n<div class=\"table-wrap annotatable-block\" data-block-id=\"b-c052bd34b5-01\" data-block-type=\"div\"><table class=\"data-table\">\n<thead>\n<tr>\n<th>概念</th>\n<th>缩写</th>\n<th>英文</th>\n<th>首次出现</th>\n<th>一句话定义</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>青训沉淀产品论</td>\n<td>—</td>\n<td>Talent-Development Sediment Product Argument</td>\n<td>第 14 章</td>\n<td>青训真正的产品是方法、教练、文化三种沉淀产品，而不是球员</td>\n</tr>\n<tr>\n<td>五条资金通道</td>\n<td>—</td>\n<td>Five Revenue Channels</td>\n<td>第 14 章</td>\n<td>青训作为准公共品的五种资金来源结构</td>\n</tr>\n<tr>\n<td>准公共品定位</td>\n<td>—</td>\n<td>Quasi-Public Good Positioning</td>\n<td>第 14 章</td>\n<td>青训不是商业产品，是介于公共品与私人物品之间的准公共品</td>\n</tr>\n<tr>\n<td>分布式联赛操作系统</td>\n<td>—</td>\n<td>Distributed League Operating System</td>\n<td>第 15 章</td>\n<td>复兴杯的底层逻辑——不是又一项赛事，是底层基础设施</td>\n</tr>\n<tr>\n<td>球员唯一 ID</td>\n<td>—</td>\n<td>Unified Player ID</td>\n<td>第 15 章</td>\n<td>跨主体的球员数据脊梁，让赛事数据可被检索与传递</td>\n</tr>\n<tr>\n<td>五级联赛金字塔</td>\n<td>—</td>\n<td>Five-Tier League Pyramid</td>\n<td>第 15 章</td>\n<td>县区/城市/省级窗口/大区/全国冠军赛五级扩展型联赛结构</td>\n</tr>\n<tr>\n<td>成本倒置</td>\n<td>—</td>\n<td>Cost Inversion</td>\n<td>第 15 章</td>\n<td>政府赛事高成本 vs 区域合伙人低成本运转的成本结构反转</td>\n</tr>\n<tr>\n<td>引入式青训</td>\n<td>—</td>\n<td>Imported-Method Talent Development</td>\n<td>第 16 章</td>\n<td>把国际方法引入并本土化的青训路径——四环节四次升级</td>\n</tr>\n<tr>\n<td>四环节</td>\n<td>—</td>\n<td>Four Stages</td>\n<td>第 16 章</td>\n<td>国际方法输入 + 本土教练共育 + 重复训练周期 + 知识留存机制</td>\n</tr>\n<tr>\n<td>四次升级</td>\n<td>—</td>\n<td>Four Upgrades</td>\n<td>第 16 章</td>\n<td>一次性活动 → 年度循环 → 双线导向 → 本土执行 → 制度化知识留存</td>\n</tr>\n<tr>\n<td>高精尖与普惠双轨</td>\n<td>—</td>\n<td>High-End and Inclusive Dual Track</td>\n<td>第 17 章</td>\n<td>CoachMind 专业版与学校版共用同一套核心 AI 模型</td>\n</tr>\n<tr>\n<td>场景定义者</td>\n<td>—</td>\n<td>Scene Definer</td>\n<td>第 17 章</td>\n<td>中国从体育场景的使用者升格为定义者</td>\n</tr>\n<tr>\n<td>五位一体能力组合</td>\n<td>—</td>\n<td>Five-in-One Capability</td>\n<td>第 17 章</td>\n<td>真实场景 + 专项知识 + 数据标注 + 科研平台 + 品牌标准</td>\n</tr>\n<tr>\n<td>三层文化生产机制</td>\n<td>—</td>\n<td>Three-Tier Cultural Production</td>\n<td>第 18 章</td>\n<td>日常生活层 + 知识体系层 + 文明对话层</td>\n</tr>\n<tr>\n<td>文化沉淀五件套</td>\n<td>—</td>\n<td>Five-Piece Cultural Sediment</td>\n<td>第 18 章</td>\n<td>故事库 + 仪式日历 + 媒介网络 + 教材体系 + 理论档案</td>\n</tr>\n<tr>\n<td>自主知识体系的足球版</td>\n<td>—</td>\n<td>Football Edition of Independent Knowledge System</td>\n<td>第 18 章 / 第 20 章</td>\n<td>中国体育人文社科自主知识体系在足球领域的具体形态</td>\n</tr>\n<tr>\n<td>六个打通</td>\n<td>—</td>\n<td>Six Linkages</td>\n<td>第 19 章</td>\n<td>体教 / 赛训 / 选评 / 师承 / 文资 / 内外 六对长期割裂维度的同时打通</td>\n</tr>\n<tr>\n<td>师承打通</td>\n<td>—</td>\n<td>Mentorship Linkage</td>\n<td>第 19 章</td>\n<td>师徒带教 + 晋升阶梯 + 知识下沉三维度——教练领域的系统性打通</td>\n</tr>\n<tr>\n<td>耦合改善乘数</td>\n<td>—</td>\n<td>Coupling Improvement Multiplier</td>\n<td>第 19 章</td>\n<td>工具协同产生的 1.2^6 ≈ 3 倍乘数效应（CAM 的反向应用）</td>\n</tr>\n<tr>\n<td>治理范式八个特征</td>\n<td>—</td>\n<td>Eight Features of Governance Paradigm</td>\n<td>第 20 章</td>\n<td>党的领导 + 以人为本 + 多元共治 + 半独立专业评估 + 数字化基础设施 + 国际接口 + 自主知识体系 + 可持续性</td>\n</tr>\n<tr>\n<td>八特征四组结构</td>\n<td>—</td>\n<td>Eight-Feature Four-Group Structure</td>\n<td>第 20 章</td>\n<td>根本组 + 结构组 + 工具组 + 意义组</td>\n</tr>\n<tr>\n<td>机构条件清单</td>\n<td>—</td>\n<td>Institutional Conditions Checklist</td>\n<td>第 20 章</td>\n<td>承担治理范式所需的五项核心机构条件</td>\n</tr>\n<tr>\n<td>多元共治三层结构</td>\n<td>—</td>\n<td>Three-Tier Multi-Stakeholder Governance</td>\n<td>第 20 章</td>\n<td>政策层 + 专业评估与转化层 + 执行层</td>\n</tr>\n</tbody>\n</table></div>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-f8a4c991f2-01\" data-block-type=\"h2\" id=\"_5\">索引方式二 · 按字母（缩写检索）</h2>\n<div class=\"table-wrap annotatable-block\" data-block-id=\"b-3a15bd23c0-01\" data-block-type=\"div\"><table class=\"data-table\">\n<thead>\n<tr>\n<th>缩写</th>\n<th>中文全称</th>\n<th>章节</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>CAM</td>\n<td>耦合放大乘数 / Coupling Amplification Multiplier</td>\n<td>第 6 章</td>\n</tr>\n<tr>\n<td>CFD</td>\n<td>竞赛频率（结构基因之一）</td>\n<td>第 2 章</td>\n</tr>\n<tr>\n<td>CIF</td>\n<td>教练身份谬误 / Coach-Identity Fallacy</td>\n<td>第 4 章</td>\n</tr>\n<tr>\n<td>CRI</td>\n<td>教练认知可靠性 / Coach Recognition Reliability Index</td>\n<td>第 4 章</td>\n</tr>\n<tr>\n<td>CSI</td>\n<td>综合结构指数 / Comprehensive Structure Index</td>\n<td>第 2 章</td>\n</tr>\n<tr>\n<td>DNA</td>\n<td>七条青训 DNA / Seven DNA Strands</td>\n<td>第 10 章</td>\n</tr>\n<tr>\n<td>HP</td>\n<td>层级贯通（结构基因之一）</td>\n<td>第 2 章</td>\n</tr>\n<tr>\n<td>IPHS</td>\n<td>主帅选拔的不可分离性投影 / Inseparability Projection in Head-Coach Selection</td>\n<td>第 4 章</td>\n</tr>\n<tr>\n<td>IPTI</td>\n<td>选材的不可分离性投影 / Inseparability Projection in Talent Identification</td>\n<td>第 3 章</td>\n</tr>\n<tr>\n<td>NCD</td>\n<td>网络覆盖密度（结构基因之一）</td>\n<td>第 2 章</td>\n</tr>\n<tr>\n<td>PCL</td>\n<td>病灶耦合环 / Pathology Coupling Loop</td>\n<td>第 6 章</td>\n</tr>\n<tr>\n<td>PMCSA</td>\n<td>复盘内容结构对比 / Post-Match Content Structure Analysis</td>\n<td>第 4 章</td>\n</tr>\n<tr>\n<td>PMM</td>\n<td>球员流动（结构基因之一）</td>\n<td>第 2 章</td>\n</tr>\n<tr>\n<td>RAE</td>\n<td>相对年龄效应 / Relative Age Effect</td>\n<td>第 3 章</td>\n</tr>\n<tr>\n<td>RMD</td>\n<td>再发现机制密度 / Rediscovery-Mechanism Density</td>\n<td>第 3 章</td>\n</tr>\n<tr>\n<td>SG</td>\n<td>结构基因 / Structural Gene</td>\n<td>第 2 章</td>\n</tr>\n<tr>\n<td>SNR</td>\n<td>选材信噪比 / Signal-to-Noise Ratio</td>\n<td>第 3 章</td>\n</tr>\n<tr>\n<td>TD-6C</td>\n<td>青训六构件 / Six Components of Talent Development</td>\n<td>第 9 章</td>\n</tr>\n<tr>\n<td>引擎参数 θ</td>\n<td>任务的\"软硬比\"</td>\n<td>引言 第 3 节</td>\n</tr>\n<tr>\n<td>引擎参数 γ</td>\n<td>多个老板之间的目标分歧</td>\n<td>引言 第 3 节</td>\n</tr>\n<tr>\n<td>引擎参数 λ</td>\n<td>软信息与硬信息的互补性</td>\n<td>引言 第 3 节</td>\n</tr>\n<tr>\n<td>Δ_super</td>\n<td>超加性损失</td>\n<td>引言 第 3 节 / 附录 E</td>\n</tr>\n</tbody>\n</table></div>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-6a4c711d01-01\" data-block-type=\"h2\" id=\"_6\">索引方式三 · 按主题（功能分组）</h2>\n<h3 class=\"annotatable-block\" data-block-id=\"b-77318f203a-01\" data-block-type=\"h3\" id=\"_7\">一组 · 诊断概念（识别问题）</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-d1fe43b3eb-01\" data-block-type=\"p\">来自第 1-6 章，用于识别中国青少年足球的结构性问题——</p>\n<ul>\n<li class=\"annotatable-block\" data-block-id=\"b-03c131f1d6-01\" data-block-type=\"li\"><strong>量化诊断</strong>：三重口径、四次断崖式流失、漏斗收缩效应、CSI 综合结构指数</li>\n<li class=\"annotatable-block\" data-block-id=\"b-4784c4ad1b-01\" data-block-type=\"li\"><strong>机制诊断</strong>：柠檬市场、IPTI 选材的不可分离性投影、CIF 教练身份谬误、IPHS 主帅选拔的不可分离性投影、CRI 教练认知可靠性、PMCSA 复盘内容结构对比</li>\n<li class=\"annotatable-block\" data-block-id=\"b-242bb48c30-01\" data-block-type=\"li\"><strong>系统诊断</strong>：PCL 病灶耦合环、CAM 耦合放大乘数、单点干预悖论、认知污染闭环、四堵墙、三轨道 KPI 互斥</li>\n</ul>\n<h3 class=\"annotatable-block\" data-block-id=\"b-4fb456a14a-01\" data-block-type=\"h3\" id=\"_8\">二组 · 比较概念（认识世界）</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-048ed696c7-01\" data-block-type=\"p\">来自第 7-13 章，用于将中国与国际经验做精确对照——</p>\n<ul>\n<li class=\"annotatable-block\" data-block-id=\"b-2b69a0f393-01\" data-block-type=\"li\"><strong>范式分析</strong>：四种青训范式（俱乐部哲学型 / 联赛准入型 / 足协统筹型 / 文化土壤型）+ 三种主要混合范式（荷兰 / 英格兰 / 法国）</li>\n<li class=\"annotatable-block\" data-block-id=\"b-c942589ee9-01\" data-block-type=\"li\"><strong>构件分析</strong>：青训六构件（TD-6C）+ 六构件咬合环 + 七条青训 DNA + DNA 三大主轴</li>\n<li class=\"annotatable-block\" data-block-id=\"b-6dffe60953-01\" data-block-type=\"li\"><strong>路径分析</strong>：浪潮压缩、浪潮压缩悖论、可解耦机制、范式覆盖空白</li>\n<li class=\"annotatable-block\" data-block-id=\"b-8a4a609a24-01\" data-block-type=\"li\"><strong>约束分析</strong>：四重锁、约束条件清单、五项杠杆、四重锁耦合</li>\n</ul>\n<h3 class=\"annotatable-block\" data-block-id=\"b-21fe884fca-01\" data-block-type=\"h3\" id=\"_9\">三组 · 方案概念（构建工具）</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-6fb84382cd-01\" data-block-type=\"p\">来自第 14-19 章，用于设计中国版本的具体治理工具——</p>\n<ul>\n<li class=\"annotatable-block\" data-block-id=\"b-d561016b2b-01\" data-block-type=\"li\"><strong>沉淀产品</strong>（第 14 章）：青训沉淀产品论 + 五条资金通道 + 准公共品定位</li>\n<li class=\"annotatable-block\" data-block-id=\"b-ead8744219-01\" data-block-type=\"li\"><strong>赛事设施</strong>（第 15 章）：分布式联赛操作系统 + 球员唯一 ID + 五级联赛金字塔 + 成本倒置</li>\n<li class=\"annotatable-block\" data-block-id=\"b-e847a6a7c6-01\" data-block-type=\"li\"><strong>方法引入</strong>（第 16 章）：引入式青训 + 四环节 + 四次升级</li>\n<li class=\"annotatable-block\" data-block-id=\"b-d19093c06f-01\" data-block-type=\"li\"><strong>科技赋能</strong>（第 17 章）：高精尖与普惠双轨 + 场景定义者 + 五位一体能力组合</li>\n<li class=\"annotatable-block\" data-block-id=\"b-24a8e23a0a-01\" data-block-type=\"li\"><strong>文化沉淀</strong>（第 18 章）：三层文化生产机制 + 五件套 + 自主知识体系的足球版</li>\n<li class=\"annotatable-block\" data-block-id=\"b-da571f260a-01\" data-block-type=\"li\"><strong>系统协同</strong>（第 19 章）：六个打通 + 师承打通 + 耦合改善乘数</li>\n</ul>\n<h3 class=\"annotatable-block\" data-block-id=\"b-12b5e67d18-01\" data-block-type=\"h3\" id=\"_10\">四组 · 治理概念（组织系统）</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-d4f61be10e-01\" data-block-type=\"p\">来自第 20 章，用于组织全部工具为一个完整治理范式——</p>\n<ul>\n<li class=\"annotatable-block\" data-block-id=\"b-ac78470257-01\" data-block-type=\"li\">治理范式八个特征 + 八特征四组结构（根本组 / 结构组 / 工具组 / 意义组）</li>\n<li class=\"annotatable-block\" data-block-id=\"b-a122e3b400-01\" data-block-type=\"li\">机构条件清单 + 多元共治三层结构（政策层 / 专业评估与转化层 / 执行层）</li>\n</ul>\n<h3 class=\"annotatable-block\" data-block-id=\"b-faf0afb6ab-01\" data-block-type=\"h3\" id=\"_11\">五组 · 引擎概念（形式化推导）</h3>\n<p class=\"annotatable-block\" data-block-id=\"b-b797471080-01\" data-block-type=\"p\">来自引言第 3 节与附录 E——</p>\n<ul>\n<li class=\"annotatable-block\" data-block-id=\"b-ebde6c2342-01\" data-block-type=\"li\">引擎三参数：θ（任务软硬比）/ γ（多老板目标分歧）/ λ（软硬信息互补性）</li>\n<li class=\"annotatable-block\" data-block-id=\"b-17ee510356-01\" data-block-type=\"li\">命题 3：不可分离性定理</li>\n<li class=\"annotatable-block\" data-block-id=\"b-a88317824b-01\" data-block-type=\"li\">Δ_super：超加性损失</li>\n<li class=\"annotatable-block\" data-block-id=\"b-debf12443f-01\" data-block-type=\"li\">调配破坏效应</li>\n<li class=\"annotatable-block\" data-block-id=\"b-8cc2e9d8bc-01\" data-block-type=\"li\">治理边界 θ̄</li>\n</ul>\n<hr/>\n<h2 class=\"annotatable-block\" data-block-id=\"b-7ba7b317df-01\" data-block-type=\"h2\" id=\"_12\">使用说明</h2>\n<p class=\"annotatable-block\" data-block-id=\"b-65fe191199-01\" data-block-type=\"p\"><strong>读者使用</strong>——\n- 阅读某一章遇到陌生概念时，先查\"索引方式一\"的对应章节，找到一句话定义；\n- 不知道某个缩写时，查\"索引方式二\"按字母索引；\n- 想做综合研究时，按\"索引方式三\"按功能分组定位概念。</p>\n<p class=\"annotatable-block\" data-block-id=\"b-cfc9df8d08-01\" data-block-type=\"p\"><strong>学者扩展使用</strong>——\n- 任何概念的定义都可以被同行学者扩展、修订、批评；\n- 五组概念体系与引擎参数可作为研究纲领的工具集；\n- 概念之间的相互关系（如 PCL 与六个打通互为反向、IPTI 与 IPHS 互为家族）是后续研究的接口。</p>\n<hr/>\n<p class=\"annotatable-block\" data-block-id=\"b-de6d494df9-01\" data-block-type=\"p\"><em>本术语表由全书第 1 章至第 20 章及附录 E 累积归纳形成。如本表与某一章正文表述存在出入，以正文为准——本表是工具索引，不是终极定义。</em></p>",
+  "wordCount": 3130,
+  "readingMinutes": 7,
+  "summary": "本附录是全书所有原创概念、关键命名、专门缩写的统一索引。本书在第 1 章至第 20 章中创造了一组原创概念体系，本附录用三种索引方式（按章节、按字母、按主题）让读者可以从任何一章打开本附录，快速找到他遇到的概念的精确定义、出处与关联。",
+  "imageCount": 0,
+  "referenceCards": [],
+  "blockIndex": [
+    {
+      "id": "b-70e31c48ac-01",
+      "type": "blockquote",
+      "preview": "本附录是全书所有原创概念、关键命名、专门缩写的统一索引。本书在第 1 章至第 20 章中创造了一组原创概念体系，本附录用三种索引方式（按章节、按字母、按主题）让读者可以从任何一章打开本附录，快速找到他遇到的概念的精确定义、出处与关联。"
+    },
+    {
+      "id": "b-97c5b79862-01",
+      "type": "h3",
+      "preview": "引言 + 第一编 · 病灶诊断（识别问题）"
+    },
+    {
+      "id": "b-c4b8cb6d39-01",
+      "type": "div",
+      "preview": "概念 缩写 英文 首次出现 一句话定义 三重口径 — Three-Tier Calibration 第 1 章 衡量\"14 岁仍在系统里\"球员数量的三种统计口径（A 正式注册、B 有组织竞技、C 接触人口） 四次断崖式流失 — Four-C"
+    },
+    {
+      "id": "b-bafd127107-01",
+      "type": "h3",
+      "preview": "第二编 · 国际镜像（认识世界）"
+    },
+    {
+      "id": "b-813a98a47f-01",
+      "type": "div",
+      "preview": "概念 缩写 英文 首次出现 一句话定义 青训六构件 TD-6C Six Components of Talent Development 第 9 章 哲学连续性 / 独立评估 / 教育融合 / 分级认证 / 转会税循环 / 海外跳板（部分文"
+    },
+    {
+      "id": "b-93c9d9a7dd-01",
+      "type": "h3",
+      "preview": "第三编 · 治理重建（构建工具与组织系统）"
+    },
+    {
+      "id": "b-c052bd34b5-01",
+      "type": "div",
+      "preview": "概念 缩写 英文 首次出现 一句话定义 青训沉淀产品论 — Talent-Development Sediment Product Argument 第 14 章 青训真正的产品是方法、教练、文化三种沉淀产品，而不是球员 五条资金通道 — "
+    },
+    {
+      "id": "b-f8a4c991f2-01",
+      "type": "h2",
+      "preview": "索引方式二 · 按字母（缩写检索）"
+    },
+    {
+      "id": "b-3a15bd23c0-01",
+      "type": "div",
+      "preview": "缩写 中文全称 章节 CAM 耦合放大乘数 / Coupling Amplification Multiplier 第 6 章 CFD 竞赛频率（结构基因之一） 第 2 章 CIF 教练身份谬误 / Coach-Identity Falla"
+    },
+    {
+      "id": "b-6a4c711d01-01",
+      "type": "h2",
+      "preview": "索引方式三 · 按主题（功能分组）"
+    },
+    {
+      "id": "b-77318f203a-01",
+      "type": "h3",
+      "preview": "一组 · 诊断概念（识别问题）"
+    },
+    {
+      "id": "b-d1fe43b3eb-01",
+      "type": "p",
+      "preview": "来自第 1-6 章，用于识别中国青少年足球的结构性问题——"
+    },
+    {
+      "id": "b-03c131f1d6-01",
+      "type": "li",
+      "preview": "量化诊断 ：三重口径、四次断崖式流失、漏斗收缩效应、CSI 综合结构指数"
+    },
+    {
+      "id": "b-4784c4ad1b-01",
+      "type": "li",
+      "preview": "机制诊断 ：柠檬市场、IPTI 选材的不可分离性投影、CIF 教练身份谬误、IPHS 主帅选拔的不可分离性投影、CRI 教练认知可靠性、PMCSA 复盘内容结构对比"
+    },
+    {
+      "id": "b-242bb48c30-01",
+      "type": "li",
+      "preview": "系统诊断 ：PCL 病灶耦合环、CAM 耦合放大乘数、单点干预悖论、认知污染闭环、四堵墙、三轨道 KPI 互斥"
+    },
+    {
+      "id": "b-4fb456a14a-01",
+      "type": "h3",
+      "preview": "二组 · 比较概念（认识世界）"
+    },
+    {
+      "id": "b-048ed696c7-01",
+      "type": "p",
+      "preview": "来自第 7-13 章，用于将中国与国际经验做精确对照——"
+    },
+    {
+      "id": "b-2b69a0f393-01",
+      "type": "li",
+      "preview": "范式分析 ：四种青训范式（俱乐部哲学型 / 联赛准入型 / 足协统筹型 / 文化土壤型）+ 三种主要混合范式（荷兰 / 英格兰 / 法国）"
+    },
+    {
+      "id": "b-c942589ee9-01",
+      "type": "li",
+      "preview": "构件分析 ：青训六构件（TD-6C）+ 六构件咬合环 + 七条青训 DNA + DNA 三大主轴"
+    },
+    {
+      "id": "b-6dffe60953-01",
+      "type": "li",
+      "preview": "路径分析 ：浪潮压缩、浪潮压缩悖论、可解耦机制、范式覆盖空白"
+    },
+    {
+      "id": "b-8a4a609a24-01",
+      "type": "li",
+      "preview": "约束分析 ：四重锁、约束条件清单、五项杠杆、四重锁耦合"
+    },
+    {
+      "id": "b-21fe884fca-01",
+      "type": "h3",
+      "preview": "三组 · 方案概念（构建工具）"
+    },
+    {
+      "id": "b-6fb84382cd-01",
+      "type": "p",
+      "preview": "来自第 14-19 章，用于设计中国版本的具体治理工具——"
+    },
+    {
+      "id": "b-d561016b2b-01",
+      "type": "li",
+      "preview": "沉淀产品 （第 14 章）：青训沉淀产品论 + 五条资金通道 + 准公共品定位"
+    },
+    {
+      "id": "b-ead8744219-01",
+      "type": "li",
+      "preview": "赛事设施 （第 15 章）：分布式联赛操作系统 + 球员唯一 ID + 五级联赛金字塔 + 成本倒置"
+    },
+    {
+      "id": "b-e847a6a7c6-01",
+      "type": "li",
+      "preview": "方法引入 （第 16 章）：引入式青训 + 四环节 + 四次升级"
+    },
+    {
+      "id": "b-d19093c06f-01",
+      "type": "li",
+      "preview": "科技赋能 （第 17 章）：高精尖与普惠双轨 + 场景定义者 + 五位一体能力组合"
+    },
+    {
+      "id": "b-24a8e23a0a-01",
+      "type": "li",
+      "preview": "文化沉淀 （第 18 章）：三层文化生产机制 + 五件套 + 自主知识体系的足球版"
+    },
+    {
+      "id": "b-da571f260a-01",
+      "type": "li",
+      "preview": "系统协同 （第 19 章）：六个打通 + 师承打通 + 耦合改善乘数"
+    },
+    {
+      "id": "b-12b5e67d18-01",
+      "type": "h3",
+      "preview": "四组 · 治理概念（组织系统）"
+    },
+    {
+      "id": "b-d4f61be10e-01",
+      "type": "p",
+      "preview": "来自第 20 章，用于组织全部工具为一个完整治理范式——"
+    },
+    {
+      "id": "b-ac78470257-01",
+      "type": "li",
+      "preview": "治理范式八个特征 + 八特征四组结构（根本组 / 结构组 / 工具组 / 意义组）"
+    },
+    {
+      "id": "b-a122e3b400-01",
+      "type": "li",
+      "preview": "机构条件清单 + 多元共治三层结构（政策层 / 专业评估与转化层 / 执行层）"
+    },
+    {
+      "id": "b-faf0afb6ab-01",
+      "type": "h3",
+      "preview": "五组 · 引擎概念（形式化推导）"
+    },
+    {
+      "id": "b-b797471080-01",
+      "type": "p",
+      "preview": "来自引言第 3 节与附录 E——"
+    },
+    {
+      "id": "b-ebde6c2342-01",
+      "type": "li",
+      "preview": "引擎三参数：θ（任务软硬比）/ γ（多老板目标分歧）/ λ（软硬信息互补性）"
+    },
+    {
+      "id": "b-17ee510356-01",
+      "type": "li",
+      "preview": "命题 3：不可分离性定理"
+    },
+    {
+      "id": "b-a88317824b-01",
+      "type": "li",
+      "preview": "Δ_super：超加性损失"
+    },
+    {
+      "id": "b-debf12443f-01",
+      "type": "li",
+      "preview": "调配破坏效应"
+    },
+    {
+      "id": "b-8cc2e9d8bc-01",
+      "type": "li",
+      "preview": "治理边界 θ̄"
+    },
+    {
+      "id": "b-7ba7b317df-01",
+      "type": "h2",
+      "preview": "使用说明"
+    },
+    {
+      "id": "b-65fe191199-01",
+      "type": "p",
+      "preview": "读者使用 —— - 阅读某一章遇到陌生概念时，先查\"索引方式一\"的对应章节，找到一句话定义； - 不知道某个缩写时，查\"索引方式二\"按字母索引； - 想做综合研究时，按\"索引方式三\"按功能分组定位概念。"
+    },
+    {
+      "id": "b-cfc9df8d08-01",
+      "type": "p",
+      "preview": "学者扩展使用 —— - 任何概念的定义都可以被同行学者扩展、修订、批评； - 五组概念体系与引擎参数可作为研究纲领的工具集； - 概念之间的相互关系（如 PCL 与六个打通互为反向、IPTI 与 IPHS 互为家族）是后续研究的接口。"
+    },
+    {
+      "id": "b-de6d494df9-01",
+      "type": "p",
+      "preview": "本术语表由全书第 1 章至第 20 章及附录 E 累积归纳形成。如本表与某一章正文表述存在出入，以正文为准——本表是工具索引，不是终极定义。"
+    }
+  ],
+  "sourcePath": "04_附录/附录A_完整术语表.md",
+  "updatedAt": "2026-05-22 14:07"
+}
